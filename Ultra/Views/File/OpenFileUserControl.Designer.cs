@@ -29,8 +29,16 @@ namespace Ultra.Views.File
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // OpenFileUserControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "OpenFileUserControl";
+            this.Size = new System.Drawing.Size(706, 388);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
