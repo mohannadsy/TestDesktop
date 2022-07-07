@@ -9,18 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ultra.Views.Account
+namespace Ultra.Views.BranchAndUser
 {
-    public partial class AccountUserControl : DevExpress.XtraEditors.XtraUserControl
+    public partial class BranchAndUserForm : DevExpress.XtraEditors.XtraForm
     {
-        public AccountUserControl()
+        public BranchAndUserForm()
         {
             InitializeComponent();
-        }
-
-        private void AccountUserControl_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
