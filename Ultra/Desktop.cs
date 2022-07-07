@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraBars.Ribbon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Ultra.Views.File;
 
 namespace Ultra
 {
@@ -47,6 +49,26 @@ namespace Ultra
         }
 
         private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+            //OpenFileUserControl openFile = new OpenFileUserControl();
+            //openFile.Show();
+            //openFile.Dock = DockStyle.Fill;
+            //openFile.BringToFront();
+            //openFile.SetBounds;
+
+        }
+
+        private void backstageViewTabItem2_SelectedChanged(object sender, BackstageViewItemEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
