@@ -90,13 +90,15 @@ namespace Ultra.Views.BranchAndUser
             // 
             // searchControl1
             // 
+            this.searchControl1.EditValue = "";
             this.searchControl1.Location = new System.Drawing.Point(0, 6);
             this.searchControl1.Name = "searchControl1";
-            this.searchControl1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchControl1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchControl1.Properties.Appearance.Options.UseFont = true;
             this.searchControl1.Properties.AutoHeight = false;
             this.searchControl1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Repository.ClearButton()});
+            this.searchControl1.Properties.ContextImageOptions.Alignment = DevExpress.XtraEditors.ContextImageAlignment.Far;
             this.searchControl1.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("searchControl1.Properties.ContextImageOptions.Image")));
             this.searchControl1.Properties.ShowSearchButton = false;
             this.searchControl1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
