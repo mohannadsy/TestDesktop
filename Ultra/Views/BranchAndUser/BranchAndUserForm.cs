@@ -17,5 +17,19 @@ namespace Ultra.Views.BranchAndUser
         {
             InitializeComponent();
         }
+
+        private void ChartBranchesAndUsers_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            if(ChartBranchesAndUsers.SelectedNode.Name == "NodeBranch")
+            {
+                PanelMain.Controls.Clear();
+                PanelMain.Controls.Add(new BranchCardUserControl());
+            }
+            else
+            {
+                PanelMain.Controls.Clear();
+                //PanelMain.Controls.Add(new UserCardUserControl());
+            }
+        }
     }
 }

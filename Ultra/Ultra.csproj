@@ -70,6 +70,12 @@
     <Compile Include="Views\BranchAndUser\BranchAndUserForm.Designer.cs">
       <DependentUpon>BranchAndUserForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\BranchAndUser\BranchCardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BranchAndUser\BranchCardUserControl.Designer.cs">
+      <DependentUpon>BranchCardUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\File\OpenFileUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Views\BranchAndUser\BranchAndUserForm.resx">
       <DependentUpon>BranchAndUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BranchAndUser\BranchCardUserControl.resx">
+      <DependentUpon>BranchCardUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\File\OpenFileUserControl.resx">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>

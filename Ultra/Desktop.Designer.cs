@@ -31,13 +31,15 @@ namespace Ultra
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dbName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -134,6 +136,7 @@ namespace Ultra
             this.barButtonItem51 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem52 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem53 = new DevExpress.XtraBars.BarButtonItem();
+            this.TestAppViews = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -184,8 +187,6 @@ namespace Ultra
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.backstageViewManager1 = new DevExpress.XtraBars.Ribbon.BackstageViewManager();
-            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dbName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -272,10 +273,11 @@ namespace Ultra
             this.barButtonItem50,
             this.barButtonItem51,
             this.barButtonItem52,
-            this.barButtonItem53});
+            this.barButtonItem53,
+            this.TestAppViews});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 58;
+            this.ribbonControl1.MaxItemId = 59;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.skinDropDownButtonItem1);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -353,7 +355,7 @@ namespace Ultra
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -371,6 +373,21 @@ namespace Ultra
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(736, 299);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // fileName
+            // 
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
+            this.fileName.HeaderText = "اسم الملف";
+            this.fileName.Name = "fileName";
+            this.fileName.ReadOnly = true;
+            // 
+            // dbName
+            // 
+            this.dbName.HeaderText = "اسم قاعدة البيانات";
+            this.dbName.Name = "dbName";
+            this.dbName.ReadOnly = true;
             // 
             // panel1
             // 
@@ -1262,6 +1279,13 @@ namespace Ultra
             this.barButtonItem53.Id = 57;
             this.barButtonItem53.Name = "barButtonItem53";
             // 
+            // TestAppViews
+            // 
+            this.TestAppViews.Caption = "TestApp";
+            this.TestAppViews.Id = 58;
+            this.TestAppViews.Name = "TestAppViews";
+            this.TestAppViews.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.TestAppViews_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Appearance.Options.UseTextOptions = true;
@@ -1553,6 +1577,7 @@ namespace Ultra
             // 
             // ribbonPageGroup13
             // 
+            this.ribbonPageGroup13.ItemLinks.Add(this.TestAppViews);
             this.ribbonPageGroup13.Name = "ribbonPageGroup13";
             this.ribbonPageGroup13.Text = "ribbonPageGroup13";
             // 
@@ -1571,21 +1596,6 @@ namespace Ultra
             // backstageViewManager1
             // 
             this.backstageViewManager1.BackstageView = this.backstageViewControl1;
-            // 
-            // fileName
-            // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
-            this.fileName.HeaderText = "اسم الملف";
-            this.fileName.Name = "fileName";
-            this.fileName.ReadOnly = true;
-            // 
-            // dbName
-            // 
-            this.dbName.HeaderText = "اسم قاعدة البيانات";
-            this.dbName.Name = "dbName";
-            this.dbName.ReadOnly = true;
             // 
             // Desktop
             // 
@@ -1790,6 +1800,7 @@ namespace Ultra
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fileName;
         private System.Windows.Forms.DataGridViewTextBoxColumn dbName;
+        private DevExpress.XtraBars.BarButtonItem TestAppViews;
     }
 }
 
