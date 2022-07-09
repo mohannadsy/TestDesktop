@@ -96,8 +96,10 @@ namespace Ultra.Views.BranchAndUser
             this.searchControl1.Properties.Appearance.Options.UseFont = true;
             this.searchControl1.Properties.AutoHeight = false;
             this.searchControl1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Repository.ClearButton(),
-            new DevExpress.XtraEditors.Repository.SearchButton()});
+            new DevExpress.XtraEditors.Repository.ClearButton()});
+            this.searchControl1.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("searchControl1.Properties.ContextImageOptions.Image")));
+            this.searchControl1.Properties.ShowSearchButton = false;
+            this.searchControl1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
             this.searchControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.searchControl1.Size = new System.Drawing.Size(176, 40);
             this.searchControl1.TabIndex = 2;
