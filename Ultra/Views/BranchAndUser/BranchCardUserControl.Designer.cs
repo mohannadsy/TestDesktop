@@ -102,6 +102,7 @@ namespace Ultra.Views.BranchAndUser
             // 
             // ToggleIsActive
             // 
+            this.ToggleIsActive.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ToggleIsActive.EditValue = true;
             this.ToggleIsActive.Location = new System.Drawing.Point(264, 66);
             this.ToggleIsActive.Name = "ToggleIsActive";

@@ -29,8 +29,8 @@ namespace Ultra.Views.BranchAndUser
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("المدير العام");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("011 - المدير العام");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("01 - الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
             treeNode1});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BranchAndUserForm));
             this.PanelSide = new System.Windows.Forms.Panel();
@@ -48,6 +48,7 @@ namespace Ultra.Views.BranchAndUser
             // 
             // PanelSide
             // 
+            this.PanelSide.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanelSide.Controls.Add(this.ChartBranchesAndUsers);
             this.PanelSide.Controls.Add(this.panel5);
             this.PanelSide.Controls.Add(this.labelControl1);
@@ -62,17 +63,17 @@ namespace Ultra.Views.BranchAndUser
             // ChartBranchesAndUsers
             // 
             this.ChartBranchesAndUsers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ChartBranchesAndUsers.Font = new System.Drawing.Font("Calibri", 10F);
+            this.ChartBranchesAndUsers.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.ChartBranchesAndUsers.Location = new System.Drawing.Point(0, 105);
             this.ChartBranchesAndUsers.Name = "ChartBranchesAndUsers";
             treeNode1.Name = "NodeUser";
-            treeNode1.Text = "المدير العام";
+            treeNode1.Text = "011 - المدير العام";
             treeNode2.Name = "NodeBranch";
-            treeNode2.Text = "الفرع الرئيسي";
+            treeNode2.Text = "01 - الفرع الرئيسي";
             this.ChartBranchesAndUsers.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode2});
             this.ChartBranchesAndUsers.RightToLeftLayout = true;
-            this.ChartBranchesAndUsers.Size = new System.Drawing.Size(283, 515);
+            this.ChartBranchesAndUsers.Size = new System.Drawing.Size(281, 513);
             this.ChartBranchesAndUsers.TabIndex = 2;
             this.ChartBranchesAndUsers.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartBranchesAndUsers_AfterSelect);
             // 
@@ -84,12 +85,12 @@ namespace Ultra.Views.BranchAndUser
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 56);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(283, 49);
+            this.panel5.Size = new System.Drawing.Size(281, 49);
             this.panel5.TabIndex = 1;
             // 
             // searchControl1
             // 
-            this.searchControl1.Location = new System.Drawing.Point(6, 6);
+            this.searchControl1.Location = new System.Drawing.Point(0, 6);
             this.searchControl1.Name = "searchControl1";
             this.searchControl1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchControl1.Properties.Appearance.Options.UseFont = true;
@@ -98,7 +99,7 @@ namespace Ultra.Views.BranchAndUser
             new DevExpress.XtraEditors.Repository.ClearButton(),
             new DevExpress.XtraEditors.Repository.SearchButton()});
             this.searchControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.searchControl1.Size = new System.Drawing.Size(170, 40);
+            this.searchControl1.Size = new System.Drawing.Size(176, 40);
             this.searchControl1.TabIndex = 2;
             // 
             // simpleButton2
@@ -130,7 +131,7 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl1.ImageOptions.Image")));
             this.labelControl1.Location = new System.Drawing.Point(0, 0);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(283, 56);
+            this.labelControl1.Size = new System.Drawing.Size(281, 56);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "دليل الفروع والمستخدمين";
             // 
