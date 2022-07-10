@@ -28,7 +28,7 @@ namespace Ultra.Views.BranchAndUser
             else
             {
                 PanelMain.Controls.Clear();
-                //PanelMain.Controls.Add(new UserCardUserControl());
+                PanelMain.Controls.Add(new UserCardUserControl());
             }
         }
     }
