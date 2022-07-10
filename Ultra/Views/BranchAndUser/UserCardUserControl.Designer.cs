@@ -31,15 +31,24 @@ namespace Ultra.Views.BranchAndUser
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserCardUserControl));
             this.PanelTop = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ToggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.PanelMain = new System.Windows.Forms.Panel();
             this.TabControl = new System.Windows.Forms.TabControl();
             this.TabBasicInformation = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
@@ -50,31 +59,26 @@ namespace Ultra.Views.BranchAndUser
             this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.TabPermissions = new System.Windows.Forms.TabPage();
+            this.TabOtherOptions = new System.Windows.Forms.TabPage();
+            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
             this.PanelBottom = new System.Windows.Forms.Panel();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonNew = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.ToggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.TabOtherOptions = new System.Windows.Forms.TabPage();
-            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.TabAttachments = new System.Windows.Forms.TabPage();
             this.PanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.PanelMain.SuspendLayout();
@@ -86,13 +90,10 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            this.PanelBottom.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
             this.TabOtherOptions.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
+            this.PanelBottom.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelTop
@@ -119,6 +120,54 @@ namespace Ultra.Views.BranchAndUser
             this.PanelTop.Size = new System.Drawing.Size(679, 231);
             this.PanelTop.TabIndex = 2;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.ItemHeight = 19;
+            this.comboBox1.Location = new System.Drawing.Point(123, 127);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(111, 27);
+            this.comboBox1.TabIndex = 5;
+            // 
+            // ToggleIsActive
+            // 
+            this.ToggleIsActive.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ToggleIsActive.EditValue = true;
+            this.ToggleIsActive.Location = new System.Drawing.Point(264, 66);
+            this.ToggleIsActive.Name = "ToggleIsActive";
+            this.ToggleIsActive.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToggleIsActive.Properties.Appearance.Options.UseFont = true;
+            this.ToggleIsActive.Properties.Appearance.Options.UseTextOptions = true;
+            this.ToggleIsActive.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.ToggleIsActive.Properties.AutoHeight = false;
+            this.ToggleIsActive.Properties.OffText = "غير مفعل";
+            this.ToggleIsActive.Properties.OnText = "مفعل";
+            this.ToggleIsActive.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ToggleIsActive.Size = new System.Drawing.Size(147, 23);
+            this.ToggleIsActive.TabIndex = 4;
+            // 
+            // textEdit4
+            // 
+            this.textEdit4.Location = new System.Drawing.Point(358, 160);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit4.Properties.Appearance.Options.UseFont = true;
+            this.textEdit4.Properties.AutoHeight = false;
+            this.textEdit4.Size = new System.Drawing.Size(213, 25);
+            this.textEdit4.TabIndex = 3;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl1.Location = new System.Drawing.Point(577, 155);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(96, 30);
+            this.labelControl1.TabIndex = 2;
+            this.labelControl1.Text = "كلمة المرور";
+            // 
             // textEdit3
             // 
             this.textEdit3.Location = new System.Drawing.Point(358, 129);
@@ -139,6 +188,38 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl5.Size = new System.Drawing.Size(96, 30);
             this.labelControl5.TabIndex = 2;
             this.labelControl5.Text = "البريد الالكتروني";
+            // 
+            // textEdit11
+            // 
+            this.textEdit11.Location = new System.Drawing.Point(21, 98);
+            this.textEdit11.Name = "textEdit11";
+            this.textEdit11.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit11.Properties.Appearance.Options.UseFont = true;
+            this.textEdit11.Properties.AutoHeight = false;
+            this.textEdit11.Size = new System.Drawing.Size(213, 25);
+            this.textEdit11.TabIndex = 3;
+            // 
+            // labelControl13
+            // 
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl13.Appearance.Options.UseFont = true;
+            this.labelControl13.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl13.Location = new System.Drawing.Point(240, 95);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(96, 30);
+            this.labelControl13.TabIndex = 2;
+            this.labelControl13.Text = "الفرع";
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl12.Appearance.Options.UseFont = true;
+            this.labelControl12.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl12.Location = new System.Drawing.Point(240, 124);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(96, 30);
+            this.labelControl12.TabIndex = 2;
+            this.labelControl12.Text = "الصفة";
             // 
             // textEdit2
             // 
@@ -182,6 +263,21 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl3.TabIndex = 2;
             this.labelControl3.Text = "رمز المستخدم";
             // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelControl2.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.labelControl2.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelControl2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
+            this.labelControl2.Location = new System.Drawing.Point(0, 0);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(679, 56);
+            this.labelControl2.TabIndex = 1;
+            this.labelControl2.Text = "بطاقة مستخدم";
+            // 
             // PanelMain
             // 
             this.PanelMain.Controls.Add(this.TabControl);
@@ -198,6 +294,7 @@ namespace Ultra.Views.BranchAndUser
             this.TabControl.Controls.Add(this.TabBasicInformation);
             this.TabControl.Controls.Add(this.TabPermissions);
             this.TabControl.Controls.Add(this.TabOtherOptions);
+            this.TabControl.Controls.Add(this.TabAttachments);
             this.TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControl.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.TabControl.Location = new System.Drawing.Point(0, 0);
@@ -231,6 +328,14 @@ namespace Ultra.Views.BranchAndUser
             this.TabBasicInformation.TabIndex = 0;
             this.TabBasicInformation.Text = "معلومات اساسية";
             this.TabBasicInformation.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(17, 21);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(213, 95);
+            this.richTextBox1.TabIndex = 16;
+            this.richTextBox1.Text = "";
             // 
             // labelControl11
             // 
@@ -337,6 +442,17 @@ namespace Ultra.Views.BranchAndUser
             this.textEdit7.Size = new System.Drawing.Size(213, 25);
             this.textEdit7.TabIndex = 14;
             // 
+            // labelControl14
+            // 
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl14.Location = new System.Drawing.Point(236, 15);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(99, 30);
+            this.labelControl14.TabIndex = 9;
+            this.labelControl14.Text = "ملاحظات";
+            // 
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -367,6 +483,62 @@ namespace Ultra.Views.BranchAndUser
             this.TabPermissions.TabIndex = 1;
             this.TabPermissions.Text = "الصلاحيات";
             this.TabPermissions.UseVisualStyleBackColor = true;
+            // 
+            // TabOtherOptions
+            // 
+            this.TabOtherOptions.Controls.Add(this.labelControl16);
+            this.TabOtherOptions.Controls.Add(this.labelControl15);
+            this.TabOtherOptions.Controls.Add(this.textEdit13);
+            this.TabOtherOptions.Controls.Add(this.textEdit12);
+            this.TabOtherOptions.Location = new System.Drawing.Point(4, 24);
+            this.TabOtherOptions.Name = "TabOtherOptions";
+            this.TabOtherOptions.Padding = new System.Windows.Forms.Padding(3);
+            this.TabOtherOptions.Size = new System.Drawing.Size(671, 308);
+            this.TabOtherOptions.TabIndex = 2;
+            this.TabOtherOptions.Text = "خيارات اضافية";
+            this.TabOtherOptions.UseVisualStyleBackColor = true;
+            // 
+            // labelControl16
+            // 
+            this.labelControl16.Appearance.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
+            this.labelControl16.Appearance.Options.UseFont = true;
+            this.labelControl16.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl16.Location = new System.Drawing.Point(573, 44);
+            this.labelControl16.Name = "labelControl16";
+            this.labelControl16.Size = new System.Drawing.Size(96, 30);
+            this.labelControl16.TabIndex = 2;
+            this.labelControl16.Text = "المستودع الافتراضي";
+            // 
+            // labelControl15
+            // 
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
+            this.labelControl15.Appearance.Options.UseFont = true;
+            this.labelControl15.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl15.Location = new System.Drawing.Point(573, 13);
+            this.labelControl15.Name = "labelControl15";
+            this.labelControl15.Size = new System.Drawing.Size(96, 30);
+            this.labelControl15.TabIndex = 2;
+            this.labelControl15.Text = "الصندوق الافتراضي";
+            // 
+            // textEdit13
+            // 
+            this.textEdit13.Location = new System.Drawing.Point(354, 49);
+            this.textEdit13.Name = "textEdit13";
+            this.textEdit13.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit13.Properties.Appearance.Options.UseFont = true;
+            this.textEdit13.Properties.AutoHeight = false;
+            this.textEdit13.Size = new System.Drawing.Size(213, 25);
+            this.textEdit13.TabIndex = 3;
+            // 
+            // textEdit12
+            // 
+            this.textEdit12.Location = new System.Drawing.Point(354, 18);
+            this.textEdit12.Name = "textEdit12";
+            this.textEdit12.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit12.Properties.Appearance.Options.UseFont = true;
+            this.textEdit12.Properties.AutoHeight = false;
+            this.textEdit12.Size = new System.Drawing.Size(213, 25);
+            this.textEdit12.TabIndex = 3;
             // 
             // PanelBottom
             // 
@@ -442,175 +614,15 @@ namespace Ultra.Views.BranchAndUser
             this.ButtonSave.Text = "حفظ";
             this.ButtonSave.UseVisualStyleBackColor = false;
             // 
-            // textEdit4
+            // TabAttachments
             // 
-            this.textEdit4.Location = new System.Drawing.Point(358, 160);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit4.Properties.Appearance.Options.UseFont = true;
-            this.textEdit4.Properties.AutoHeight = false;
-            this.textEdit4.Size = new System.Drawing.Size(213, 25);
-            this.textEdit4.TabIndex = 3;
-            // 
-            // ToggleIsActive
-            // 
-            this.ToggleIsActive.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ToggleIsActive.EditValue = true;
-            this.ToggleIsActive.Location = new System.Drawing.Point(264, 66);
-            this.ToggleIsActive.Name = "ToggleIsActive";
-            this.ToggleIsActive.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ToggleIsActive.Properties.Appearance.Options.UseFont = true;
-            this.ToggleIsActive.Properties.Appearance.Options.UseTextOptions = true;
-            this.ToggleIsActive.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.ToggleIsActive.Properties.AutoHeight = false;
-            this.ToggleIsActive.Properties.OffText = "غير مفعل";
-            this.ToggleIsActive.Properties.OnText = "مفعل";
-            this.ToggleIsActive.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ToggleIsActive.Size = new System.Drawing.Size(147, 23);
-            this.ToggleIsActive.TabIndex = 4;
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelControl2.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
-            this.labelControl2.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelControl2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
-            this.labelControl2.Location = new System.Drawing.Point(0, 0);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(679, 56);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "بطاقة مستخدم";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.Location = new System.Drawing.Point(577, 155);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(96, 30);
-            this.labelControl1.TabIndex = 2;
-            this.labelControl1.Text = "كلمة المرور";
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl12.Appearance.Options.UseFont = true;
-            this.labelControl12.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl12.Location = new System.Drawing.Point(240, 124);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(96, 30);
-            this.labelControl12.TabIndex = 2;
-            this.labelControl12.Text = "الصفة";
-            // 
-            // textEdit11
-            // 
-            this.textEdit11.Location = new System.Drawing.Point(21, 98);
-            this.textEdit11.Name = "textEdit11";
-            this.textEdit11.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit11.Properties.Appearance.Options.UseFont = true;
-            this.textEdit11.Properties.AutoHeight = false;
-            this.textEdit11.Size = new System.Drawing.Size(213, 25);
-            this.textEdit11.TabIndex = 3;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 19;
-            this.comboBox1.Location = new System.Drawing.Point(123, 127);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(111, 27);
-            this.comboBox1.TabIndex = 5;
-            // 
-            // labelControl13
-            // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl13.Appearance.Options.UseFont = true;
-            this.labelControl13.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl13.Location = new System.Drawing.Point(240, 95);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(96, 30);
-            this.labelControl13.TabIndex = 2;
-            this.labelControl13.Text = "الفرع";
-            // 
-            // labelControl14
-            // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl14.Appearance.Options.UseFont = true;
-            this.labelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl14.Location = new System.Drawing.Point(236, 123);
-            this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(99, 30);
-            this.labelControl14.TabIndex = 9;
-            this.labelControl14.Text = "ملاحظات";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 129);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(213, 166);
-            this.richTextBox1.TabIndex = 16;
-            this.richTextBox1.Text = "";
-            // 
-            // TabOtherOptions
-            // 
-            this.TabOtherOptions.Controls.Add(this.labelControl16);
-            this.TabOtherOptions.Controls.Add(this.labelControl15);
-            this.TabOtherOptions.Controls.Add(this.textEdit13);
-            this.TabOtherOptions.Controls.Add(this.textEdit12);
-            this.TabOtherOptions.Location = new System.Drawing.Point(4, 24);
-            this.TabOtherOptions.Name = "TabOtherOptions";
-            this.TabOtherOptions.Padding = new System.Windows.Forms.Padding(3);
-            this.TabOtherOptions.Size = new System.Drawing.Size(671, 308);
-            this.TabOtherOptions.TabIndex = 2;
-            this.TabOtherOptions.Text = "خيارات اضافية";
-            this.TabOtherOptions.UseVisualStyleBackColor = true;
-            // 
-            // labelControl15
-            // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
-            this.labelControl15.Appearance.Options.UseFont = true;
-            this.labelControl15.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl15.Location = new System.Drawing.Point(573, 13);
-            this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(96, 30);
-            this.labelControl15.TabIndex = 2;
-            this.labelControl15.Text = "الصندوق الافتراضي";
-            // 
-            // textEdit12
-            // 
-            this.textEdit12.Location = new System.Drawing.Point(354, 18);
-            this.textEdit12.Name = "textEdit12";
-            this.textEdit12.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit12.Properties.Appearance.Options.UseFont = true;
-            this.textEdit12.Properties.AutoHeight = false;
-            this.textEdit12.Size = new System.Drawing.Size(213, 25);
-            this.textEdit12.TabIndex = 3;
-            // 
-            // textEdit13
-            // 
-            this.textEdit13.Location = new System.Drawing.Point(354, 49);
-            this.textEdit13.Name = "textEdit13";
-            this.textEdit13.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit13.Properties.Appearance.Options.UseFont = true;
-            this.textEdit13.Properties.AutoHeight = false;
-            this.textEdit13.Size = new System.Drawing.Size(213, 25);
-            this.textEdit13.TabIndex = 3;
-            // 
-            // labelControl16
-            // 
-            this.labelControl16.Appearance.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
-            this.labelControl16.Appearance.Options.UseFont = true;
-            this.labelControl16.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl16.Location = new System.Drawing.Point(573, 44);
-            this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(96, 30);
-            this.labelControl16.TabIndex = 2;
-            this.labelControl16.Text = "المستودع الافتراضي";
+            this.TabAttachments.Location = new System.Drawing.Point(4, 24);
+            this.TabAttachments.Name = "TabAttachments";
+            this.TabAttachments.Padding = new System.Windows.Forms.Padding(3);
+            this.TabAttachments.Size = new System.Drawing.Size(671, 308);
+            this.TabAttachments.TabIndex = 3;
+            this.TabAttachments.Text = "المرفقات";
+            this.TabAttachments.UseVisualStyleBackColor = true;
             // 
             // UserCardUserControl
             // 
@@ -621,7 +633,10 @@ namespace Ultra.Views.BranchAndUser
             this.Name = "UserCardUserControl";
             this.Size = new System.Drawing.Size(679, 620);
             this.PanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.PanelMain.ResumeLayout(false);
@@ -633,13 +648,10 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            this.PanelBottom.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
             this.TabOtherOptions.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
+            this.PanelBottom.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -689,5 +701,6 @@ namespace Ultra.Views.BranchAndUser
         private DevExpress.XtraEditors.LabelControl labelControl15;
         private DevExpress.XtraEditors.TextEdit textEdit13;
         private DevExpress.XtraEditors.TextEdit textEdit12;
+        private System.Windows.Forms.TabPage TabAttachments;
     }
 }

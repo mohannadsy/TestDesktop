@@ -136,6 +136,10 @@
     <Folder Include="Layouts\" />
     <Folder Include="Models\" />
     <Folder Include="Shared\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\CostCenter\" />
+    <Folder Include="Views\Currency\" />
+    <Folder Include="Views\Item\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
