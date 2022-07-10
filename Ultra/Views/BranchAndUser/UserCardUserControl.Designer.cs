@@ -74,6 +74,7 @@ namespace Ultra.Views.BranchAndUser
             this.ButtonNew = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
             this.TabAttachments = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
@@ -94,10 +95,12 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             this.PanelBottom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelTop
             // 
+            this.PanelTop.Controls.Add(this.pictureBox1);
             this.PanelTop.Controls.Add(this.comboBox1);
             this.PanelTop.Controls.Add(this.ToggleIsActive);
             this.PanelTop.Controls.Add(this.textEdit4);
@@ -447,7 +450,7 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl14.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl14.Location = new System.Drawing.Point(236, 15);
+            this.labelControl14.Location = new System.Drawing.Point(236, 13);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(99, 30);
             this.labelControl14.TabIndex = 9;
@@ -624,6 +627,16 @@ namespace Ultra.Views.BranchAndUser
             this.TabAttachments.Text = "المرفقات";
             this.TabAttachments.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(21, 127);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(96, 98);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // UserCardUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -652,6 +665,7 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             this.PanelBottom.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -702,5 +716,6 @@ namespace Ultra.Views.BranchAndUser
         private DevExpress.XtraEditors.TextEdit textEdit13;
         private DevExpress.XtraEditors.TextEdit textEdit12;
         private System.Windows.Forms.TabPage TabAttachments;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
