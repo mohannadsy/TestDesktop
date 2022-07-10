@@ -68,6 +68,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Account\AccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Account\AccountForm.Designer.cs">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\AccountCardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Account\AccountCardUserControl.Designer.cs">
+      <DependentUpon>AccountCardUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\BranchAndUser\BranchAndUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +118,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Account\AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Account\AccountCardUserControl.resx">
+      <DependentUpon>AccountCardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\BranchAndUser\BranchAndUserForm.resx">
       <DependentUpon>BranchAndUserForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,7 +154,6 @@
     <Folder Include="Layouts\" />
     <Folder Include="Models\" />
     <Folder Include="Shared\" />
-    <Folder Include="Views\Account\" />
     <Folder Include="Views\CostCenter\" />
     <Folder Include="Views\Currency\" />
     <Folder Include="Views\Item\" />

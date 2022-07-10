@@ -12,6 +12,7 @@ namespace Ultra.Views
         public static void execute()
         {
             new BranchAndUserForm().Show();
+            new AccountForm().Show();
         }
     }
 }
