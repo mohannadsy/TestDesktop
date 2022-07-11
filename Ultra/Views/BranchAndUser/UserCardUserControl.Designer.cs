@@ -31,6 +31,7 @@ namespace Ultra.Views.BranchAndUser
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserCardUserControl));
             this.PanelTop = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.ToggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
@@ -68,14 +69,14 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
+            this.TabAttachments = new System.Windows.Forms.TabPage();
             this.PanelBottom = new System.Windows.Forms.Panel();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonNew = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
-            this.TabAttachments = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
@@ -95,12 +96,10 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             this.PanelBottom.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelTop
             // 
-            this.PanelTop.Controls.Add(this.pictureBox1);
             this.PanelTop.Controls.Add(this.comboBox1);
             this.PanelTop.Controls.Add(this.ToggleIsActive);
             this.PanelTop.Controls.Add(this.textEdit4);
@@ -120,8 +119,18 @@ namespace Ultra.Views.BranchAndUser
             this.PanelTop.Location = new System.Drawing.Point(0, 0);
             this.PanelTop.Name = "PanelTop";
             this.PanelTop.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.PanelTop.Size = new System.Drawing.Size(679, 231);
+            this.PanelTop.Size = new System.Drawing.Size(679, 195);
             this.PanelTop.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(17, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(156, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // comboBox1
             // 
@@ -287,9 +296,9 @@ namespace Ultra.Views.BranchAndUser
             this.PanelMain.Controls.Add(this.PanelBottom);
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelMain.Font = new System.Drawing.Font("Calibri", 8F);
-            this.PanelMain.Location = new System.Drawing.Point(0, 231);
+            this.PanelMain.Location = new System.Drawing.Point(0, 195);
             this.PanelMain.Name = "PanelMain";
-            this.PanelMain.Size = new System.Drawing.Size(679, 389);
+            this.PanelMain.Size = new System.Drawing.Size(679, 478);
             this.PanelMain.TabIndex = 3;
             // 
             // TabControl
@@ -305,11 +314,12 @@ namespace Ultra.Views.BranchAndUser
             this.TabControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TabControl.RightToLeftLayout = true;
             this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(679, 336);
+            this.TabControl.Size = new System.Drawing.Size(679, 425);
             this.TabControl.TabIndex = 1;
             // 
             // TabBasicInformation
             // 
+            this.TabBasicInformation.Controls.Add(this.pictureBox1);
             this.TabBasicInformation.Controls.Add(this.richTextBox1);
             this.TabBasicInformation.Controls.Add(this.labelControl11);
             this.TabBasicInformation.Controls.Add(this.labelControl9);
@@ -327,14 +337,14 @@ namespace Ultra.Views.BranchAndUser
             this.TabBasicInformation.Location = new System.Drawing.Point(4, 24);
             this.TabBasicInformation.Name = "TabBasicInformation";
             this.TabBasicInformation.Padding = new System.Windows.Forms.Padding(3);
-            this.TabBasicInformation.Size = new System.Drawing.Size(671, 308);
+            this.TabBasicInformation.Size = new System.Drawing.Size(671, 397);
             this.TabBasicInformation.TabIndex = 0;
             this.TabBasicInformation.Text = "معلومات اساسية";
             this.TabBasicInformation.UseVisualStyleBackColor = true;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 21);
+            this.richTextBox1.Location = new System.Drawing.Point(17, 296);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(213, 95);
             this.richTextBox1.TabIndex = 16;
@@ -450,7 +460,7 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl14.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl14.Location = new System.Drawing.Point(236, 13);
+            this.labelControl14.Location = new System.Drawing.Point(236, 288);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(99, 30);
             this.labelControl14.TabIndex = 9;
@@ -543,6 +553,16 @@ namespace Ultra.Views.BranchAndUser
             this.textEdit12.Size = new System.Drawing.Size(213, 25);
             this.textEdit12.TabIndex = 3;
             // 
+            // TabAttachments
+            // 
+            this.TabAttachments.Location = new System.Drawing.Point(4, 24);
+            this.TabAttachments.Name = "TabAttachments";
+            this.TabAttachments.Padding = new System.Windows.Forms.Padding(3);
+            this.TabAttachments.Size = new System.Drawing.Size(671, 308);
+            this.TabAttachments.TabIndex = 3;
+            this.TabAttachments.Text = "المرفقات";
+            this.TabAttachments.UseVisualStyleBackColor = true;
+            // 
             // PanelBottom
             // 
             this.PanelBottom.Controls.Add(this.ButtonDelete);
@@ -552,7 +572,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelBottom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PanelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelBottom.Font = new System.Drawing.Font("Calibri", 8F);
-            this.PanelBottom.Location = new System.Drawing.Point(0, 336);
+            this.PanelBottom.Location = new System.Drawing.Point(0, 425);
             this.PanelBottom.Name = "PanelBottom";
             this.PanelBottom.Size = new System.Drawing.Size(679, 53);
             this.PanelBottom.TabIndex = 0;
@@ -617,26 +637,6 @@ namespace Ultra.Views.BranchAndUser
             this.ButtonSave.Text = "حفظ";
             this.ButtonSave.UseVisualStyleBackColor = false;
             // 
-            // TabAttachments
-            // 
-            this.TabAttachments.Location = new System.Drawing.Point(4, 24);
-            this.TabAttachments.Name = "TabAttachments";
-            this.TabAttachments.Padding = new System.Windows.Forms.Padding(3);
-            this.TabAttachments.Size = new System.Drawing.Size(671, 308);
-            this.TabAttachments.TabIndex = 3;
-            this.TabAttachments.Text = "المرفقات";
-            this.TabAttachments.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(21, 127);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 98);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // UserCardUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -644,8 +644,9 @@ namespace Ultra.Views.BranchAndUser
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelTop);
             this.Name = "UserCardUserControl";
-            this.Size = new System.Drawing.Size(679, 620);
+            this.Size = new System.Drawing.Size(679, 673);
             this.PanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
@@ -665,7 +666,6 @@ namespace Ultra.Views.BranchAndUser
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             this.PanelBottom.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

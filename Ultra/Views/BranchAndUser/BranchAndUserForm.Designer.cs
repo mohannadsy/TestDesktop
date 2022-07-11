@@ -29,9 +29,9 @@ namespace Ultra.Views.BranchAndUser
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("011 - المدير العام");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("01 - الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
-            treeNode5});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("011 - المدير العام");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("01 - الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BranchAndUserForm));
             this.PanelSide = new System.Windows.Forms.Panel();
             this.ChartBranchesAndUsers = new System.Windows.Forms.TreeView();
@@ -57,7 +57,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelSide.Location = new System.Drawing.Point(679, 0);
             this.PanelSide.Name = "PanelSide";
             this.PanelSide.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.PanelSide.Size = new System.Drawing.Size(283, 620);
+            this.PanelSide.Size = new System.Drawing.Size(283, 673);
             this.PanelSide.TabIndex = 0;
             // 
             // ChartBranchesAndUsers
@@ -66,14 +66,14 @@ namespace Ultra.Views.BranchAndUser
             this.ChartBranchesAndUsers.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.ChartBranchesAndUsers.Location = new System.Drawing.Point(0, 105);
             this.ChartBranchesAndUsers.Name = "ChartBranchesAndUsers";
-            treeNode5.Name = "NodeUser";
-            treeNode5.Text = "011 - المدير العام";
-            treeNode6.Name = "NodeBranch";
-            treeNode6.Text = "01 - الفرع الرئيسي";
+            treeNode1.Name = "NodeUser";
+            treeNode1.Text = "011 - المدير العام";
+            treeNode2.Name = "NodeBranch";
+            treeNode2.Text = "01 - الفرع الرئيسي";
             this.ChartBranchesAndUsers.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6});
+            treeNode2});
             this.ChartBranchesAndUsers.RightToLeftLayout = true;
-            this.ChartBranchesAndUsers.Size = new System.Drawing.Size(281, 513);
+            this.ChartBranchesAndUsers.Size = new System.Drawing.Size(281, 566);
             this.ChartBranchesAndUsers.TabIndex = 2;
             this.ChartBranchesAndUsers.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartBranchesAndUsers_AfterSelect);
             // 
@@ -97,7 +97,7 @@ namespace Ultra.Views.BranchAndUser
             this.TextSearch.Properties.Appearance.Options.UseFont = true;
             this.TextSearch.Properties.AutoHeight = false;
             this.TextSearch.Properties.ContextImageOptions.Alignment = DevExpress.XtraEditors.ContextImageAlignment.Far;
-            this.TextSearch.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("searchControl1.Properties.ContextImageOptions.Image")));
+            this.TextSearch.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("TextSearch.Properties.ContextImageOptions.Image")));
             this.TextSearch.Properties.NullValuePrompt = "بحث .....";
             this.TextSearch.Properties.ShowClearButton = false;
             this.TextSearch.Properties.ShowSearchButton = false;
@@ -107,7 +107,7 @@ namespace Ultra.Views.BranchAndUser
             // 
             // ButtonNewUser
             // 
-            this.ButtonNewUser.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.ButtonNewUser.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonNewUser.ImageOptions.Image")));
             this.ButtonNewUser.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.ButtonNewUser.Location = new System.Drawing.Point(182, 6);
             this.ButtonNewUser.Name = "ButtonNewUser";
@@ -116,7 +116,7 @@ namespace Ultra.Views.BranchAndUser
             // 
             // ButtonNewBranch
             // 
-            this.ButtonNewBranch.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.ButtonNewBranch.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonNewBranch.ImageOptions.Image")));
             this.ButtonNewBranch.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.ButtonNewBranch.Location = new System.Drawing.Point(234, 6);
             this.ButtonNewBranch.Name = "ButtonNewBranch";
@@ -131,7 +131,7 @@ namespace Ultra.Views.BranchAndUser
             this.LabelHeaderChart.Dock = System.Windows.Forms.DockStyle.Top;
             this.LabelHeaderChart.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.LabelHeaderChart.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.LabelHeaderChart.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl1.ImageOptions.Image")));
+            this.LabelHeaderChart.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("LabelHeaderChart.ImageOptions.Image")));
             this.LabelHeaderChart.Location = new System.Drawing.Point(0, 0);
             this.LabelHeaderChart.Name = "LabelHeaderChart";
             this.LabelHeaderChart.Size = new System.Drawing.Size(281, 56);
@@ -143,14 +143,14 @@ namespace Ultra.Views.BranchAndUser
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelMain.Location = new System.Drawing.Point(0, 0);
             this.PanelMain.Name = "PanelMain";
-            this.PanelMain.Size = new System.Drawing.Size(679, 620);
+            this.PanelMain.Size = new System.Drawing.Size(679, 673);
             this.PanelMain.TabIndex = 1;
             // 
             // BranchAndUserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 620);
+            this.ClientSize = new System.Drawing.Size(962, 673);
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;

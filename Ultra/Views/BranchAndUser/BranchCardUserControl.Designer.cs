@@ -99,7 +99,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelTop.Location = new System.Drawing.Point(0, 0);
             this.PanelTop.Name = "PanelTop";
             this.PanelTop.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.PanelTop.Size = new System.Drawing.Size(679, 231);
+            this.PanelTop.Size = new System.Drawing.Size(679, 195);
             this.PanelTop.TabIndex = 2;
             // 
             // ToggleIsActive
@@ -224,9 +224,9 @@ namespace Ultra.Views.BranchAndUser
             this.PanelMain.Controls.Add(this.PanelBottom);
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelMain.Font = new System.Drawing.Font("Calibri", 8F);
-            this.PanelMain.Location = new System.Drawing.Point(0, 231);
+            this.PanelMain.Location = new System.Drawing.Point(0, 195);
             this.PanelMain.Name = "PanelMain";
-            this.PanelMain.Size = new System.Drawing.Size(679, 389);
+            this.PanelMain.Size = new System.Drawing.Size(679, 478);
             this.PanelMain.TabIndex = 3;
             // 
             // TabBasicInformation
@@ -240,7 +240,7 @@ namespace Ultra.Views.BranchAndUser
             this.TabBasicInformation.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TabBasicInformation.RightToLeftLayout = true;
             this.TabBasicInformation.SelectedIndex = 0;
-            this.TabBasicInformation.Size = new System.Drawing.Size(679, 336);
+            this.TabBasicInformation.Size = new System.Drawing.Size(679, 425);
             this.TabBasicInformation.TabIndex = 1;
             // 
             // tabPage1
@@ -262,14 +262,14 @@ namespace Ultra.Views.BranchAndUser
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(671, 308);
+            this.tabPage1.Size = new System.Drawing.Size(671, 397);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "معلومات اساسية";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 21);
+            this.richTextBox1.Location = new System.Drawing.Point(17, 296);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(213, 95);
             this.richTextBox1.TabIndex = 18;
@@ -280,7 +280,7 @@ namespace Ultra.Views.BranchAndUser
             this.labelControl14.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl14.Location = new System.Drawing.Point(236, 13);
+            this.labelControl14.Location = new System.Drawing.Point(236, 288);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(99, 30);
             this.labelControl14.TabIndex = 17;
@@ -431,7 +431,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelBottom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PanelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelBottom.Font = new System.Drawing.Font("Calibri", 8F);
-            this.PanelBottom.Location = new System.Drawing.Point(0, 336);
+            this.PanelBottom.Location = new System.Drawing.Point(0, 425);
             this.PanelBottom.Name = "PanelBottom";
             this.PanelBottom.Size = new System.Drawing.Size(679, 53);
             this.PanelBottom.TabIndex = 0;
@@ -503,7 +503,7 @@ namespace Ultra.Views.BranchAndUser
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelTop);
             this.Name = "BranchCardUserControl";
-            this.Size = new System.Drawing.Size(679, 620);
+            this.Size = new System.Drawing.Size(679, 673);
             this.PanelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();

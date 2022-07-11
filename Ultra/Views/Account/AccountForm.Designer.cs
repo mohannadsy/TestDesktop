@@ -59,7 +59,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelSide.Location = new System.Drawing.Point(679, 0);
             this.PanelSide.Name = "PanelSide";
             this.PanelSide.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.PanelSide.Size = new System.Drawing.Size(283, 620);
+            this.PanelSide.Size = new System.Drawing.Size(283, 673);
             this.PanelSide.TabIndex = 0;
             // 
             // ChartAccounts
@@ -80,7 +80,7 @@ namespace Ultra.Views.BranchAndUser
             treeNode2,
             treeNode4});
             this.ChartAccounts.RightToLeftLayout = true;
-            this.ChartAccounts.Size = new System.Drawing.Size(281, 513);
+            this.ChartAccounts.Size = new System.Drawing.Size(281, 566);
             this.ChartAccounts.TabIndex = 2;
             this.ChartAccounts.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartBranchesAndUsers_AfterSelect);
             // 
@@ -113,7 +113,7 @@ namespace Ultra.Views.BranchAndUser
             // 
             // ButtonNewAccount
             // 
-            this.ButtonNewAccount.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonNewUser.ImageOptions.Image")));
+            this.ButtonNewAccount.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonNewAccount.ImageOptions.Image")));
             this.ButtonNewAccount.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.ButtonNewAccount.Location = new System.Drawing.Point(232, 6);
             this.ButtonNewAccount.Name = "ButtonNewAccount";
@@ -140,14 +140,14 @@ namespace Ultra.Views.BranchAndUser
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelMain.Location = new System.Drawing.Point(0, 0);
             this.PanelMain.Name = "PanelMain";
-            this.PanelMain.Size = new System.Drawing.Size(679, 620);
+            this.PanelMain.Size = new System.Drawing.Size(679, 673);
             this.PanelMain.TabIndex = 1;
             // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 620);
+            this.ClientSize = new System.Drawing.Size(962, 673);
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;
