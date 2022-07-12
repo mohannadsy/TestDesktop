@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Ultra.Views.Account;
 using Ultra.Views.BranchAndUser;
 using Ultra.Views.CostCenter;
+using Ultra.Views.Store;
 
 namespace Ultra.Views
 {
@@ -16,6 +17,7 @@ namespace Ultra.Views
             new BranchAndUserForm().Show();
             new AccountForm().Show();
             new CostCenterForm().Show();
+            new StoreForm().Show();
         }
     }
 }

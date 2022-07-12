@@ -122,6 +122,18 @@
     <Compile Include="Views\File\OpenFileUserControl.Designer.cs">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Store\StoreCardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Store\StoreCardUserControl.Designer.cs">
+      <DependentUpon>StoreCardUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Store\StoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Store\StoreForm.Designer.cs">
+      <DependentUpon>StoreForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\TestForm.cs" />
     <EmbeddedResource Include="Desktop.resx">
       <DependentUpon>Desktop.cs</DependentUpon>
@@ -162,6 +174,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\File\OpenFileUserControl.resx">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Store\StoreCardUserControl.resx">
+      <DependentUpon>StoreCardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Store\StoreForm.resx">
+      <DependentUpon>StoreForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">

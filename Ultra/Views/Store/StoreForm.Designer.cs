@@ -1,7 +1,7 @@
 ﻿
-namespace Ultra.Views.CostCenter
+namespace Ultra.Views.Store
 {
-    partial class CostCenterForm
+    partial class StoreForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,10 @@ namespace Ultra.Views.CostCenter
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("101 - مركز كلفة رئيسي فرعي");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("1 - مركز الكلفة الرئيسي", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("101 - المستودع الفرعي");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("1 - المستودع الرئيسي", new System.Windows.Forms.TreeNode[] {
             treeNode1});
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CostCenterForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StoreForm));
             this.PanelSide = new System.Windows.Forms.Panel();
             this.ChartAccounts = new System.Windows.Forms.TreeView();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -66,9 +66,9 @@ namespace Ultra.Views.CostCenter
             this.ChartAccounts.Location = new System.Drawing.Point(0, 105);
             this.ChartAccounts.Name = "ChartAccounts";
             treeNode1.Name = "NodeUser";
-            treeNode1.Text = "101 - مركز كلفة رئيسي فرعي";
+            treeNode1.Text = "101 - المستودع الفرعي";
             treeNode2.Name = "NodeBranch";
-            treeNode2.Text = "1 - مركز الكلفة الرئيسي";
+            treeNode2.Text = "1 - المستودع الرئيسي";
             this.ChartAccounts.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode2});
             this.ChartAccounts.RightToLeftLayout = true;
@@ -125,7 +125,7 @@ namespace Ultra.Views.CostCenter
             this.LabelHeaderChart.Name = "LabelHeaderChart";
             this.LabelHeaderChart.Size = new System.Drawing.Size(281, 56);
             this.LabelHeaderChart.TabIndex = 0;
-            this.LabelHeaderChart.Text = "دليل مراكز الكلفة";
+            this.LabelHeaderChart.Text = "دليل المستودعات";
             // 
             // PanelMain
             // 
@@ -135,7 +135,7 @@ namespace Ultra.Views.CostCenter
             this.PanelMain.Size = new System.Drawing.Size(679, 673);
             this.PanelMain.TabIndex = 1;
             // 
-            // CostCenterForm
+            // StoreForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -143,10 +143,10 @@ namespace Ultra.Views.CostCenter
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;
-            this.Name = "CostCenterForm";
+            this.Name = "StoreForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "مراكز الكلفة";
+            this.Text = "المستودعات";
             this.PanelSide.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TextSearch.Properties)).EndInit();

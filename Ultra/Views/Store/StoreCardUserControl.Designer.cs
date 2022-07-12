@@ -1,7 +1,7 @@
 ﻿
-namespace Ultra.Views.CostCenter
+namespace Ultra.Views.Store
 {
-    partial class CostCenterCardUserControl
+    partial class StoreCardUserControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Ultra.Views.CostCenter
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CostCenterCardUserControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StoreCardUserControl));
             this.PanelTop = new System.Windows.Forms.Panel();
             this.ComboBoxAccountType = new System.Windows.Forms.ComboBox();
             this.ToggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
@@ -57,18 +57,7 @@ namespace Ultra.Views.CostCenter
             this.TabAttachments = new System.Windows.Forms.TabPage();
             this.TabMix = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
-            this.TabDist = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.labelControl40 = new DevExpress.XtraEditors.LabelControl();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.PanelBottom = new System.Windows.Forms.Panel();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
@@ -107,6 +96,10 @@ namespace Ultra.Views.CostCenter
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelControl42 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PanelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
@@ -122,10 +115,6 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             this.TabMix.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.TabDist.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             this.PanelBottom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).BeginInit();
@@ -140,6 +129,7 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelTop
@@ -169,8 +159,7 @@ namespace Ultra.Views.CostCenter
             this.ComboBoxAccountType.ItemHeight = 19;
             this.ComboBoxAccountType.Items.AddRange(new object[] {
             "عادي",
-            "تجميعي",
-            "توزيعي"});
+            "تجميعي"});
             this.ComboBoxAccountType.Location = new System.Drawing.Point(21, 98);
             this.ComboBoxAccountType.Name = "ComboBoxAccountType";
             this.ComboBoxAccountType.Size = new System.Drawing.Size(213, 27);
@@ -225,7 +214,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(96, 30);
             this.labelControl12.TabIndex = 2;
-            this.labelControl12.Text = "نوع مركز الكلفة";
+            this.labelControl12.Text = "نوع المستودع";
             // 
             // textEdit2
             // 
@@ -246,7 +235,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(96, 30);
             this.labelControl4.TabIndex = 2;
-            this.labelControl4.Text = "اسم مركز الكلفة";
+            this.labelControl4.Text = "اسم المستودع";
             // 
             // textEdit1
             // 
@@ -267,7 +256,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(96, 30);
             this.labelControl3.TabIndex = 2;
-            this.labelControl3.Text = "رمز مركز الكلفة";
+            this.labelControl3.Text = "رمز المستودع";
             // 
             // labelControl2
             // 
@@ -282,7 +271,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(679, 56);
             this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "بطاقة مركز كلفة";
+            this.labelControl2.Text = "بطاقة مستودع";
             // 
             // textEdit15
             // 
@@ -303,7 +292,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl19.Name = "labelControl19";
             this.labelControl19.Size = new System.Drawing.Size(96, 30);
             this.labelControl19.TabIndex = 2;
-            this.labelControl19.Text = "رصيد دائن";
+            this.labelControl19.Text = "العنوان";
             // 
             // textEdit10
             // 
@@ -324,7 +313,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(96, 30);
             this.labelControl11.TabIndex = 2;
-            this.labelControl11.Text = "الرصيد";
+            this.labelControl11.Text = "امين المستودع";
             // 
             // PanelMain
             // 
@@ -342,7 +331,6 @@ namespace Ultra.Views.CostCenter
             this.TabControl.Controls.Add(this.TabBasicInformation);
             this.TabControl.Controls.Add(this.TabAttachments);
             this.TabControl.Controls.Add(this.TabMix);
-            this.TabControl.Controls.Add(this.TabDist);
             this.TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControl.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.TabControl.Location = new System.Drawing.Point(0, 0);
@@ -358,7 +346,9 @@ namespace Ultra.Views.CostCenter
             this.TabBasicInformation.Controls.Add(this.textEdit15);
             this.TabBasicInformation.Controls.Add(this.labelControl19);
             this.TabBasicInformation.Controls.Add(this.textEdit4);
+            this.TabBasicInformation.Controls.Add(this.textEdit7);
             this.TabBasicInformation.Controls.Add(this.textEdit10);
+            this.TabBasicInformation.Controls.Add(this.labelControl8);
             this.TabBasicInformation.Controls.Add(this.labelControl1);
             this.TabBasicInformation.Controls.Add(this.labelControl11);
             this.TabBasicInformation.Controls.Add(this.labelControl7);
@@ -403,7 +393,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(92, 30);
             this.labelControl7.TabIndex = 6;
-            this.labelControl7.Text = "رصيد مدين";
+            this.labelControl7.Text = "الحساب";
             // 
             // textEdit6
             // 
@@ -424,7 +414,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(92, 30);
             this.labelControl6.TabIndex = 9;
-            this.labelControl6.Text = "مركز الكلفة الرئيسي";
+            this.labelControl6.Text = "المستودع الرئيسي";
             // 
             // textEdit5
             // 
@@ -469,19 +459,6 @@ namespace Ultra.Views.CostCenter
             this.dataGridView1.Size = new System.Drawing.Size(671, 367);
             this.dataGridView1.TabIndex = 3;
             // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "الرقم";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn4.HeaderText = "مركز الكلفة";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
             // labelControl38
             // 
             this.labelControl38.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -494,95 +471,7 @@ namespace Ultra.Views.CostCenter
             this.labelControl38.Name = "labelControl38";
             this.labelControl38.Size = new System.Drawing.Size(671, 30);
             this.labelControl38.TabIndex = 4;
-            this.labelControl38.Text = "مراكز الكلفة";
-            // 
-            // TabDist
-            // 
-            this.TabDist.Controls.Add(this.dataGridView2);
-            this.TabDist.Controls.Add(this.labelControl40);
-            this.TabDist.Controls.Add(this.panel6);
-            this.TabDist.Location = new System.Drawing.Point(4, 24);
-            this.TabDist.Name = "TabDist";
-            this.TabDist.Size = new System.Drawing.Size(671, 397);
-            this.TabDist.TabIndex = 8;
-            this.TabDist.Text = "توزيعي";
-            this.TabDist.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7});
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 30);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(671, 330);
-            this.dataGridView2.TabIndex = 6;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "الرقم";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn6.HeaderText = "مركز الكلفة";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "نسبة التقسيم";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // labelControl40
-            // 
-            this.labelControl40.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl40.Appearance.Options.UseFont = true;
-            this.labelControl40.Appearance.Options.UseTextOptions = true;
-            this.labelControl40.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.labelControl40.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl40.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelControl40.Location = new System.Drawing.Point(0, 0);
-            this.labelControl40.Name = "labelControl40";
-            this.labelControl40.Size = new System.Drawing.Size(671, 30);
-            this.labelControl40.TabIndex = 7;
-            this.labelControl40.Text = "مراكز الكلفة";
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.textEdit7);
-            this.panel6.Controls.Add(this.labelControl8);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 360);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(671, 37);
-            this.panel6.TabIndex = 5;
-            // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(17, 10);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit7.Properties.Appearance.Options.UseFont = true;
-            this.textEdit7.Properties.AutoHeight = false;
-            this.textEdit7.Size = new System.Drawing.Size(213, 25);
-            this.textEdit7.TabIndex = 5;
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl8.Location = new System.Drawing.Point(236, 5);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(96, 30);
-            this.labelControl8.TabIndex = 4;
-            this.labelControl8.Text = "مجموع النسب";
+            this.labelControl38.Text = "المستودعات";
             // 
             // PanelBottom
             // 
@@ -973,13 +862,47 @@ namespace Ultra.Views.CostCenter
             this.textEdit30.Size = new System.Drawing.Size(213, 25);
             this.textEdit30.TabIndex = 3;
             // 
-            // CostCenterCardUserControl
+            // labelControl8
+            // 
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl8.Appearance.Options.UseFont = true;
+            this.labelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl8.Location = new System.Drawing.Point(573, 152);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(96, 30);
+            this.labelControl8.TabIndex = 2;
+            this.labelControl8.Text = "الطاقة التخزينية";
+            // 
+            // textEdit7
+            // 
+            this.textEdit7.Location = new System.Drawing.Point(354, 157);
+            this.textEdit7.Name = "textEdit7";
+            this.textEdit7.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit7.Properties.Appearance.Options.UseFont = true;
+            this.textEdit7.Properties.AutoHeight = false;
+            this.textEdit7.Size = new System.Drawing.Size(213, 25);
+            this.textEdit7.TabIndex = 3;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.HeaderText = "الرقم";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn4.HeaderText = "المستودع";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // StoreCardUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelTop);
-            this.Name = "CostCenterCardUserControl";
+            this.Name = "StoreCardUserControl";
             this.Size = new System.Drawing.Size(679, 673);
             this.PanelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
@@ -996,10 +919,6 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             this.TabMix.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.TabDist.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             this.PanelBottom.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).EndInit();
@@ -1014,6 +933,7 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1049,8 +969,6 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraEditors.TextEdit textEdit10;
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private System.Windows.Forms.TabPage TabMix;
-        private System.Windows.Forms.TabPage TabDist;
-        private System.Windows.Forms.Panel panel6;
         private DevExpress.XtraEditors.LabelControl labelControl23;
         private DevExpress.XtraEditors.TextEdit textEdit18;
         private DevExpress.XtraEditors.TextEdit textEdit17;
@@ -1085,17 +1003,12 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraEditors.LabelControl labelControl42;
         private DevExpress.XtraEditors.TextEdit textEdit30;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private DevExpress.XtraEditors.LabelControl labelControl38;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private DevExpress.XtraEditors.LabelControl labelControl40;
         private DevExpress.XtraEditors.TextEdit textEdit4;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TextEdit textEdit7;
         private DevExpress.XtraEditors.LabelControl labelControl8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
     }
 }
