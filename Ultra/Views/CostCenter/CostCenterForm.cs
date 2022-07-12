@@ -9,19 +9,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ultra.Views.Account
+namespace Ultra.Views.CostCenter
 {
-    public partial class AccountForm : DevExpress.XtraEditors.XtraForm
+    public partial class CostCenterForm : DevExpress.XtraEditors.XtraForm
     {
-        public AccountForm()
+        public CostCenterForm()
         {
             InitializeComponent();
         }
 
-        private void ChartBranchesAndUsers_AfterSelect(object sender, TreeViewEventArgs e)
+        private void ChartAccounts_AfterSelect(object sender, TreeViewEventArgs e)
         {
             PanelMain.Controls.Clear();
-            PanelMain.Controls.Add(new AccountCardUserControl());
+            PanelMain.Controls.Add(new CostCenterCardUserControl());
         }
     }
 }

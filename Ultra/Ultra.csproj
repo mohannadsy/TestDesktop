@@ -80,6 +80,12 @@
     <Compile Include="Views\Account\AccountCardUserControl.Designer.cs">
       <DependentUpon>AccountCardUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Auth\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Auth\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\BranchAndUser\BranchAndUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,18 @@
     </Compile>
     <Compile Include="Views\BranchAndUser\BranchCardUserControl.Designer.cs">
       <DependentUpon>BranchCardUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCenterCardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCenterCardUserControl.Designer.cs">
+      <DependentUpon>CostCenterCardUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCenterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCenterForm.Designer.cs">
+      <DependentUpon>CostCenterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\File\OpenFileUserControl.cs">
       <SubType>UserControl</SubType>
@@ -124,6 +142,9 @@
     <EmbeddedResource Include="Views\Account\AccountCardUserControl.resx">
       <DependentUpon>AccountCardUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Auth\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\BranchAndUser\BranchAndUserForm.resx">
       <DependentUpon>BranchAndUserForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BranchAndUser\BranchCardUserControl.resx">
       <DependentUpon>BranchCardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCenterCardUserControl.resx">
+      <DependentUpon>CostCenterCardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCenterForm.resx">
+      <DependentUpon>CostCenterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\File\OpenFileUserControl.resx">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
@@ -154,7 +181,6 @@
     <Folder Include="Layouts\" />
     <Folder Include="Models\" />
     <Folder Include="Shared\" />
-    <Folder Include="Views\CostCenter\" />
     <Folder Include="Views\Currency\" />
     <Folder Include="Views\Item\" />
   </ItemGroup>

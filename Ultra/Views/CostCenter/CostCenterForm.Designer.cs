@@ -1,7 +1,7 @@
 ﻿
-namespace Ultra.Views.Account
+namespace Ultra.Views.CostCenter
 {
-    partial class AccountForm
+    partial class CostCenterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,10 @@ namespace Ultra.Views.Account
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("101 - حساب رئيسي فرعي");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("1 - الحساب الرئيسي", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("201 - الحساب الفرعي الثاني");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("2 - الحساب الرئيسي الثاني", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("101 - مركز كلفة رئيسي فرعي");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("1 - مركز الكلفة الرئيسي", new System.Windows.Forms.TreeNode[] {
             treeNode3});
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CostCenterForm));
             this.PanelSide = new System.Windows.Forms.Panel();
             this.ChartAccounts = new System.Windows.Forms.TreeView();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -68,21 +65,16 @@ namespace Ultra.Views.Account
             this.ChartAccounts.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.ChartAccounts.Location = new System.Drawing.Point(0, 105);
             this.ChartAccounts.Name = "ChartAccounts";
-            treeNode1.Name = "NodeUser";
-            treeNode1.Text = "101 - حساب رئيسي فرعي";
-            treeNode2.Name = "NodeBranch";
-            treeNode2.Text = "1 - الحساب الرئيسي";
-            treeNode3.Name = "Node1";
-            treeNode3.Text = "201 - الحساب الفرعي الثاني";
-            treeNode4.Name = "Node0";
-            treeNode4.Text = "2 - الحساب الرئيسي الثاني";
+            treeNode3.Name = "NodeUser";
+            treeNode3.Text = "101 - مركز كلفة رئيسي فرعي";
+            treeNode4.Name = "NodeBranch";
+            treeNode4.Text = "1 - مركز الكلفة الرئيسي";
             this.ChartAccounts.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
             treeNode4});
             this.ChartAccounts.RightToLeftLayout = true;
             this.ChartAccounts.Size = new System.Drawing.Size(281, 566);
             this.ChartAccounts.TabIndex = 2;
-            this.ChartAccounts.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartBranchesAndUsers_AfterSelect);
+            this.ChartAccounts.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartAccounts_AfterSelect);
             // 
             // panel5
             // 
@@ -133,7 +125,7 @@ namespace Ultra.Views.Account
             this.LabelHeaderChart.Name = "LabelHeaderChart";
             this.LabelHeaderChart.Size = new System.Drawing.Size(281, 56);
             this.LabelHeaderChart.TabIndex = 0;
-            this.LabelHeaderChart.Text = "دليل الحسابات";
+            this.LabelHeaderChart.Text = "دليل مراكز الكلفة";
             // 
             // PanelMain
             // 
@@ -143,7 +135,7 @@ namespace Ultra.Views.Account
             this.PanelMain.Size = new System.Drawing.Size(679, 673);
             this.PanelMain.TabIndex = 1;
             // 
-            // AccountForm
+            // CostCenterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,10 +143,10 @@ namespace Ultra.Views.Account
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;
-            this.Name = "AccountForm";
+            this.Name = "CostCenterForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "الحسابات";
+            this.Text = "مراكز الكلفة";
             this.PanelSide.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TextSearch.Properties)).EndInit();
