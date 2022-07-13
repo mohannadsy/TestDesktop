@@ -31,13 +31,15 @@ namespace Ultra
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dbName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -184,8 +186,21 @@ namespace Ultra
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.backstageViewManager1 = new DevExpress.XtraBars.Ribbon.BackstageViewManager();
-            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dbName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ribbonPageGroup37 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem54 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup38 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem55 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem56 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup39 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem57 = new DevExpress.XtraBars.BarButtonItem();
+            this.popupMenu7 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem58 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem59 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem60 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem62 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup40 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem63 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -208,6 +223,7 @@ namespace Ultra
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -272,10 +288,20 @@ namespace Ultra
             this.barButtonItem50,
             this.barButtonItem51,
             this.barButtonItem52,
-            this.barButtonItem53});
+            this.barButtonItem53,
+            this.barButtonItem54,
+            this.barButtonItem55,
+            this.barButtonItem56,
+            this.barButtonItem57,
+            this.barButtonItem58,
+            this.barButtonItem59,
+            this.barButtonItem60,
+            this.barButtonItem61,
+            this.barButtonItem62,
+            this.barButtonItem63});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 58;
+            this.ribbonControl1.MaxItemId = 68;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.skinDropDownButtonItem1);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -372,6 +398,21 @@ namespace Ultra
             this.dataGridView1.Size = new System.Drawing.Size(736, 299);
             this.dataGridView1.TabIndex = 0;
             // 
+            // fileName
+            // 
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
+            this.fileName.HeaderText = "اسم الملف";
+            this.fileName.Name = "fileName";
+            this.fileName.ReadOnly = true;
+            // 
+            // dbName
+            // 
+            this.dbName.HeaderText = "اسم قاعدة البيانات";
+            this.dbName.Name = "dbName";
+            this.dbName.ReadOnly = true;
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.textBox1);
@@ -414,7 +455,7 @@ namespace Ultra
             // 
             this.dateEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(36, 59);
+            this.dateEdit1.Location = new System.Drawing.Point(36, 69);
             this.dateEdit1.MenuManager = this.ribbonControl1;
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -440,12 +481,12 @@ namespace Ultra
             // textEdit3
             // 
             this.textEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit3.Location = new System.Drawing.Point(382, 106);
+            this.textEdit3.Location = new System.Drawing.Point(50, 111);
             this.textEdit3.MenuManager = this.ribbonControl1;
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit3.Properties.Appearance.Options.UseFont = true;
-            this.textEdit3.Size = new System.Drawing.Size(225, 22);
+            this.textEdit3.Size = new System.Drawing.Size(472, 22);
             this.textEdit3.TabIndex = 17;
             // 
             // textEdit2
@@ -464,7 +505,7 @@ namespace Ultra
             this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(613, 109);
+            this.labelControl5.Location = new System.Drawing.Point(528, 114);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(35, 15);
             this.labelControl5.TabIndex = 14;
@@ -475,7 +516,7 @@ namespace Ultra
             this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(267, 62);
+            this.labelControl4.Location = new System.Drawing.Point(267, 72);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(65, 15);
             this.labelControl4.TabIndex = 13;
@@ -1442,7 +1483,11 @@ namespace Ultra
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup2,
-            this.ribbonPageGroup32});
+            this.ribbonPageGroup32,
+            this.ribbonPageGroup37,
+            this.ribbonPageGroup38,
+            this.ribbonPageGroup39,
+            this.ribbonPageGroup40});
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "فواتير";
             // 
@@ -1572,20 +1617,100 @@ namespace Ultra
             // 
             this.backstageViewManager1.BackstageView = this.backstageViewControl1;
             // 
-            // fileName
+            // ribbonPageGroup37
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
-            this.fileName.HeaderText = "اسم الملف";
-            this.fileName.Name = "fileName";
-            this.fileName.ReadOnly = true;
+            this.ribbonPageGroup37.ItemLinks.Add(this.barButtonItem54);
+            this.ribbonPageGroup37.Name = "ribbonPageGroup37";
             // 
-            // dbName
+            // barButtonItem54
             // 
-            this.dbName.HeaderText = "اسم قاعدة البيانات";
-            this.dbName.Name = "dbName";
-            this.dbName.ReadOnly = true;
+            this.barButtonItem54.Caption = "كمسيون";
+            this.barButtonItem54.Id = 58;
+            this.barButtonItem54.Name = "barButtonItem54";
+            // 
+            // ribbonPageGroup38
+            // 
+            this.ribbonPageGroup38.ItemLinks.Add(this.barButtonItem55);
+            this.ribbonPageGroup38.ItemLinks.Add(this.barButtonItem56);
+            this.ribbonPageGroup38.Name = "ribbonPageGroup38";
+            this.ribbonPageGroup38.Text = "فواتير";
+            // 
+            // barButtonItem55
+            // 
+            this.barButtonItem55.Caption = "حركة الفواتير";
+            this.barButtonItem55.Id = 59;
+            this.barButtonItem55.Name = "barButtonItem55";
+            // 
+            // barButtonItem56
+            // 
+            this.barButtonItem56.Caption = "أرباح الفواتير";
+            this.barButtonItem56.Id = 60;
+            this.barButtonItem56.Name = "barButtonItem56";
+            // 
+            // ribbonPageGroup39
+            // 
+            this.ribbonPageGroup39.ItemLinks.Add(this.barButtonItem57);
+            this.ribbonPageGroup39.Name = "ribbonPageGroup39";
+            // 
+            // barButtonItem57
+            // 
+            this.barButtonItem57.ActAsDropDown = true;
+            this.barButtonItem57.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
+            this.barButtonItem57.Caption = "أدوات";
+            this.barButtonItem57.DropDownControl = this.popupMenu7;
+            this.barButtonItem57.Id = 61;
+            this.barButtonItem57.Name = "barButtonItem57";
+            // 
+            // popupMenu7
+            // 
+            this.popupMenu7.ItemLinks.Add(this.barButtonItem58);
+            this.popupMenu7.ItemLinks.Add(this.barButtonItem59);
+            this.popupMenu7.ItemLinks.Add(this.barButtonItem60);
+            this.popupMenu7.ItemLinks.Add(this.barButtonItem61);
+            this.popupMenu7.ItemLinks.Add(this.barButtonItem62);
+            this.popupMenu7.Name = "popupMenu7";
+            this.popupMenu7.Ribbon = this.ribbonControl1;
+            // 
+            // barButtonItem58
+            // 
+            this.barButtonItem58.Caption = "إعادة ترميز الفواتير";
+            this.barButtonItem58.Id = 62;
+            this.barButtonItem58.Name = "barButtonItem58";
+            // 
+            // barButtonItem59
+            // 
+            this.barButtonItem59.Caption = "تجميع الفواتير";
+            this.barButtonItem59.Id = 63;
+            this.barButtonItem59.Name = "barButtonItem59";
+            // 
+            // barButtonItem60
+            // 
+            this.barButtonItem60.Caption = "إدارة الطباعة";
+            this.barButtonItem60.Id = 64;
+            this.barButtonItem60.Name = "barButtonItem60";
+            // 
+            // barButtonItem61
+            // 
+            this.barButtonItem61.Caption = "استيراد";
+            this.barButtonItem61.Id = 65;
+            this.barButtonItem61.Name = "barButtonItem61";
+            // 
+            // barButtonItem62
+            // 
+            this.barButtonItem62.Caption = "تصدير";
+            this.barButtonItem62.Id = 66;
+            this.barButtonItem62.Name = "barButtonItem62";
+            // 
+            // ribbonPageGroup40
+            // 
+            this.ribbonPageGroup40.ItemLinks.Add(this.barButtonItem63);
+            this.ribbonPageGroup40.Name = "ribbonPageGroup40";
+            // 
+            // barButtonItem63
+            // 
+            this.barButtonItem63.Caption = "مناقلة";
+            this.barButtonItem63.Id = 67;
+            this.barButtonItem63.Name = "barButtonItem63";
             // 
             // Desktop
             // 
@@ -1630,6 +1755,7 @@ namespace Ultra
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1790,6 +1916,21 @@ namespace Ultra
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fileName;
         private System.Windows.Forms.DataGridViewTextBoxColumn dbName;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem54;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem55;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem56;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem57;
+        private DevExpress.XtraBars.PopupMenu popupMenu7;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem58;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem59;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem60;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem61;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem62;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem63;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup37;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup38;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup39;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup40;
     }
 }
 
