@@ -136,6 +136,7 @@ namespace Ultra
             this.barButtonItem51 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem52 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem53 = new DevExpress.XtraBars.BarButtonItem();
+            this.TestAppViews = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -379,7 +380,7 @@ namespace Ultra
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1303,6 +1304,13 @@ namespace Ultra
             this.barButtonItem53.Id = 57;
             this.barButtonItem53.Name = "barButtonItem53";
             // 
+            // TestAppViews
+            // 
+            this.TestAppViews.Caption = "TestApp";
+            this.TestAppViews.Id = 58;
+            this.TestAppViews.Name = "TestAppViews";
+            this.TestAppViews.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.TestAppViews_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Appearance.Options.UseTextOptions = true;
@@ -1598,6 +1606,7 @@ namespace Ultra
             // 
             // ribbonPageGroup13
             // 
+            this.ribbonPageGroup13.ItemLinks.Add(this.TestAppViews);
             this.ribbonPageGroup13.Name = "ribbonPageGroup13";
             this.ribbonPageGroup13.Text = "ribbonPageGroup13";
             // 

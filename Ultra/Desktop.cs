@@ -72,5 +72,15 @@ namespace Ultra
         {
 
         }
+
+        private void barButtonItem54_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void TestAppViews_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Ultra.Views.TestForm.execute();
+        }
     }
 }
