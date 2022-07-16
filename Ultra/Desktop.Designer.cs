@@ -30,8 +30,8 @@ namespace Ultra
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
@@ -78,7 +78,7 @@ namespace Ultra
             this.skinDropDownButtonItem1 = new DevExpress.XtraBars.SkinDropDownButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemAccountGuide = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
@@ -100,7 +100,7 @@ namespace Ultra
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemStoreGuide = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
@@ -147,6 +147,23 @@ namespace Ultra
             this.barButtonItem61 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem62 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem63 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemBranchesAndUsers = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem65 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem66 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem67 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem68 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem69 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem70 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem71 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem72 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem73 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem74 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem75 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem76 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemCostCenter = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem78 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem79 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem80 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -157,6 +174,7 @@ namespace Ultra
             this.ribbonPageGroup19 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup20 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup21 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup54 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup22 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -192,44 +210,28 @@ namespace Ultra
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage10 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup48 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup49 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup50 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage11 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup51 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup52 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup53 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage13 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup14 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage12 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup13 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.backstageViewManager1 = new DevExpress.XtraBars.Ribbon.BackstageViewManager();
-            this.barButtonItem64 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup41 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem65 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup42 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem66 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup43 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem67 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup44 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem68 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup45 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem69 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup46 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem70 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup47 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem71 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem72 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup48 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem73 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup49 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem74 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup50 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem75 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem76 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup51 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem77 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup52 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem78 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup53 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem79 = new DevExpress.XtraBars.BarButtonItem();
+            this.backstageViewManager1 = new DevExpress.XtraBars.Ribbon.BackstageViewManager();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -266,7 +268,7 @@ namespace Ultra
             this.skinDropDownButtonItem1,
             this.barButtonItem2,
             this.barButtonItem3,
-            this.barButtonItem4,
+            this.barButtonItemAccountGuide,
             this.barButtonItem5,
             this.barButtonItem6,
             this.barButtonItem7,
@@ -285,7 +287,7 @@ namespace Ultra
             this.barButtonItem20,
             this.barButtonItem21,
             this.barButtonItem22,
-            this.barButtonItem23,
+            this.barButtonItemStoreGuide,
             this.barButtonItem24,
             this.barButtonItem25,
             this.barButtonItem26,
@@ -328,7 +330,7 @@ namespace Ultra
             this.barButtonItem61,
             this.barButtonItem62,
             this.barButtonItem63,
-            this.barButtonItem64,
+            this.barButtonItemBranchesAndUsers,
             this.barButtonItem65,
             this.barButtonItem66,
             this.barButtonItem67,
@@ -341,12 +343,13 @@ namespace Ultra
             this.barButtonItem74,
             this.barButtonItem75,
             this.barButtonItem76,
-            this.barButtonItem77,
+            this.barButtonItemCostCenter,
             this.barButtonItem78,
-            this.barButtonItem79});
+            this.barButtonItem79,
+            this.barButtonItem80});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 84;
+            this.ribbonControl1.MaxItemId = 85;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.skinDropDownButtonItem1);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -422,14 +425,14 @@ namespace Ultra
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fileName,
@@ -445,9 +448,9 @@ namespace Ultra
             // 
             // fileName
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            this.fileName.DefaultCellStyle = dataGridViewCellStyle4;
             this.fileName.HeaderText = "اسم الملف";
             this.fileName.Name = "fileName";
             this.fileName.ReadOnly = true;
@@ -891,15 +894,16 @@ namespace Ultra
             this.barButtonItem3.Id = 4;
             this.barButtonItem3.Name = "barButtonItem3";
             // 
-            // barButtonItem4
+            // barButtonItemAccountGuide
             // 
-            this.barButtonItem4.Caption = "دليل الحسابات";
-            this.barButtonItem4.Id = 5;
-            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
-            this.barButtonItem4.ItemInMenuAppearance.Normal.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
-            this.barButtonItem4.ItemInMenuAppearance.Normal.Options.UseFont = true;
-            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItemAccountGuide.Caption = "دليل الحسابات";
+            this.barButtonItemAccountGuide.Id = 5;
+            this.barButtonItemAccountGuide.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.barButtonItemAccountGuide.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItemAccountGuide.ItemInMenuAppearance.Normal.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.barButtonItemAccountGuide.ItemInMenuAppearance.Normal.Options.UseFont = true;
+            this.barButtonItemAccountGuide.Name = "barButtonItemAccountGuide";
+            this.barButtonItemAccountGuide.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemAccountGuide_ItemClick);
             // 
             // barButtonItem5
             // 
@@ -1085,13 +1089,14 @@ namespace Ultra
             this.barButtonItem22.Name = "barButtonItem22";
             this.barButtonItem22.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem22_ItemClick);
             // 
-            // barButtonItem23
+            // barButtonItemStoreGuide
             // 
-            this.barButtonItem23.Caption = "دليل المستودعات";
-            this.barButtonItem23.Id = 25;
-            this.barButtonItem23.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.Image")));
-            this.barButtonItem23.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.LargeImage")));
-            this.barButtonItem23.Name = "barButtonItem23";
+            this.barButtonItemStoreGuide.Caption = "دليل المستودعات";
+            this.barButtonItemStoreGuide.Id = 25;
+            this.barButtonItemStoreGuide.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemStoreGuide.ImageOptions.Image")));
+            this.barButtonItemStoreGuide.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemStoreGuide.ImageOptions.LargeImage")));
+            this.barButtonItemStoreGuide.Name = "barButtonItemStoreGuide";
+            this.barButtonItemStoreGuide.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemStoreGuide_ItemClick);
             // 
             // barButtonItem24
             // 
@@ -1439,6 +1444,143 @@ namespace Ultra
             this.barButtonItem63.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem63.ImageOptions.LargeImage")));
             this.barButtonItem63.Name = "barButtonItem63";
             // 
+            // barButtonItemBranchesAndUsers
+            // 
+            this.barButtonItemBranchesAndUsers.Caption = "فروع ومستخدمين";
+            this.barButtonItemBranchesAndUsers.Id = 68;
+            this.barButtonItemBranchesAndUsers.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemUsersAndBranches.ImageOptions.Image")));
+            this.barButtonItemBranchesAndUsers.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemUsersAndBranches.ImageOptions.LargeImage")));
+            this.barButtonItemBranchesAndUsers.Name = "barButtonItemBranchesAndUsers";
+            this.barButtonItemBranchesAndUsers.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemBranchesAndUsers_ItemClick);
+            // 
+            // barButtonItem65
+            // 
+            this.barButtonItem65.Caption = "إدارة سطح المكتب";
+            this.barButtonItem65.Id = 69;
+            this.barButtonItem65.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem65.ImageOptions.Image")));
+            this.barButtonItem65.Name = "barButtonItem65";
+            this.barButtonItem65.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem66
+            // 
+            this.barButtonItem66.Caption = "مدير الطباعة";
+            this.barButtonItem66.Id = 70;
+            this.barButtonItem66.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem66.ImageOptions.Image")));
+            this.barButtonItem66.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem66.ImageOptions.LargeImage")));
+            this.barButtonItem66.Name = "barButtonItem66";
+            // 
+            // barButtonItem67
+            // 
+            this.barButtonItem67.Caption = "إدارة الأنماط";
+            this.barButtonItem67.Id = 71;
+            this.barButtonItem67.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem67.ImageOptions.SvgImage")));
+            this.barButtonItem67.Name = "barButtonItem67";
+            this.barButtonItem67.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem68
+            // 
+            this.barButtonItem68.Caption = "جدولة المهام";
+            this.barButtonItem68.Id = 72;
+            this.barButtonItem68.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem68.ImageOptions.Image")));
+            this.barButtonItem68.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem68.ImageOptions.LargeImage")));
+            this.barButtonItem68.Name = "barButtonItem68";
+            // 
+            // barButtonItem69
+            // 
+            this.barButtonItem69.Caption = "جدولة التنبهات";
+            this.barButtonItem69.Id = 73;
+            this.barButtonItem69.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem69.ImageOptions.Image")));
+            this.barButtonItem69.Name = "barButtonItem69";
+            this.barButtonItem69.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem70
+            // 
+            this.barButtonItem70.Caption = "إدارة الدردشة";
+            this.barButtonItem70.Id = 74;
+            this.barButtonItem70.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem70.ImageOptions.Image")));
+            this.barButtonItem70.Name = "barButtonItem70";
+            this.barButtonItem70.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem71
+            // 
+            this.barButtonItem71.Caption = "خيارات عامة";
+            this.barButtonItem71.Id = 75;
+            this.barButtonItem71.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem71.ImageOptions.Image")));
+            this.barButtonItem71.Name = "barButtonItem71";
+            this.barButtonItem71.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem72
+            // 
+            this.barButtonItem72.Caption = "بطاقة عملة";
+            this.barButtonItem72.Id = 76;
+            this.barButtonItem72.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem72.ImageOptions.Image")));
+            this.barButtonItem72.Name = "barButtonItem72";
+            this.barButtonItem72.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem73
+            // 
+            this.barButtonItem73.Caption = "نشرة أسعار الصرف";
+            this.barButtonItem73.Id = 77;
+            this.barButtonItem73.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem73.ImageOptions.Image")));
+            this.barButtonItem73.Name = "barButtonItem73";
+            this.barButtonItem73.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem74
+            // 
+            this.barButtonItem74.Caption = "دفتر أستاذ عملة";
+            this.barButtonItem74.Id = 78;
+            this.barButtonItem74.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.Image")));
+            this.barButtonItem74.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.LargeImage")));
+            this.barButtonItem74.Name = "barButtonItem74";
+            // 
+            // barButtonItem75
+            // 
+            this.barButtonItem75.Caption = "معالجة فروقات أسعار الصرف ";
+            this.barButtonItem75.Id = 79;
+            this.barButtonItem75.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem75.ImageOptions.Image")));
+            this.barButtonItem75.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem75.ImageOptions.LargeImage")));
+            this.barButtonItem75.Name = "barButtonItem75";
+            // 
+            // barButtonItem76
+            // 
+            this.barButtonItem76.Caption = "بطاقة مركز كلفة";
+            this.barButtonItem76.Id = 80;
+            this.barButtonItem76.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem76.ImageOptions.Image")));
+            this.barButtonItem76.Name = "barButtonItem76";
+            this.barButtonItem76.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItemCostCenter
+            // 
+            this.barButtonItemCostCenter.Caption = "دليل مراكز الكلفة";
+            this.barButtonItemCostCenter.Id = 81;
+            this.barButtonItemCostCenter.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem77.ImageOptions.Image")));
+            this.barButtonItemCostCenter.Name = "barButtonItemCostCenter";
+            this.barButtonItemCostCenter.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItemCostCenter.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemCostCenter_ItemClick);
+            // 
+            // barButtonItem78
+            // 
+            this.barButtonItem78.Caption = "حركة مركز الكلفة";
+            this.barButtonItem78.Id = 82;
+            this.barButtonItem78.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem78.ImageOptions.Image")));
+            this.barButtonItem78.Name = "barButtonItem78";
+            this.barButtonItem78.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem79
+            // 
+            this.barButtonItem79.Caption = "ربط مركز الكلفة بالحسابات";
+            this.barButtonItem79.Id = 83;
+            this.barButtonItem79.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem79.ImageOptions.Image")));
+            this.barButtonItem79.Name = "barButtonItem79";
+            this.barButtonItem79.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem80
+            // 
+            this.barButtonItem80.Caption = "test";
+            this.barButtonItem80.Id = 84;
+            this.barButtonItem80.Name = "barButtonItem80";
+            this.barButtonItem80.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem80_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Appearance.Options.UseTextOptions = true;
@@ -1452,7 +1594,8 @@ namespace Ultra
             this.ribbonPageGroup18,
             this.ribbonPageGroup19,
             this.ribbonPageGroup20,
-            this.ribbonPageGroup21});
+            this.ribbonPageGroup21,
+            this.ribbonPageGroup54});
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "حسابات";
             // 
@@ -1463,7 +1606,7 @@ namespace Ultra
             // 
             // ribbonPageGroup1
             // 
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem4);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItemAccountGuide);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
             // ribbonPageGroup15
@@ -1502,6 +1645,12 @@ namespace Ultra
             this.ribbonPageGroup21.ItemLinks.Add(this.barButtonItem16);
             this.ribbonPageGroup21.Name = "ribbonPageGroup21";
             // 
+            // ribbonPageGroup54
+            // 
+            this.ribbonPageGroup54.ItemLinks.Add(this.barButtonItem80);
+            this.ribbonPageGroup54.Name = "ribbonPageGroup54";
+            this.ribbonPageGroup54.Text = "ribbonPageGroup54";
+            // 
             // ribbonPage3
             // 
             this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -1526,7 +1675,7 @@ namespace Ultra
             // ribbonPageGroup22
             // 
             this.ribbonPageGroup22.ItemLinks.Add(this.barButtonItem22);
-            this.ribbonPageGroup22.ItemLinks.Add(this.barButtonItem23);
+            this.ribbonPageGroup22.ItemLinks.Add(this.barButtonItemStoreGuide);
             this.ribbonPageGroup22.Name = "ribbonPageGroup22";
             this.ribbonPageGroup22.Text = "المستودع";
             // 
@@ -1726,6 +1875,21 @@ namespace Ultra
             this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem72);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             // 
+            // ribbonPageGroup48
+            // 
+            this.ribbonPageGroup48.ItemLinks.Add(this.barButtonItem73);
+            this.ribbonPageGroup48.Name = "ribbonPageGroup48";
+            // 
+            // ribbonPageGroup49
+            // 
+            this.ribbonPageGroup49.ItemLinks.Add(this.barButtonItem74);
+            this.ribbonPageGroup49.Name = "ribbonPageGroup49";
+            // 
+            // ribbonPageGroup50
+            // 
+            this.ribbonPageGroup50.ItemLinks.Add(this.barButtonItem75);
+            this.ribbonPageGroup50.Name = "ribbonPageGroup50";
+            // 
             // ribbonPage11
             // 
             this.ribbonPage11.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -1740,6 +1904,21 @@ namespace Ultra
             // 
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem76);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
+            // 
+            // ribbonPageGroup51
+            // 
+            this.ribbonPageGroup51.ItemLinks.Add(this.barButtonItemCostCenter);
+            this.ribbonPageGroup51.Name = "ribbonPageGroup51";
+            // 
+            // ribbonPageGroup52
+            // 
+            this.ribbonPageGroup52.ItemLinks.Add(this.barButtonItem78);
+            this.ribbonPageGroup52.Name = "ribbonPageGroup52";
+            // 
+            // ribbonPageGroup53
+            // 
+            this.ribbonPageGroup53.ItemLinks.Add(this.barButtonItem79);
+            this.ribbonPageGroup53.Name = "ribbonPageGroup53";
             // 
             // ribbonPage13
             // 
@@ -1781,73 +1960,28 @@ namespace Ultra
             // 
             // ribbonPageGroup10
             // 
-            this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem64);
+            this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItemBranchesAndUsers);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
-            // 
-            // backstageViewManager1
-            // 
-            this.backstageViewManager1.BackstageView = this.backstageViewControl1;
-            // 
-            // barButtonItem64
-            // 
-            this.barButtonItem64.Caption = "فروع ومستخدمين";
-            this.barButtonItem64.Id = 68;
-            this.barButtonItem64.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem64.ImageOptions.Image")));
-            this.barButtonItem64.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem64.ImageOptions.LargeImage")));
-            this.barButtonItem64.Name = "barButtonItem64";
-            this.barButtonItem64.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem64_ItemClick);
             // 
             // ribbonPageGroup41
             // 
             this.ribbonPageGroup41.ItemLinks.Add(this.barButtonItem65);
             this.ribbonPageGroup41.Name = "ribbonPageGroup41";
             // 
-            // barButtonItem65
-            // 
-            this.barButtonItem65.Caption = "إدارة سطح المكتب";
-            this.barButtonItem65.Id = 69;
-            this.barButtonItem65.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem65.ImageOptions.Image")));
-            this.barButtonItem65.Name = "barButtonItem65";
-            this.barButtonItem65.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
             // ribbonPageGroup42
             // 
             this.ribbonPageGroup42.ItemLinks.Add(this.barButtonItem66);
             this.ribbonPageGroup42.Name = "ribbonPageGroup42";
-            // 
-            // barButtonItem66
-            // 
-            this.barButtonItem66.Caption = "مدير الطباعة";
-            this.barButtonItem66.Id = 70;
-            this.barButtonItem66.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem66.ImageOptions.Image")));
-            this.barButtonItem66.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem66.ImageOptions.LargeImage")));
-            this.barButtonItem66.Name = "barButtonItem66";
             // 
             // ribbonPageGroup43
             // 
             this.ribbonPageGroup43.ItemLinks.Add(this.barButtonItem67);
             this.ribbonPageGroup43.Name = "ribbonPageGroup43";
             // 
-            // barButtonItem67
-            // 
-            this.barButtonItem67.Caption = "إدارة الأنماط";
-            this.barButtonItem67.Id = 71;
-            this.barButtonItem67.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem67.ImageOptions.SvgImage")));
-            this.barButtonItem67.Name = "barButtonItem67";
-            this.barButtonItem67.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
             // ribbonPageGroup44
             // 
             this.ribbonPageGroup44.ItemLinks.Add(this.barButtonItem68);
             this.ribbonPageGroup44.Name = "ribbonPageGroup44";
-            // 
-            // barButtonItem68
-            // 
-            this.barButtonItem68.Caption = "جدولة المهام";
-            this.barButtonItem68.Id = 72;
-            this.barButtonItem68.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem68.ImageOptions.Image")));
-            this.barButtonItem68.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem68.ImageOptions.LargeImage")));
-            this.barButtonItem68.Name = "barButtonItem68";
             // 
             // ribbonPageGroup45
             // 
@@ -1855,133 +1989,19 @@ namespace Ultra
             this.ribbonPageGroup45.ItemLinks.Add(this.barButtonItem69);
             this.ribbonPageGroup45.Name = "ribbonPageGroup45";
             // 
-            // barButtonItem69
-            // 
-            this.barButtonItem69.Caption = "جدولة التنبهات";
-            this.barButtonItem69.Id = 73;
-            this.barButtonItem69.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem69.ImageOptions.Image")));
-            this.barButtonItem69.Name = "barButtonItem69";
-            this.barButtonItem69.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
             // ribbonPageGroup46
             // 
             this.ribbonPageGroup46.ItemLinks.Add(this.barButtonItem70);
             this.ribbonPageGroup46.Name = "ribbonPageGroup46";
-            // 
-            // barButtonItem70
-            // 
-            this.barButtonItem70.Caption = "إدارة الدردشة";
-            this.barButtonItem70.Id = 74;
-            this.barButtonItem70.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem70.ImageOptions.Image")));
-            this.barButtonItem70.Name = "barButtonItem70";
-            this.barButtonItem70.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // ribbonPageGroup47
             // 
             this.ribbonPageGroup47.ItemLinks.Add(this.barButtonItem71);
             this.ribbonPageGroup47.Name = "ribbonPageGroup47";
             // 
-            // barButtonItem71
+            // backstageViewManager1
             // 
-            this.barButtonItem71.Caption = "خيارات عامة";
-            this.barButtonItem71.Id = 75;
-            this.barButtonItem71.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem71.ImageOptions.Image")));
-            this.barButtonItem71.Name = "barButtonItem71";
-            this.barButtonItem71.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // barButtonItem72
-            // 
-            this.barButtonItem72.Caption = "بطاقة عملة";
-            this.barButtonItem72.Id = 76;
-            this.barButtonItem72.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem72.ImageOptions.Image")));
-            this.barButtonItem72.Name = "barButtonItem72";
-            this.barButtonItem72.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // ribbonPageGroup48
-            // 
-            this.ribbonPageGroup48.ItemLinks.Add(this.barButtonItem73);
-            this.ribbonPageGroup48.Name = "ribbonPageGroup48";
-            // 
-            // barButtonItem73
-            // 
-            this.barButtonItem73.Caption = "نشرة أسعار الصرف";
-            this.barButtonItem73.Id = 77;
-            this.barButtonItem73.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem73.ImageOptions.Image")));
-            this.barButtonItem73.Name = "barButtonItem73";
-            this.barButtonItem73.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // ribbonPageGroup49
-            // 
-            this.ribbonPageGroup49.ItemLinks.Add(this.barButtonItem74);
-            this.ribbonPageGroup49.Name = "ribbonPageGroup49";
-            // 
-            // barButtonItem74
-            // 
-            this.barButtonItem74.Caption = "دفتر أستاذ عملة";
-            this.barButtonItem74.Id = 78;
-            this.barButtonItem74.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.Image")));
-            this.barButtonItem74.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem74.ImageOptions.LargeImage")));
-            this.barButtonItem74.Name = "barButtonItem74";
-            // 
-            // ribbonPageGroup50
-            // 
-            this.ribbonPageGroup50.ItemLinks.Add(this.barButtonItem75);
-            this.ribbonPageGroup50.Name = "ribbonPageGroup50";
-            // 
-            // barButtonItem75
-            // 
-            this.barButtonItem75.Caption = "معالجة فروقات أسعار الصرف ";
-            this.barButtonItem75.Id = 79;
-            this.barButtonItem75.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem75.ImageOptions.Image")));
-            this.barButtonItem75.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem75.ImageOptions.LargeImage")));
-            this.barButtonItem75.Name = "barButtonItem75";
-            // 
-            // barButtonItem76
-            // 
-            this.barButtonItem76.Caption = "بطاقة مركز كلفة";
-            this.barButtonItem76.Id = 80;
-            this.barButtonItem76.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem76.ImageOptions.Image")));
-            this.barButtonItem76.Name = "barButtonItem76";
-            this.barButtonItem76.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // ribbonPageGroup51
-            // 
-            this.ribbonPageGroup51.ItemLinks.Add(this.barButtonItem77);
-            this.ribbonPageGroup51.Name = "ribbonPageGroup51";
-            // 
-            // barButtonItem77
-            // 
-            this.barButtonItem77.Caption = "دليل مراكز الكلف";
-            this.barButtonItem77.Id = 81;
-            this.barButtonItem77.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem77.ImageOptions.Image")));
-            this.barButtonItem77.Name = "barButtonItem77";
-            this.barButtonItem77.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // ribbonPageGroup52
-            // 
-            this.ribbonPageGroup52.ItemLinks.Add(this.barButtonItem78);
-            this.ribbonPageGroup52.Name = "ribbonPageGroup52";
-            // 
-            // barButtonItem78
-            // 
-            this.barButtonItem78.Caption = "حركة مركز الكلفة";
-            this.barButtonItem78.Id = 82;
-            this.barButtonItem78.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem78.ImageOptions.Image")));
-            this.barButtonItem78.Name = "barButtonItem78";
-            this.barButtonItem78.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // ribbonPageGroup53
-            // 
-            this.ribbonPageGroup53.ItemLinks.Add(this.barButtonItem79);
-            this.ribbonPageGroup53.Name = "ribbonPageGroup53";
-            // 
-            // barButtonItem79
-            // 
-            this.barButtonItem79.Caption = "ربط مركز الكلفة بالحسابات";
-            this.barButtonItem79.Id = 83;
-            this.barButtonItem79.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem79.ImageOptions.Image")));
-            this.barButtonItem79.Name = "barButtonItem79";
-            this.barButtonItem79.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.backstageViewManager1.BackstageView = this.backstageViewControl1;
             // 
             // Desktop
             // 
@@ -2065,7 +2085,7 @@ namespace Ultra
         private DevExpress.XtraBars.SkinDropDownButtonItem skinDropDownButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemAccountGuide;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
@@ -2098,7 +2118,7 @@ namespace Ultra
         private DevExpress.XtraBars.BarButtonItem barButtonItem22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup23;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup24;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem23;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemStoreGuide;
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
         private DevExpress.XtraBars.BarButtonItem barButtonItem25;
         private DevExpress.XtraBars.BarButtonItem barButtonItem26;
@@ -2202,7 +2222,7 @@ namespace Ultra
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup38;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup39;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup40;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem64;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemBranchesAndUsers;
         private DevExpress.XtraBars.BarButtonItem barButtonItem65;
         private DevExpress.XtraBars.BarButtonItem barButtonItem66;
         private DevExpress.XtraBars.BarButtonItem barButtonItem67;
@@ -2222,7 +2242,7 @@ namespace Ultra
         private DevExpress.XtraBars.BarButtonItem barButtonItem74;
         private DevExpress.XtraBars.BarButtonItem barButtonItem75;
         private DevExpress.XtraBars.BarButtonItem barButtonItem76;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem77;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemCostCenter;
         private DevExpress.XtraBars.BarButtonItem barButtonItem78;
         private DevExpress.XtraBars.BarButtonItem barButtonItem79;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup48;
@@ -2231,6 +2251,8 @@ namespace Ultra
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup51;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup52;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup53;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem80;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup54;
     }
 }
 

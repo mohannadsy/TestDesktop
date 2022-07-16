@@ -7,7 +7,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Ultra.Views;
+using Ultra.Views.Account;
+using Ultra.Views.BranchAndUser;
+using Ultra.Views.CostCenter;
 using Ultra.Views.File;
+using Ultra.Views.Store;
 
 namespace Ultra
 {
@@ -78,14 +83,33 @@ namespace Ultra
 
         }
 
-        private void TestAppViews_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+       
+     
+
+        private void barButtonItem80_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Ultra.Views.TestForm.execute();
+
+            TestForm.execute();
         }
 
-        private void barButtonItem64_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void barButtonItemStoreGuide_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            new StoreForm().Show();
+        }
 
+        private void barButtonItemBranchesAndUsers_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new BranchAndUserForm().Show();
+        }
+
+        private void barButtonItemCostCenter_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new CostCenterForm().Show();
+        }
+
+        private void barButtonItemAccountGuide_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new AccountForm().Show();
         }
     }
 }
