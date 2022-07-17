@@ -79,6 +79,7 @@ namespace Ultra.Views.Account
             this.ChartAccounts.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode2,
             treeNode4});
+            this.ChartAccounts.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ChartAccounts.RightToLeftLayout = true;
             this.ChartAccounts.Size = new System.Drawing.Size(281, 566);
             this.ChartAccounts.TabIndex = 2;
@@ -99,7 +100,7 @@ namespace Ultra.Views.Account
             this.TextSearch.EditValue = "";
             this.TextSearch.Location = new System.Drawing.Point(0, 6);
             this.TextSearch.Name = "TextSearch";
-            this.TextSearch.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextSearch.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F);
             this.TextSearch.Properties.Appearance.Options.UseFont = true;
             this.TextSearch.Properties.AutoHeight = false;
             this.TextSearch.Properties.ContextImageOptions.Alignment = DevExpress.XtraEditors.ContextImageAlignment.Far;
@@ -122,7 +123,7 @@ namespace Ultra.Views.Account
             // 
             // LabelHeaderChart
             // 
-            this.LabelHeaderChart.Appearance.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelHeaderChart.Appearance.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold);
             this.LabelHeaderChart.Appearance.Options.UseFont = true;
             this.LabelHeaderChart.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.LabelHeaderChart.Dock = System.Windows.Forms.DockStyle.Top;
