@@ -17,5 +17,10 @@ namespace Ultra.Views.BranchAndUser
         {
             InitializeComponent();
         }
+
+        private void PanelTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

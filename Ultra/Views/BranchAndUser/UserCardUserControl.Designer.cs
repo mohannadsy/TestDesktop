@@ -121,6 +121,7 @@ namespace Ultra.Views.BranchAndUser
             this.PanelTop.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.PanelTop.Size = new System.Drawing.Size(679, 195);
             this.PanelTop.TabIndex = 2;
+            this.PanelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelTop_Paint);
             // 
             // comboBox1
             // 
