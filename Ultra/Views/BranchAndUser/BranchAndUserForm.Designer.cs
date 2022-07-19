@@ -29,9 +29,9 @@ namespace Ultra.Views.BranchAndUser
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("011 - المدير العام");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("01 - الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("011 - المدير العام");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("01 - الفرع الرئيسي", new System.Windows.Forms.TreeNode[] {
+            treeNode7});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BranchAndUserForm));
             this.PanelSide = new System.Windows.Forms.Panel();
             this.ChartBranchesAndUsers = new System.Windows.Forms.TreeView();
@@ -66,12 +66,12 @@ namespace Ultra.Views.BranchAndUser
             this.ChartBranchesAndUsers.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.ChartBranchesAndUsers.Location = new System.Drawing.Point(0, 105);
             this.ChartBranchesAndUsers.Name = "ChartBranchesAndUsers";
-            treeNode1.Name = "NodeUser";
-            treeNode1.Text = "011 - المدير العام";
-            treeNode2.Name = "NodeBranch";
-            treeNode2.Text = "01 - الفرع الرئيسي";
+            treeNode7.Name = "NodeUser";
+            treeNode7.Text = "011 - المدير العام";
+            treeNode8.Name = "NodeBranch";
+            treeNode8.Text = "01 - الفرع الرئيسي";
             this.ChartBranchesAndUsers.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2});
+            treeNode8});
             this.ChartBranchesAndUsers.RightToLeftLayout = true;
             this.ChartBranchesAndUsers.Size = new System.Drawing.Size(281, 566);
             this.ChartBranchesAndUsers.TabIndex = 2;
@@ -154,6 +154,8 @@ namespace Ultra.Views.BranchAndUser
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(964, 705);
+            this.MinimumSize = new System.Drawing.Size(964, 705);
             this.Name = "BranchAndUserForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

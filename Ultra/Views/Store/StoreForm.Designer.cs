@@ -143,6 +143,8 @@ namespace Ultra.Views.Store
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelSide);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(964, 705);
+            this.MinimumSize = new System.Drawing.Size(964, 705);
             this.Name = "StoreForm";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
