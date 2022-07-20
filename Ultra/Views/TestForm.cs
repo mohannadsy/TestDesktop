@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ultra.Views.Account;
+using Ultra.Views.Bond;
 using Ultra.Views.BranchAndUser;
 using Ultra.Views.CostCenter;
 using Ultra.Views.Currency;
@@ -20,6 +21,7 @@ namespace Ultra.Views
             new CostCenterForm().Show();
             new StoreForm().Show();
             new CurrencyForm().Show();
+            new BondForm().Show();
         }
     }
 }

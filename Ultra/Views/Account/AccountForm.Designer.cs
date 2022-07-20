@@ -81,6 +81,7 @@ namespace Ultra.Views.Account
             treeNode4});
             this.ChartAccounts.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ChartAccounts.RightToLeftLayout = true;
+            this.ChartAccounts.ShowNodeToolTips = true;
             this.ChartAccounts.Size = new System.Drawing.Size(281, 566);
             this.ChartAccounts.TabIndex = 2;
             this.ChartAccounts.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ChartBranchesAndUsers_AfterSelect);
