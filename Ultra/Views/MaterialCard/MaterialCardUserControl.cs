@@ -47,5 +47,10 @@ namespace Ultra.Views.MaterialCard
         {
             new MaterialBoundsForm().Show();
         }
+
+        private void toggleSwitchInheritMaterial_Toggled(object sender, EventArgs e)
+        {
+            new InheritedMatrialForm().Show();
+        }
     }
 }

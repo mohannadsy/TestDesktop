@@ -30,16 +30,6 @@ namespace Ultra.Views.MaterialCard
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MaterialCardUserControl));
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.labelControl44 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit34 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl43 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit33 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl40 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl41 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit31 = new DevExpress.XtraEditors.TextEdit();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.checkEdit12 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit14 = new DevExpress.XtraEditors.CheckEdit();
@@ -52,66 +42,17 @@ namespace Ultra.Views.MaterialCard
             this.checkEdit6 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.labelControl42 = new DevExpress.XtraEditors.LabelControl();
             this.ButtonFirstUnitBarcode = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ButtonSecondUnitBarcode = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
-            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
-            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            this.textEdit43 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit42 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl55 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl54 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.labelControl53 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl52 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit41 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl51 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit40 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit32 = new DevExpress.XtraEditors.TextEdit();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
-            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
-            this.textEdit35 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit36 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl45 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl46 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.labelControl47 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl48 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit37 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl49 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit38 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl56 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit39 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl57 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit44 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl58 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl59 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit45 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit46 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl60 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit47 = new DevExpress.XtraEditors.TextEdit();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -213,7 +154,7 @@ namespace Ultra.Views.MaterialCard
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.toggleSwitchInheritMaterial = new DevExpress.XtraEditors.ToggleSwitch();
             this.PanelTop = new System.Windows.Forms.Panel();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.labelControl50 = new DevExpress.XtraEditors.LabelControl();
@@ -222,14 +163,61 @@ namespace Ultra.Views.MaterialCard
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.PanelBottom = new System.Windows.Forms.Panel();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.ButtonDelete = new System.Windows.Forms.Button();
             this.ButtonUpdate = new System.Windows.Forms.Button();
             this.ButtonNew = new System.Windows.Forms.Button();
             this.ButtonSave = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).BeginInit();
+            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textEdit47 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl60 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit46 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit45 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl59 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl58 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit44 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl57 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit39 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl56 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textEdit32 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl42 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit31 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl41 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl40 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit33 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl43 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit34 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl44 = new DevExpress.XtraEditors.LabelControl();
+            this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
+            this.textEdit35 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit36 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl45 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl46 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.labelControl47 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl48 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit37 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl49 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit38 = new DevExpress.XtraEditors.TextEdit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit14.Properties)).BeginInit();
@@ -241,35 +229,9 @@ namespace Ultra.Views.MaterialCard
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
-            this.splitContainerControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit43.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit42.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit41.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit40.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit35.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit36.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit37.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit38.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit39.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit44.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit45.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit46.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit47.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
@@ -315,106 +277,38 @@ namespace Ultra.Views.MaterialCard
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitchInheritMaterial.Properties)).BeginInit();
             this.PanelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             this.PanelBottom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
+            this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit47.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit46.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit45.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit44.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit39.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit35.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit36.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit37.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit38.Properties)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "قيمة";
-            this.Column8.Name = "Column8";
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "ربح %";
-            this.Column10.Name = "Column10";
-            // 
-            // labelControl44
-            // 
-            this.labelControl44.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl44.Appearance.Options.UseFont = true;
-            this.labelControl44.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl44.Location = new System.Drawing.Point(160, 234);
-            this.labelControl44.Name = "labelControl44";
-            this.labelControl44.Size = new System.Drawing.Size(45, 30);
-            this.labelControl44.TabIndex = 23;
-            this.labelControl44.Text = "أعلى سعر";
-            // 
-            // textEdit34
-            // 
-            this.textEdit34.Location = new System.Drawing.Point(10, 239);
-            this.textEdit34.Name = "textEdit34";
-            this.textEdit34.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit34.Properties.Appearance.Options.UseFont = true;
-            this.textEdit34.Properties.AutoHeight = false;
-            this.textEdit34.Size = new System.Drawing.Size(132, 20);
-            this.textEdit34.TabIndex = 24;
-            // 
-            // labelControl43
-            // 
-            this.labelControl43.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl43.Appearance.Options.UseFont = true;
-            this.labelControl43.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl43.Location = new System.Drawing.Point(160, 206);
-            this.labelControl43.Name = "labelControl43";
-            this.labelControl43.Size = new System.Drawing.Size(45, 30);
-            this.labelControl43.TabIndex = 21;
-            this.labelControl43.Text = "أدنى سعر";
-            // 
-            // textEdit33
-            // 
-            this.textEdit33.Location = new System.Drawing.Point(10, 211);
-            this.textEdit33.Name = "textEdit33";
-            this.textEdit33.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit33.Properties.Appearance.Options.UseFont = true;
-            this.textEdit33.Properties.AutoHeight = false;
-            this.textEdit33.Size = new System.Drawing.Size(132, 20);
-            this.textEdit33.TabIndex = 22;
-            // 
-            // labelControl40
-            // 
-            this.labelControl40.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl40.Appearance.Options.UseFont = true;
-            this.labelControl40.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl40.Location = new System.Drawing.Point(402, 259);
-            this.labelControl40.Name = "labelControl40";
-            this.labelControl40.Size = new System.Drawing.Size(54, 30);
-            this.labelControl40.TabIndex = 15;
-            this.labelControl40.Text = "شراء أعظمي";
-            // 
-            // labelControl41
-            // 
-            this.labelControl41.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl41.Appearance.Options.UseFont = true;
-            this.labelControl41.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl41.Location = new System.Drawing.Point(411, 204);
-            this.labelControl41.Name = "labelControl41";
-            this.labelControl41.Size = new System.Drawing.Size(45, 30);
-            this.labelControl41.TabIndex = 16;
-            this.labelControl41.Text = "آخر شراء";
-            // 
-            // textEdit30
-            // 
-            this.textEdit30.Location = new System.Drawing.Point(217, 269);
-            this.textEdit30.Name = "textEdit30";
-            this.textEdit30.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit30.Properties.Appearance.Options.UseFont = true;
-            this.textEdit30.Properties.AutoHeight = false;
-            this.textEdit30.Size = new System.Drawing.Size(170, 20);
-            this.textEdit30.TabIndex = 18;
-            // 
-            // textEdit31
-            // 
-            this.textEdit31.Location = new System.Drawing.Point(217, 211);
-            this.textEdit31.Name = "textEdit31";
-            this.textEdit31.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit31.Properties.Appearance.Options.UseFont = true;
-            this.textEdit31.Properties.AutoHeight = false;
-            this.textEdit31.Size = new System.Drawing.Size(170, 20);
-            this.textEdit31.TabIndex = 19;
             // 
             // tabPage3
             // 
@@ -549,28 +443,12 @@ namespace Ultra.Views.MaterialCard
             this.labelControl35.TabIndex = 28;
             this.labelControl35.Text = "نوع المادة";
             // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "ربح";
-            this.Column9.Name = "Column9";
-            // 
-            // labelControl42
-            // 
-            this.labelControl42.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl42.Appearance.Options.UseFont = true;
-            this.labelControl42.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl42.Location = new System.Drawing.Point(402, 229);
-            this.labelControl42.Name = "labelControl42";
-            this.labelControl42.Size = new System.Drawing.Size(54, 30);
-            this.labelControl42.TabIndex = 17;
-            this.labelControl42.Text = "شراء وسطي";
-            // 
             // ButtonFirstUnitBarcode
             // 
             this.ButtonFirstUnitBarcode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonFirstUnitBarcode.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonFirstUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton2.ImageOptions.SvgImage")));
-            this.ButtonFirstUnitBarcode.Location = new System.Drawing.Point(82, 56);
+            this.ButtonFirstUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ButtonFirstUnitBarcode.ImageOptions.SvgImage")));
+            this.ButtonFirstUnitBarcode.Location = new System.Drawing.Point(157, 56);
             this.ButtonFirstUnitBarcode.Name = "ButtonFirstUnitBarcode";
             this.ButtonFirstUnitBarcode.Size = new System.Drawing.Size(48, 29);
             this.ButtonFirstUnitBarcode.TabIndex = 43;
@@ -581,7 +459,7 @@ namespace Ultra.Views.MaterialCard
             this.labelControl17.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl17.Location = new System.Drawing.Point(312, 19);
+            this.labelControl17.Location = new System.Drawing.Point(394, 19);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(42, 30);
             this.labelControl17.TabIndex = 16;
@@ -592,22 +470,17 @@ namespace Ultra.Views.MaterialCard
             this.labelControl25.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl25.Appearance.Options.UseFont = true;
             this.labelControl25.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl25.Location = new System.Drawing.Point(299, 56);
+            this.labelControl25.Location = new System.Drawing.Point(381, 56);
             this.labelControl25.Name = "labelControl25";
             this.labelControl25.Size = new System.Drawing.Size(75, 30);
             this.labelControl25.TabIndex = 33;
             this.labelControl25.Text = "رمز الباركود";
             // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "";
-            this.Column7.Name = "Column7";
-            // 
             // ButtonSecondUnitBarcode
             // 
             this.ButtonSecondUnitBarcode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonSecondUnitBarcode.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonSecondUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.ButtonSecondUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ButtonSecondUnitBarcode.ImageOptions.SvgImage")));
             this.ButtonSecondUnitBarcode.Location = new System.Drawing.Point(158, 55);
             this.ButtonSecondUnitBarcode.Name = "ButtonSecondUnitBarcode";
             this.ButtonSecondUnitBarcode.Size = new System.Drawing.Size(48, 29);
@@ -616,7 +489,7 @@ namespace Ultra.Views.MaterialCard
             // 
             // textEdit21
             // 
-            this.textEdit21.Location = new System.Drawing.Point(136, 56);
+            this.textEdit21.Location = new System.Drawing.Point(218, 56);
             this.textEdit21.Name = "textEdit21";
             this.textEdit21.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit21.Properties.Appearance.Options.UseFont = true;
@@ -634,509 +507,6 @@ namespace Ultra.Views.MaterialCard
             this.labelControl26.Size = new System.Drawing.Size(49, 30);
             this.labelControl26.TabIndex = 44;
             this.labelControl26.Text = "رمز الباركود";
-            // 
-            // splitContainerControl1
-            // 
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 23);
-            this.splitContainerControl1.Name = "splitContainerControl1";
-            this.splitContainerControl1.Panel1.Controls.Add(this.pictureEdit2);
-            this.splitContainerControl1.Panel1.Controls.Add(this.pictureEdit1);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit43);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit42);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl55);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl54);
-            this.splitContainerControl1.Panel1.Controls.Add(this.comboBox8);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl53);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl52);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit41);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl51);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit40);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl44);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit34);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl43);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit33);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl40);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl41);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit30);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit31);
-            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl42);
-            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit32);
-            this.splitContainerControl1.Panel1.Controls.Add(this.dataGridView5);
-            this.splitContainerControl1.Panel1.Controls.Add(this.comboBoxEdit1);
-            this.splitContainerControl1.Panel1.Text = "Panel1";
-            this.splitContainerControl1.Panel2.Controls.Add(this.pictureEdit3);
-            this.splitContainerControl1.Panel2.Controls.Add(this.pictureEdit4);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit35);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit36);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl45);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl46);
-            this.splitContainerControl1.Panel2.Controls.Add(this.comboBox10);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl47);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl48);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit37);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl49);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit38);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl56);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit39);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl57);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit44);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl58);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl59);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit45);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit46);
-            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl60);
-            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit47);
-            this.splitContainerControl1.Panel2.Controls.Add(this.dataGridView6);
-            this.splitContainerControl1.Panel2.Controls.Add(this.comboBoxEdit2);
-            this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(954, 402);
-            this.splitContainerControl1.SplitterPosition = 472;
-            this.splitContainerControl1.TabIndex = 0;
-            // 
-            // pictureEdit2
-            // 
-            this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
-            this.pictureEdit2.Location = new System.Drawing.Point(10, 299);
-            this.pictureEdit2.Name = "pictureEdit2";
-            this.pictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit2.Size = new System.Drawing.Size(24, 20);
-            this.pictureEdit2.TabIndex = 36;
-            // 
-            // pictureEdit1
-            // 
-            this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
-            this.pictureEdit1.Location = new System.Drawing.Point(10, 269);
-            this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit1.Size = new System.Drawing.Size(24, 20);
-            this.pictureEdit1.TabIndex = 35;
-            // 
-            // textEdit43
-            // 
-            this.textEdit43.Location = new System.Drawing.Point(40, 299);
-            this.textEdit43.Name = "textEdit43";
-            this.textEdit43.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit43.Properties.Appearance.Options.UseFont = true;
-            this.textEdit43.Properties.AutoHeight = false;
-            this.textEdit43.Size = new System.Drawing.Size(53, 20);
-            this.textEdit43.TabIndex = 34;
-            // 
-            // textEdit42
-            // 
-            this.textEdit42.Location = new System.Drawing.Point(40, 269);
-            this.textEdit42.Name = "textEdit42";
-            this.textEdit42.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit42.Properties.Appearance.Options.UseFont = true;
-            this.textEdit42.Properties.AutoHeight = false;
-            this.textEdit42.Size = new System.Drawing.Size(53, 20);
-            this.textEdit42.TabIndex = 33;
-            // 
-            // labelControl55
-            // 
-            this.labelControl55.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl55.Appearance.Options.UseFont = true;
-            this.labelControl55.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl55.Location = new System.Drawing.Point(99, 292);
-            this.labelControl55.Name = "labelControl55";
-            this.labelControl55.Size = new System.Drawing.Size(106, 30);
-            this.labelControl55.TabIndex = 32;
-            this.labelControl55.Text = "ضريبة القيمة المضافة";
-            // 
-            // labelControl54
-            // 
-            this.labelControl54.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl54.Appearance.Options.UseFont = true;
-            this.labelControl54.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl54.Location = new System.Drawing.Point(99, 262);
-            this.labelControl54.Name = "labelControl54";
-            this.labelControl54.Size = new System.Drawing.Size(106, 30);
-            this.labelControl54.TabIndex = 31;
-            this.labelControl54.Text = "حسم تلقائي عند المبيع";
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "قيمة",
-            "نسبة ربح حسب آخر شراء",
-            "نسبة ربح حسب سعر شراء وسطي",
-            "نسبة ربح حسب سعر شراء أعظمي"});
-            this.comboBox8.Location = new System.Drawing.Point(217, 356);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(170, 21);
-            this.comboBox8.TabIndex = 30;
-            // 
-            // labelControl53
-            // 
-            this.labelControl53.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl53.Appearance.Options.UseFont = true;
-            this.labelControl53.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl53.Location = new System.Drawing.Point(393, 350);
-            this.labelControl53.Name = "labelControl53";
-            this.labelControl53.Size = new System.Drawing.Size(63, 30);
-            this.labelControl53.TabIndex = 29;
-            this.labelControl53.Text = "طريقة التسعير";
-            // 
-            // labelControl52
-            // 
-            this.labelControl52.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl52.Appearance.Options.UseFont = true;
-            this.labelControl52.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl52.Location = new System.Drawing.Point(402, 322);
-            this.labelControl52.Name = "labelControl52";
-            this.labelControl52.Size = new System.Drawing.Size(54, 30);
-            this.labelControl52.TabIndex = 27;
-            this.labelControl52.Text = "تعادل";
-            // 
-            // textEdit41
-            // 
-            this.textEdit41.Location = new System.Drawing.Point(217, 329);
-            this.textEdit41.Name = "textEdit41";
-            this.textEdit41.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit41.Properties.Appearance.Options.UseFont = true;
-            this.textEdit41.Properties.AutoHeight = false;
-            this.textEdit41.Size = new System.Drawing.Size(170, 20);
-            this.textEdit41.TabIndex = 28;
-            // 
-            // labelControl51
-            // 
-            this.labelControl51.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl51.Appearance.Options.UseFont = true;
-            this.labelControl51.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl51.Location = new System.Drawing.Point(402, 292);
-            this.labelControl51.Name = "labelControl51";
-            this.labelControl51.Size = new System.Drawing.Size(54, 30);
-            this.labelControl51.TabIndex = 25;
-            this.labelControl51.Text = "العملة";
-            // 
-            // textEdit40
-            // 
-            this.textEdit40.Location = new System.Drawing.Point(217, 299);
-            this.textEdit40.Name = "textEdit40";
-            this.textEdit40.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit40.Properties.Appearance.Options.UseFont = true;
-            this.textEdit40.Properties.AutoHeight = false;
-            this.textEdit40.Size = new System.Drawing.Size(170, 20);
-            this.textEdit40.TabIndex = 26;
-            // 
-            // textEdit32
-            // 
-            this.textEdit32.Location = new System.Drawing.Point(217, 239);
-            this.textEdit32.Name = "textEdit32";
-            this.textEdit32.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit32.Properties.Appearance.Options.UseFont = true;
-            this.textEdit32.Properties.AutoHeight = false;
-            this.textEdit32.Size = new System.Drawing.Size(170, 20);
-            this.textEdit32.TabIndex = 20;
-            // 
-            // dataGridView5
-            // 
-            this.dataGridView5.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column7,
-            this.Column8,
-            this.Column9,
-            this.Column10});
-            this.dataGridView5.Location = new System.Drawing.Point(10, 34);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(451, 165);
-            this.dataGridView5.TabIndex = 1;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.EditValue = "اختر الوحدة";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(136, 7);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
-            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(236, 22);
-            this.comboBoxEdit1.TabIndex = 0;
-            // 
-            // pictureEdit3
-            // 
-            this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
-            this.pictureEdit3.Location = new System.Drawing.Point(11, 299);
-            this.pictureEdit3.Name = "pictureEdit3";
-            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit3.Size = new System.Drawing.Size(24, 20);
-            this.pictureEdit3.TabIndex = 60;
-            // 
-            // pictureEdit4
-            // 
-            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
-            this.pictureEdit4.Location = new System.Drawing.Point(11, 269);
-            this.pictureEdit4.Name = "pictureEdit4";
-            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit4.Size = new System.Drawing.Size(24, 20);
-            this.pictureEdit4.TabIndex = 59;
-            // 
-            // textEdit35
-            // 
-            this.textEdit35.Location = new System.Drawing.Point(41, 299);
-            this.textEdit35.Name = "textEdit35";
-            this.textEdit35.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit35.Properties.Appearance.Options.UseFont = true;
-            this.textEdit35.Properties.AutoHeight = false;
-            this.textEdit35.Size = new System.Drawing.Size(53, 20);
-            this.textEdit35.TabIndex = 58;
-            // 
-            // textEdit36
-            // 
-            this.textEdit36.Location = new System.Drawing.Point(41, 269);
-            this.textEdit36.Name = "textEdit36";
-            this.textEdit36.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit36.Properties.Appearance.Options.UseFont = true;
-            this.textEdit36.Properties.AutoHeight = false;
-            this.textEdit36.Size = new System.Drawing.Size(53, 20);
-            this.textEdit36.TabIndex = 57;
-            // 
-            // labelControl45
-            // 
-            this.labelControl45.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl45.Appearance.Options.UseFont = true;
-            this.labelControl45.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl45.Location = new System.Drawing.Point(100, 292);
-            this.labelControl45.Name = "labelControl45";
-            this.labelControl45.Size = new System.Drawing.Size(106, 30);
-            this.labelControl45.TabIndex = 56;
-            this.labelControl45.Text = "ضريبة القيمة المضافة";
-            // 
-            // labelControl46
-            // 
-            this.labelControl46.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl46.Appearance.Options.UseFont = true;
-            this.labelControl46.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl46.Location = new System.Drawing.Point(100, 262);
-            this.labelControl46.Name = "labelControl46";
-            this.labelControl46.Size = new System.Drawing.Size(106, 30);
-            this.labelControl46.TabIndex = 55;
-            this.labelControl46.Text = "حسم تلقائي عند المبيع";
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "قيمة",
-            "نسبة ربح حسب آخر شراء",
-            "نسبة ربح حسب سعر شراء وسطي",
-            "نسبة ربح حسب سعر شراء أعظمي"});
-            this.comboBox10.Location = new System.Drawing.Point(218, 356);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(170, 21);
-            this.comboBox10.TabIndex = 54;
-            // 
-            // labelControl47
-            // 
-            this.labelControl47.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl47.Appearance.Options.UseFont = true;
-            this.labelControl47.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl47.Location = new System.Drawing.Point(394, 350);
-            this.labelControl47.Name = "labelControl47";
-            this.labelControl47.Size = new System.Drawing.Size(63, 30);
-            this.labelControl47.TabIndex = 53;
-            this.labelControl47.Text = "طريقة التسعير";
-            // 
-            // labelControl48
-            // 
-            this.labelControl48.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl48.Appearance.Options.UseFont = true;
-            this.labelControl48.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl48.Location = new System.Drawing.Point(403, 322);
-            this.labelControl48.Name = "labelControl48";
-            this.labelControl48.Size = new System.Drawing.Size(54, 30);
-            this.labelControl48.TabIndex = 51;
-            this.labelControl48.Text = "تعادل";
-            // 
-            // textEdit37
-            // 
-            this.textEdit37.Location = new System.Drawing.Point(218, 329);
-            this.textEdit37.Name = "textEdit37";
-            this.textEdit37.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit37.Properties.Appearance.Options.UseFont = true;
-            this.textEdit37.Properties.AutoHeight = false;
-            this.textEdit37.Size = new System.Drawing.Size(170, 20);
-            this.textEdit37.TabIndex = 52;
-            // 
-            // labelControl49
-            // 
-            this.labelControl49.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl49.Appearance.Options.UseFont = true;
-            this.labelControl49.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl49.Location = new System.Drawing.Point(403, 292);
-            this.labelControl49.Name = "labelControl49";
-            this.labelControl49.Size = new System.Drawing.Size(54, 30);
-            this.labelControl49.TabIndex = 49;
-            this.labelControl49.Text = "العملة";
-            // 
-            // textEdit38
-            // 
-            this.textEdit38.Location = new System.Drawing.Point(218, 299);
-            this.textEdit38.Name = "textEdit38";
-            this.textEdit38.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit38.Properties.Appearance.Options.UseFont = true;
-            this.textEdit38.Properties.AutoHeight = false;
-            this.textEdit38.Size = new System.Drawing.Size(170, 20);
-            this.textEdit38.TabIndex = 50;
-            // 
-            // labelControl56
-            // 
-            this.labelControl56.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl56.Appearance.Options.UseFont = true;
-            this.labelControl56.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl56.Location = new System.Drawing.Point(161, 234);
-            this.labelControl56.Name = "labelControl56";
-            this.labelControl56.Size = new System.Drawing.Size(45, 30);
-            this.labelControl56.TabIndex = 47;
-            this.labelControl56.Text = "أعلى سعر";
-            // 
-            // textEdit39
-            // 
-            this.textEdit39.Location = new System.Drawing.Point(11, 239);
-            this.textEdit39.Name = "textEdit39";
-            this.textEdit39.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit39.Properties.Appearance.Options.UseFont = true;
-            this.textEdit39.Properties.AutoHeight = false;
-            this.textEdit39.Size = new System.Drawing.Size(132, 20);
-            this.textEdit39.TabIndex = 48;
-            // 
-            // labelControl57
-            // 
-            this.labelControl57.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl57.Appearance.Options.UseFont = true;
-            this.labelControl57.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl57.Location = new System.Drawing.Point(161, 206);
-            this.labelControl57.Name = "labelControl57";
-            this.labelControl57.Size = new System.Drawing.Size(45, 30);
-            this.labelControl57.TabIndex = 45;
-            this.labelControl57.Text = "أدنى سعر";
-            // 
-            // textEdit44
-            // 
-            this.textEdit44.Location = new System.Drawing.Point(11, 211);
-            this.textEdit44.Name = "textEdit44";
-            this.textEdit44.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit44.Properties.Appearance.Options.UseFont = true;
-            this.textEdit44.Properties.AutoHeight = false;
-            this.textEdit44.Size = new System.Drawing.Size(132, 20);
-            this.textEdit44.TabIndex = 46;
-            // 
-            // labelControl58
-            // 
-            this.labelControl58.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl58.Appearance.Options.UseFont = true;
-            this.labelControl58.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl58.Location = new System.Drawing.Point(403, 259);
-            this.labelControl58.Name = "labelControl58";
-            this.labelControl58.Size = new System.Drawing.Size(54, 30);
-            this.labelControl58.TabIndex = 39;
-            this.labelControl58.Text = "شراء أعظمي";
-            // 
-            // labelControl59
-            // 
-            this.labelControl59.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl59.Appearance.Options.UseFont = true;
-            this.labelControl59.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl59.Location = new System.Drawing.Point(412, 204);
-            this.labelControl59.Name = "labelControl59";
-            this.labelControl59.Size = new System.Drawing.Size(45, 30);
-            this.labelControl59.TabIndex = 40;
-            this.labelControl59.Text = "آخر شراء";
-            // 
-            // textEdit45
-            // 
-            this.textEdit45.Location = new System.Drawing.Point(218, 269);
-            this.textEdit45.Name = "textEdit45";
-            this.textEdit45.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit45.Properties.Appearance.Options.UseFont = true;
-            this.textEdit45.Properties.AutoHeight = false;
-            this.textEdit45.Size = new System.Drawing.Size(170, 20);
-            this.textEdit45.TabIndex = 42;
-            // 
-            // textEdit46
-            // 
-            this.textEdit46.Location = new System.Drawing.Point(218, 211);
-            this.textEdit46.Name = "textEdit46";
-            this.textEdit46.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit46.Properties.Appearance.Options.UseFont = true;
-            this.textEdit46.Properties.AutoHeight = false;
-            this.textEdit46.Size = new System.Drawing.Size(170, 20);
-            this.textEdit46.TabIndex = 43;
-            // 
-            // labelControl60
-            // 
-            this.labelControl60.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl60.Appearance.Options.UseFont = true;
-            this.labelControl60.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl60.Location = new System.Drawing.Point(403, 229);
-            this.labelControl60.Name = "labelControl60";
-            this.labelControl60.Size = new System.Drawing.Size(54, 30);
-            this.labelControl60.TabIndex = 41;
-            this.labelControl60.Text = "شراء وسطي";
-            // 
-            // textEdit47
-            // 
-            this.textEdit47.Location = new System.Drawing.Point(218, 239);
-            this.textEdit47.Name = "textEdit47";
-            this.textEdit47.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit47.Properties.Appearance.Options.UseFont = true;
-            this.textEdit47.Properties.AutoHeight = false;
-            this.textEdit47.Size = new System.Drawing.Size(170, 20);
-            this.textEdit47.TabIndex = 44;
-            // 
-            // dataGridView6
-            // 
-            this.dataGridView6.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12});
-            this.dataGridView6.Location = new System.Drawing.Point(11, 34);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridView6.Size = new System.Drawing.Size(451, 165);
-            this.dataGridView6.TabIndex = 38;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "قيمة";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "ربح";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "ربح %";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.EditValue = "اختر الوحدة";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(137, 7);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
-            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(236, 22);
-            this.comboBoxEdit2.TabIndex = 37;
             // 
             // textEdit22
             // 
@@ -1186,28 +556,6 @@ namespace Ultra.Views.MaterialCard
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(154, 23);
             this.comboBox2.TabIndex = 39;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.checkEdit5);
-            this.tabPage2.Controls.Add(this.splitContainerControl1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(956, 428);
-            this.tabPage2.TabIndex = 8;
-            this.tabPage2.Text = "أسعار";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // checkEdit5
-            // 
-            this.checkEdit5.Location = new System.Drawing.Point(758, 6);
-            this.checkEdit5.Name = "checkEdit5";
-            this.checkEdit5.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
-            this.checkEdit5.Properties.Appearance.Options.UseFont = true;
-            this.checkEdit5.Properties.Caption = "حساب تلقائي للأسعار";
-            this.checkEdit5.Size = new System.Drawing.Size(185, 20);
-            this.checkEdit5.TabIndex = 1;
             // 
             // Column6
             // 
@@ -1395,7 +743,7 @@ namespace Ultra.Views.MaterialCard
             this.labelControl38.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl38.Appearance.Options.UseFont = true;
             this.labelControl38.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl38.Location = new System.Drawing.Point(856, 304);
+            this.labelControl38.Location = new System.Drawing.Point(836, 313);
             this.labelControl38.Name = "labelControl38";
             this.labelControl38.Size = new System.Drawing.Size(101, 30);
             this.labelControl38.TabIndex = 32;
@@ -1403,7 +751,7 @@ namespace Ultra.Views.MaterialCard
             // 
             // textEdit28
             // 
-            this.textEdit28.Location = new System.Drawing.Point(627, 309);
+            this.textEdit28.Location = new System.Drawing.Point(607, 318);
             this.textEdit28.Name = "textEdit28";
             this.textEdit28.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit28.Properties.Appearance.Options.UseFont = true;
@@ -1416,7 +764,7 @@ namespace Ultra.Views.MaterialCard
             this.labelControl39.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl39.Appearance.Options.UseFont = true;
             this.labelControl39.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl39.Location = new System.Drawing.Point(780, 349);
+            this.labelControl39.Location = new System.Drawing.Point(836, 353);
             this.labelControl39.Name = "labelControl39";
             this.labelControl39.Size = new System.Drawing.Size(101, 30);
             this.labelControl39.TabIndex = 33;
@@ -1424,7 +772,7 @@ namespace Ultra.Views.MaterialCard
             // 
             // textEdit29
             // 
-            this.textEdit29.Location = new System.Drawing.Point(551, 354);
+            this.textEdit29.Location = new System.Drawing.Point(607, 358);
             this.textEdit29.Name = "textEdit29";
             this.textEdit29.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit29.Properties.Appearance.Options.UseFont = true;
@@ -1471,12 +819,12 @@ namespace Ultra.Views.MaterialCard
             // 
             // textEdit13
             // 
-            this.textEdit13.Location = new System.Drawing.Point(84, 23);
+            this.textEdit13.Location = new System.Drawing.Point(157, 23);
             this.textEdit13.Name = "textEdit13";
             this.textEdit13.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit13.Properties.Appearance.Options.UseFont = true;
             this.textEdit13.Properties.AutoHeight = false;
-            this.textEdit13.Size = new System.Drawing.Size(213, 25);
+            this.textEdit13.Size = new System.Drawing.Size(222, 25);
             this.textEdit13.TabIndex = 19;
             // 
             // labelControl18
@@ -1497,9 +845,9 @@ namespace Ultra.Views.MaterialCard
             this.groupBox1.Controls.Add(this.labelControl17);
             this.groupBox1.Controls.Add(this.labelControl25);
             this.groupBox1.Controls.Add(this.textEdit21);
-            this.groupBox1.Location = new System.Drawing.Point(260, 8);
+            this.groupBox1.Location = new System.Drawing.Point(486, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(421, 102);
+            this.groupBox1.Size = new System.Drawing.Size(460, 132);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "الوحدة الأولى";
@@ -1809,7 +1157,7 @@ namespace Ultra.Views.MaterialCard
             this.ButtonMaterialBounds.Appearance.Options.UseFont = true;
             this.ButtonMaterialBounds.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonMaterialBounds.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonMaterialBounds.Location = new System.Drawing.Point(268, 392);
+            this.ButtonMaterialBounds.Location = new System.Drawing.Point(26, 336);
             this.ButtonMaterialBounds.Name = "ButtonMaterialBounds";
             this.ButtonMaterialBounds.Size = new System.Drawing.Size(122, 29);
             this.ButtonMaterialBounds.TabIndex = 50;
@@ -1821,7 +1169,7 @@ namespace Ultra.Views.MaterialCard
             this.labelControl34.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl34.Appearance.Options.UseFont = true;
             this.labelControl34.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl34.Location = new System.Drawing.Point(620, 390);
+            this.labelControl34.Location = new System.Drawing.Point(378, 334);
             this.labelControl34.Name = "labelControl34";
             this.labelControl34.Size = new System.Drawing.Size(80, 30);
             this.labelControl34.TabIndex = 49;
@@ -1829,7 +1177,7 @@ namespace Ultra.Views.MaterialCard
             // 
             // textEdit26
             // 
-            this.textEdit26.Location = new System.Drawing.Point(403, 392);
+            this.textEdit26.Location = new System.Drawing.Point(161, 336);
             this.textEdit26.Name = "textEdit26";
             this.textEdit26.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit26.Properties.Appearance.Options.UseFont = true;
@@ -1849,7 +1197,7 @@ namespace Ultra.Views.MaterialCard
             this.groupBox5.Controls.Add(this.labelControl32);
             this.groupBox5.Controls.Add(this.labelControl33);
             this.groupBox5.Controls.Add(this.textEdit25);
-            this.groupBox5.Location = new System.Drawing.Point(6, 254);
+            this.groupBox5.Location = new System.Drawing.Point(6, 146);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(464, 132);
             this.groupBox5.TabIndex = 44;
@@ -1860,7 +1208,7 @@ namespace Ultra.Views.MaterialCard
             // 
             this.ButtonFifthUnitBarcode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonFifthUnitBarcode.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonFifthUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton5.ImageOptions.SvgImage")));
+            this.ButtonFifthUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ButtonFifthUnitBarcode.ImageOptions.SvgImage")));
             this.ButtonFifthUnitBarcode.Location = new System.Drawing.Point(158, 57);
             this.ButtonFifthUnitBarcode.Name = "ButtonFifthUnitBarcode";
             this.ButtonFifthUnitBarcode.Size = new System.Drawing.Size(48, 29);
@@ -1971,7 +1319,7 @@ namespace Ultra.Views.MaterialCard
             this.groupBox4.Controls.Add(this.labelControl28);
             this.groupBox4.Controls.Add(this.labelControl29);
             this.groupBox4.Controls.Add(this.textEdit20);
-            this.groupBox4.Location = new System.Drawing.Point(482, 254);
+            this.groupBox4.Location = new System.Drawing.Point(6, 8);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(464, 132);
             this.groupBox4.TabIndex = 43;
@@ -1982,7 +1330,7 @@ namespace Ultra.Views.MaterialCard
             // 
             this.ButtonFourthUnitBarcode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonFourthUnitBarcode.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonFourthUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton4.ImageOptions.SvgImage")));
+            this.ButtonFourthUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ButtonFourthUnitBarcode.ImageOptions.SvgImage")));
             this.ButtonFourthUnitBarcode.Location = new System.Drawing.Point(158, 57);
             this.ButtonFourthUnitBarcode.Name = "ButtonFourthUnitBarcode";
             this.ButtonFourthUnitBarcode.Size = new System.Drawing.Size(48, 29);
@@ -2093,7 +1441,7 @@ namespace Ultra.Views.MaterialCard
             this.groupBox3.Controls.Add(this.labelControl21);
             this.groupBox3.Controls.Add(this.labelControl22);
             this.groupBox3.Controls.Add(this.textEdit17);
-            this.groupBox3.Location = new System.Drawing.Point(8, 116);
+            this.groupBox3.Location = new System.Drawing.Point(486, 285);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(464, 132);
             this.groupBox3.TabIndex = 42;
@@ -2104,7 +1452,7 @@ namespace Ultra.Views.MaterialCard
             // 
             this.ButtonThirdUnitBarcode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ButtonThirdUnitBarcode.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.ButtonThirdUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton3.ImageOptions.SvgImage")));
+            this.ButtonThirdUnitBarcode.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ButtonThirdUnitBarcode.ImageOptions.SvgImage")));
             this.ButtonThirdUnitBarcode.Location = new System.Drawing.Point(158, 57);
             this.ButtonThirdUnitBarcode.Name = "ButtonThirdUnitBarcode";
             this.ButtonThirdUnitBarcode.Size = new System.Drawing.Size(48, 29);
@@ -2215,7 +1563,7 @@ namespace Ultra.Views.MaterialCard
             this.groupBox2.Controls.Add(this.labelControl18);
             this.groupBox2.Controls.Add(this.labelControl16);
             this.groupBox2.Controls.Add(this.textEdit5);
-            this.groupBox2.Location = new System.Drawing.Point(482, 116);
+            this.groupBox2.Location = new System.Drawing.Point(486, 146);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(464, 132);
             this.groupBox2.TabIndex = 37;
@@ -2285,22 +1633,23 @@ namespace Ultra.Views.MaterialCard
             this.labelControl3.TabIndex = 2;
             this.labelControl3.Text = "رمز المادة";
             // 
-            // toggleSwitch1
+            // toggleSwitchInheritMaterial
             // 
-            this.toggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggleSwitch1.EditValue = true;
-            this.toggleSwitch1.Location = new System.Drawing.Point(399, 124);
-            this.toggleSwitch1.Name = "toggleSwitch1";
-            this.toggleSwitch1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toggleSwitch1.Properties.Appearance.Options.UseFont = true;
-            this.toggleSwitch1.Properties.Appearance.Options.UseTextOptions = true;
-            this.toggleSwitch1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.toggleSwitch1.Properties.AutoHeight = false;
-            this.toggleSwitch1.Properties.OffText = "توريث";
-            this.toggleSwitch1.Properties.OnText = "توريث";
-            this.toggleSwitch1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toggleSwitch1.Size = new System.Drawing.Size(140, 23);
-            this.toggleSwitch1.TabIndex = 5;
+            this.toggleSwitchInheritMaterial.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.toggleSwitchInheritMaterial.EditValue = true;
+            this.toggleSwitchInheritMaterial.Location = new System.Drawing.Point(399, 124);
+            this.toggleSwitchInheritMaterial.Name = "toggleSwitchInheritMaterial";
+            this.toggleSwitchInheritMaterial.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toggleSwitchInheritMaterial.Properties.Appearance.Options.UseFont = true;
+            this.toggleSwitchInheritMaterial.Properties.Appearance.Options.UseTextOptions = true;
+            this.toggleSwitchInheritMaterial.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.toggleSwitchInheritMaterial.Properties.AutoHeight = false;
+            this.toggleSwitchInheritMaterial.Properties.OffText = "غير مورثة";
+            this.toggleSwitchInheritMaterial.Properties.OnText = "مورثة";
+            this.toggleSwitchInheritMaterial.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toggleSwitchInheritMaterial.Size = new System.Drawing.Size(140, 23);
+            this.toggleSwitchInheritMaterial.TabIndex = 5;
+            this.toggleSwitchInheritMaterial.Toggled += new System.EventHandler(this.toggleSwitchInheritMaterial_Toggled);
             // 
             // PanelTop
             // 
@@ -2314,7 +1663,7 @@ namespace Ultra.Views.MaterialCard
             this.PanelTop.Controls.Add(this.labelControl4);
             this.PanelTop.Controls.Add(this.textEdit1);
             this.PanelTop.Controls.Add(this.labelControl3);
-            this.PanelTop.Controls.Add(this.toggleSwitch1);
+            this.PanelTop.Controls.Add(this.toggleSwitchInheritMaterial);
             this.PanelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelTop.Font = new System.Drawing.Font("Calibri", 8F);
             this.PanelTop.Location = new System.Drawing.Point(0, 0);
@@ -2403,6 +1752,8 @@ namespace Ultra.Views.MaterialCard
             // 
             // PanelBottom
             // 
+            this.PanelBottom.Controls.Add(this.simpleButton2);
+            this.PanelBottom.Controls.Add(this.simpleButton1);
             this.PanelBottom.Controls.Add(this.ButtonDelete);
             this.PanelBottom.Controls.Add(this.ButtonUpdate);
             this.PanelBottom.Controls.Add(this.ButtonNew);
@@ -2414,6 +1765,32 @@ namespace Ultra.Views.MaterialCard
             this.PanelBottom.Name = "PanelBottom";
             this.PanelBottom.Size = new System.Drawing.Size(964, 53);
             this.PanelBottom.TabIndex = 6;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.simpleButton2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.simpleButton2.Location = new System.Drawing.Point(703, 6);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.simpleButton2.Size = new System.Drawing.Size(115, 38);
+            this.simpleButton2.TabIndex = 3;
+            this.simpleButton2.Text = "  حركة المادة  ";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.simpleButton1.Location = new System.Drawing.Point(826, 6);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.simpleButton1.Size = new System.Drawing.Size(115, 38);
+            this.simpleButton1.TabIndex = 2;
+            this.simpleButton1.Text = "طباعة الباركود";
             // 
             // ButtonDelete
             // 
@@ -2475,6 +1852,533 @@ namespace Ultra.Views.MaterialCard
             this.ButtonSave.Text = "حفظ";
             this.ButtonSave.UseVisualStyleBackColor = false;
             // 
+            // splitContainerControl1
+            // 
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 23);
+            this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl44);
+            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit34);
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl43);
+            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit33);
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl40);
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl41);
+            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit30);
+            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit31);
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl42);
+            this.splitContainerControl1.Panel1.Controls.Add(this.textEdit32);
+            this.splitContainerControl1.Panel1.Controls.Add(this.dataGridView5);
+            this.splitContainerControl1.Panel1.Controls.Add(this.comboBoxEdit1);
+            this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl56);
+            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit39);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl57);
+            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit44);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl58);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl59);
+            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit45);
+            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit46);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl60);
+            this.splitContainerControl1.Panel2.Controls.Add(this.textEdit47);
+            this.splitContainerControl1.Panel2.Controls.Add(this.dataGridView6);
+            this.splitContainerControl1.Panel2.Controls.Add(this.comboBoxEdit2);
+            this.splitContainerControl1.Panel2.Text = "Panel2";
+            this.splitContainerControl1.Size = new System.Drawing.Size(954, 325);
+            this.splitContainerControl1.SplitterPosition = 472;
+            this.splitContainerControl1.TabIndex = 0;
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.EditValue = "اختر الوحدة";
+            this.comboBoxEdit2.Location = new System.Drawing.Point(137, 7);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(236, 22);
+            this.comboBoxEdit2.TabIndex = 37;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12});
+            this.dataGridView6.Location = new System.Drawing.Point(11, 34);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView6.Size = new System.Drawing.Size(451, 184);
+            this.dataGridView6.TabIndex = 38;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.HeaderText = "ربح %";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.HeaderText = "ربح";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "قيمة";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // textEdit47
+            // 
+            this.textEdit47.Location = new System.Drawing.Point(217, 259);
+            this.textEdit47.Name = "textEdit47";
+            this.textEdit47.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit47.Properties.Appearance.Options.UseFont = true;
+            this.textEdit47.Properties.AutoHeight = false;
+            this.textEdit47.Size = new System.Drawing.Size(170, 20);
+            this.textEdit47.TabIndex = 44;
+            // 
+            // labelControl60
+            // 
+            this.labelControl60.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl60.Appearance.Options.UseFont = true;
+            this.labelControl60.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl60.Location = new System.Drawing.Point(402, 249);
+            this.labelControl60.Name = "labelControl60";
+            this.labelControl60.Size = new System.Drawing.Size(54, 30);
+            this.labelControl60.TabIndex = 41;
+            this.labelControl60.Text = "شراء وسطي";
+            // 
+            // textEdit46
+            // 
+            this.textEdit46.Location = new System.Drawing.Point(217, 231);
+            this.textEdit46.Name = "textEdit46";
+            this.textEdit46.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit46.Properties.Appearance.Options.UseFont = true;
+            this.textEdit46.Properties.AutoHeight = false;
+            this.textEdit46.Size = new System.Drawing.Size(170, 20);
+            this.textEdit46.TabIndex = 43;
+            // 
+            // textEdit45
+            // 
+            this.textEdit45.Location = new System.Drawing.Point(217, 289);
+            this.textEdit45.Name = "textEdit45";
+            this.textEdit45.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit45.Properties.Appearance.Options.UseFont = true;
+            this.textEdit45.Properties.AutoHeight = false;
+            this.textEdit45.Size = new System.Drawing.Size(170, 20);
+            this.textEdit45.TabIndex = 42;
+            // 
+            // labelControl59
+            // 
+            this.labelControl59.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl59.Appearance.Options.UseFont = true;
+            this.labelControl59.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl59.Location = new System.Drawing.Point(411, 224);
+            this.labelControl59.Name = "labelControl59";
+            this.labelControl59.Size = new System.Drawing.Size(45, 30);
+            this.labelControl59.TabIndex = 40;
+            this.labelControl59.Text = "آخر شراء";
+            // 
+            // labelControl58
+            // 
+            this.labelControl58.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl58.Appearance.Options.UseFont = true;
+            this.labelControl58.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl58.Location = new System.Drawing.Point(402, 279);
+            this.labelControl58.Name = "labelControl58";
+            this.labelControl58.Size = new System.Drawing.Size(54, 30);
+            this.labelControl58.TabIndex = 39;
+            this.labelControl58.Text = "شراء أعظمي";
+            // 
+            // textEdit44
+            // 
+            this.textEdit44.Location = new System.Drawing.Point(10, 231);
+            this.textEdit44.Name = "textEdit44";
+            this.textEdit44.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit44.Properties.Appearance.Options.UseFont = true;
+            this.textEdit44.Properties.AutoHeight = false;
+            this.textEdit44.Size = new System.Drawing.Size(132, 20);
+            this.textEdit44.TabIndex = 46;
+            // 
+            // labelControl57
+            // 
+            this.labelControl57.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl57.Appearance.Options.UseFont = true;
+            this.labelControl57.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl57.Location = new System.Drawing.Point(160, 226);
+            this.labelControl57.Name = "labelControl57";
+            this.labelControl57.Size = new System.Drawing.Size(45, 30);
+            this.labelControl57.TabIndex = 45;
+            this.labelControl57.Text = "أدنى سعر";
+            // 
+            // textEdit39
+            // 
+            this.textEdit39.Location = new System.Drawing.Point(10, 259);
+            this.textEdit39.Name = "textEdit39";
+            this.textEdit39.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit39.Properties.Appearance.Options.UseFont = true;
+            this.textEdit39.Properties.AutoHeight = false;
+            this.textEdit39.Size = new System.Drawing.Size(132, 20);
+            this.textEdit39.TabIndex = 48;
+            // 
+            // labelControl56
+            // 
+            this.labelControl56.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl56.Appearance.Options.UseFont = true;
+            this.labelControl56.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl56.Location = new System.Drawing.Point(160, 254);
+            this.labelControl56.Name = "labelControl56";
+            this.labelControl56.Size = new System.Drawing.Size(45, 30);
+            this.labelControl56.TabIndex = 47;
+            this.labelControl56.Text = "التكلفة";
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.EditValue = "اختر الوحدة";
+            this.comboBoxEdit1.Location = new System.Drawing.Point(136, 7);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(236, 22);
+            this.comboBoxEdit1.TabIndex = 0;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column7,
+            this.Column8,
+            this.Column9,
+            this.Column10});
+            this.dataGridView5.Location = new System.Drawing.Point(10, 34);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView5.Size = new System.Drawing.Size(451, 184);
+            this.dataGridView5.TabIndex = 1;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "ربح %";
+            this.Column10.Name = "Column10";
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "ربح";
+            this.Column9.Name = "Column9";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "قيمة";
+            this.Column8.Name = "Column8";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "";
+            this.Column7.Name = "Column7";
+            // 
+            // textEdit32
+            // 
+            this.textEdit32.Location = new System.Drawing.Point(217, 259);
+            this.textEdit32.Name = "textEdit32";
+            this.textEdit32.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit32.Properties.Appearance.Options.UseFont = true;
+            this.textEdit32.Properties.AutoHeight = false;
+            this.textEdit32.Size = new System.Drawing.Size(170, 20);
+            this.textEdit32.TabIndex = 20;
+            // 
+            // labelControl42
+            // 
+            this.labelControl42.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl42.Appearance.Options.UseFont = true;
+            this.labelControl42.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl42.Location = new System.Drawing.Point(402, 249);
+            this.labelControl42.Name = "labelControl42";
+            this.labelControl42.Size = new System.Drawing.Size(54, 30);
+            this.labelControl42.TabIndex = 17;
+            this.labelControl42.Text = "شراء وسطي";
+            // 
+            // textEdit31
+            // 
+            this.textEdit31.Location = new System.Drawing.Point(217, 231);
+            this.textEdit31.Name = "textEdit31";
+            this.textEdit31.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit31.Properties.Appearance.Options.UseFont = true;
+            this.textEdit31.Properties.AutoHeight = false;
+            this.textEdit31.Size = new System.Drawing.Size(170, 20);
+            this.textEdit31.TabIndex = 19;
+            // 
+            // textEdit30
+            // 
+            this.textEdit30.Location = new System.Drawing.Point(217, 289);
+            this.textEdit30.Name = "textEdit30";
+            this.textEdit30.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit30.Properties.Appearance.Options.UseFont = true;
+            this.textEdit30.Properties.AutoHeight = false;
+            this.textEdit30.Size = new System.Drawing.Size(170, 20);
+            this.textEdit30.TabIndex = 18;
+            // 
+            // labelControl41
+            // 
+            this.labelControl41.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl41.Appearance.Options.UseFont = true;
+            this.labelControl41.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl41.Location = new System.Drawing.Point(411, 224);
+            this.labelControl41.Name = "labelControl41";
+            this.labelControl41.Size = new System.Drawing.Size(45, 30);
+            this.labelControl41.TabIndex = 16;
+            this.labelControl41.Text = "آخر شراء";
+            // 
+            // labelControl40
+            // 
+            this.labelControl40.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl40.Appearance.Options.UseFont = true;
+            this.labelControl40.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl40.Location = new System.Drawing.Point(402, 279);
+            this.labelControl40.Name = "labelControl40";
+            this.labelControl40.Size = new System.Drawing.Size(54, 30);
+            this.labelControl40.TabIndex = 15;
+            this.labelControl40.Text = "شراء أعظمي";
+            // 
+            // textEdit33
+            // 
+            this.textEdit33.Location = new System.Drawing.Point(10, 231);
+            this.textEdit33.Name = "textEdit33";
+            this.textEdit33.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit33.Properties.Appearance.Options.UseFont = true;
+            this.textEdit33.Properties.AutoHeight = false;
+            this.textEdit33.Size = new System.Drawing.Size(132, 20);
+            this.textEdit33.TabIndex = 22;
+            // 
+            // labelControl43
+            // 
+            this.labelControl43.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl43.Appearance.Options.UseFont = true;
+            this.labelControl43.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl43.Location = new System.Drawing.Point(160, 226);
+            this.labelControl43.Name = "labelControl43";
+            this.labelControl43.Size = new System.Drawing.Size(45, 30);
+            this.labelControl43.TabIndex = 21;
+            this.labelControl43.Text = "أدنى سعر";
+            // 
+            // textEdit34
+            // 
+            this.textEdit34.Location = new System.Drawing.Point(10, 259);
+            this.textEdit34.Name = "textEdit34";
+            this.textEdit34.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit34.Properties.Appearance.Options.UseFont = true;
+            this.textEdit34.Properties.AutoHeight = false;
+            this.textEdit34.Size = new System.Drawing.Size(132, 20);
+            this.textEdit34.TabIndex = 24;
+            // 
+            // labelControl44
+            // 
+            this.labelControl44.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl44.Appearance.Options.UseFont = true;
+            this.labelControl44.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl44.Location = new System.Drawing.Point(160, 254);
+            this.labelControl44.Name = "labelControl44";
+            this.labelControl44.Size = new System.Drawing.Size(45, 30);
+            this.labelControl44.TabIndex = 23;
+            this.labelControl44.Text = "التكلفة";
+            // 
+            // checkEdit5
+            // 
+            this.checkEdit5.Location = new System.Drawing.Point(758, 6);
+            this.checkEdit5.Name = "checkEdit5";
+            this.checkEdit5.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkEdit5.Properties.Appearance.Options.UseFont = true;
+            this.checkEdit5.Properties.Caption = "حساب تلقائي للأسعار";
+            this.checkEdit5.Size = new System.Drawing.Size(185, 20);
+            this.checkEdit5.TabIndex = 1;
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Appearance.BackColor = System.Drawing.Color.White;
+            this.groupControl1.Appearance.BackColor2 = System.Drawing.Color.White;
+            this.groupControl1.Appearance.BorderColor = System.Drawing.Color.White;
+            this.groupControl1.Appearance.Options.UseBackColor = true;
+            this.groupControl1.Appearance.Options.UseBorderColor = true;
+            this.groupControl1.AutoSize = true;
+            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Light;
+            this.groupControl1.Location = new System.Drawing.Point(3, 421);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.ShowCaption = false;
+            this.groupControl1.Size = new System.Drawing.Size(950, 4);
+            this.groupControl1.TabIndex = 2;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.groupBox6);
+            this.tabPage2.Controls.Add(this.splitContainerControl1);
+            this.tabPage2.Controls.Add(this.groupControl1);
+            this.tabPage2.Controls.Add(this.checkEdit5);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(956, 428);
+            this.tabPage2.TabIndex = 8;
+            this.tabPage2.Text = "أسعار";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.pictureEdit3);
+            this.groupBox6.Controls.Add(this.pictureEdit4);
+            this.groupBox6.Controls.Add(this.textEdit35);
+            this.groupBox6.Controls.Add(this.textEdit36);
+            this.groupBox6.Controls.Add(this.labelControl45);
+            this.groupBox6.Controls.Add(this.labelControl46);
+            this.groupBox6.Controls.Add(this.comboBox10);
+            this.groupBox6.Controls.Add(this.labelControl47);
+            this.groupBox6.Controls.Add(this.labelControl48);
+            this.groupBox6.Controls.Add(this.textEdit37);
+            this.groupBox6.Controls.Add(this.labelControl49);
+            this.groupBox6.Controls.Add(this.textEdit38);
+            this.groupBox6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupBox6.Location = new System.Drawing.Point(3, 338);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(950, 83);
+            this.groupBox6.TabIndex = 3;
+            this.groupBox6.TabStop = false;
+            // 
+            // pictureEdit3
+            // 
+            this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
+            this.pictureEdit3.Location = new System.Drawing.Point(369, 47);
+            this.pictureEdit3.Name = "pictureEdit3";
+            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit3.Size = new System.Drawing.Size(24, 20);
+            this.pictureEdit3.TabIndex = 90;
+            // 
+            // pictureEdit4
+            // 
+            this.pictureEdit4.EditValue = ((object)(resources.GetObject("pictureEdit4.EditValue")));
+            this.pictureEdit4.Location = new System.Drawing.Point(369, 21);
+            this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit4.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit4.Size = new System.Drawing.Size(24, 20);
+            this.pictureEdit4.TabIndex = 89;
+            // 
+            // textEdit35
+            // 
+            this.textEdit35.Location = new System.Drawing.Point(399, 47);
+            this.textEdit35.Name = "textEdit35";
+            this.textEdit35.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit35.Properties.Appearance.Options.UseFont = true;
+            this.textEdit35.Properties.AutoHeight = false;
+            this.textEdit35.Size = new System.Drawing.Size(53, 20);
+            this.textEdit35.TabIndex = 88;
+            // 
+            // textEdit36
+            // 
+            this.textEdit36.Location = new System.Drawing.Point(399, 21);
+            this.textEdit36.Name = "textEdit36";
+            this.textEdit36.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit36.Properties.Appearance.Options.UseFont = true;
+            this.textEdit36.Properties.AutoHeight = false;
+            this.textEdit36.Size = new System.Drawing.Size(53, 20);
+            this.textEdit36.TabIndex = 87;
+            // 
+            // labelControl45
+            // 
+            this.labelControl45.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl45.Appearance.Options.UseFont = true;
+            this.labelControl45.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl45.Location = new System.Drawing.Point(458, 43);
+            this.labelControl45.Name = "labelControl45";
+            this.labelControl45.Size = new System.Drawing.Size(106, 30);
+            this.labelControl45.TabIndex = 86;
+            this.labelControl45.Text = "ضريبة القيمة المضافة";
+            // 
+            // labelControl46
+            // 
+            this.labelControl46.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl46.Appearance.Options.UseFont = true;
+            this.labelControl46.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl46.Location = new System.Drawing.Point(458, 14);
+            this.labelControl46.Name = "labelControl46";
+            this.labelControl46.Size = new System.Drawing.Size(106, 30);
+            this.labelControl46.TabIndex = 85;
+            this.labelControl46.Text = "حسم تلقائي عند المبيع";
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "قيمة",
+            "نسبة ربح حسب آخر شراء",
+            "نسبة ربح حسب سعر شراء وسطي",
+            "نسبة ربح حسب سعر شراء أعظمي"});
+            this.comboBox10.Location = new System.Drawing.Point(55, 23);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(170, 23);
+            this.comboBox10.TabIndex = 84;
+            // 
+            // labelControl47
+            // 
+            this.labelControl47.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl47.Appearance.Options.UseFont = true;
+            this.labelControl47.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl47.Location = new System.Drawing.Point(231, 17);
+            this.labelControl47.Name = "labelControl47";
+            this.labelControl47.Size = new System.Drawing.Size(63, 30);
+            this.labelControl47.TabIndex = 83;
+            this.labelControl47.Text = "طريقة التسعير";
+            // 
+            // labelControl48
+            // 
+            this.labelControl48.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl48.Appearance.Options.UseFont = true;
+            this.labelControl48.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl48.Location = new System.Drawing.Point(841, 46);
+            this.labelControl48.Name = "labelControl48";
+            this.labelControl48.Size = new System.Drawing.Size(54, 30);
+            this.labelControl48.TabIndex = 81;
+            this.labelControl48.Text = "تعادل";
+            // 
+            // textEdit37
+            // 
+            this.textEdit37.Location = new System.Drawing.Point(656, 50);
+            this.textEdit37.Name = "textEdit37";
+            this.textEdit37.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit37.Properties.Appearance.Options.UseFont = true;
+            this.textEdit37.Properties.AutoHeight = false;
+            this.textEdit37.Size = new System.Drawing.Size(170, 20);
+            this.textEdit37.TabIndex = 82;
+            // 
+            // labelControl49
+            // 
+            this.labelControl49.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl49.Appearance.Options.UseFont = true;
+            this.labelControl49.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl49.Location = new System.Drawing.Point(841, 17);
+            this.labelControl49.Name = "labelControl49";
+            this.labelControl49.Size = new System.Drawing.Size(54, 30);
+            this.labelControl49.TabIndex = 79;
+            this.labelControl49.Text = "العملة";
+            // 
+            // textEdit38
+            // 
+            this.textEdit38.Location = new System.Drawing.Point(656, 24);
+            this.textEdit38.Name = "textEdit38";
+            this.textEdit38.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit38.Properties.Appearance.Options.UseFont = true;
+            this.textEdit38.Properties.AutoHeight = false;
+            this.textEdit38.Size = new System.Drawing.Size(170, 20);
+            this.textEdit38.TabIndex = 80;
+            // 
             // MaterialCardUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2484,10 +2388,6 @@ namespace Ultra.Views.MaterialCard
             this.Controls.Add(this.PanelBottom);
             this.Name = "MaterialCardUserControl";
             this.Size = new System.Drawing.Size(964, 673);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit14.Properties)).EndInit();
@@ -2499,35 +2399,9 @@ namespace Ultra.Views.MaterialCard
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
-            this.splitContainerControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit43.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit42.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit41.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit40.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit35.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit36.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit37.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit38.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit39.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit44.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit45.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit46.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit47.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
@@ -2573,28 +2447,44 @@ namespace Ultra.Views.MaterialCard
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitchInheritMaterial.Properties)).EndInit();
             this.PanelTop.ResumeLayout(false);
             this.PanelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             this.PanelBottom.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
+            this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit47.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit46.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit45.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit44.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit39.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit35.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit36.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit37.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit38.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private DevExpress.XtraEditors.LabelControl labelControl44;
-        private DevExpress.XtraEditors.TextEdit textEdit34;
-        private DevExpress.XtraEditors.LabelControl labelControl43;
-        private DevExpress.XtraEditors.TextEdit textEdit33;
-        private DevExpress.XtraEditors.LabelControl labelControl40;
-        private DevExpress.XtraEditors.LabelControl labelControl41;
-        private DevExpress.XtraEditors.TextEdit textEdit30;
-        private DevExpress.XtraEditors.TextEdit textEdit31;
         private System.Windows.Forms.TabPage tabPage3;
         private DevExpress.XtraEditors.CheckEdit checkEdit12;
         private DevExpress.XtraEditors.CheckEdit checkEdit14;
@@ -2607,26 +2497,17 @@ namespace Ultra.Views.MaterialCard
         private DevExpress.XtraEditors.CheckEdit checkEdit6;
         private System.Windows.Forms.ComboBox comboBox6;
         private DevExpress.XtraEditors.LabelControl labelControl35;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private DevExpress.XtraEditors.LabelControl labelControl42;
         private DevExpress.XtraEditors.SimpleButton ButtonFirstUnitBarcode;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.LabelControl labelControl25;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private DevExpress.XtraEditors.SimpleButton ButtonSecondUnitBarcode;
         private DevExpress.XtraEditors.TextEdit textEdit21;
         private DevExpress.XtraEditors.LabelControl labelControl26;
-        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit32;
-        private System.Windows.Forms.DataGridView dataGridView5;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit22;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl27;
         private DevExpress.XtraEditors.TextEdit textEdit14;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TabPage tabPage2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -2726,7 +2607,7 @@ namespace Ultra.Views.MaterialCard
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.ToggleSwitch toggleSwitch1;
+        private DevExpress.XtraEditors.ToggleSwitch toggleSwitchInheritMaterial;
         private System.Windows.Forms.Panel PanelTop;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.ToggleSwitch ToggleIsActive;
@@ -2739,20 +2620,12 @@ namespace Ultra.Views.MaterialCard
         private System.Windows.Forms.Button ButtonSave;
         private System.Windows.Forms.ComboBox comboBox7;
         private DevExpress.XtraEditors.LabelControl labelControl36;
-        private DevExpress.XtraEditors.TextEdit textEdit43;
-        private DevExpress.XtraEditors.TextEdit textEdit42;
-        private DevExpress.XtraEditors.LabelControl labelControl55;
-        private DevExpress.XtraEditors.LabelControl labelControl54;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private DevExpress.XtraEditors.LabelControl labelControl53;
-        private DevExpress.XtraEditors.LabelControl labelControl52;
-        private DevExpress.XtraEditors.TextEdit textEdit41;
-        private DevExpress.XtraEditors.LabelControl labelControl51;
-        private DevExpress.XtraEditors.TextEdit textEdit40;
         private System.Windows.Forms.ComboBox comboBox9;
         private DevExpress.XtraEditors.LabelControl labelControl50;
-        private DevExpress.XtraEditors.PictureEdit pictureEdit2;
-        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.GroupBox groupBox6;
         private DevExpress.XtraEditors.PictureEdit pictureEdit3;
         private DevExpress.XtraEditors.PictureEdit pictureEdit4;
         private DevExpress.XtraEditors.TextEdit textEdit35;
@@ -2765,6 +2638,23 @@ namespace Ultra.Views.MaterialCard
         private DevExpress.XtraEditors.TextEdit textEdit37;
         private DevExpress.XtraEditors.LabelControl labelControl49;
         private DevExpress.XtraEditors.TextEdit textEdit38;
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl44;
+        private DevExpress.XtraEditors.TextEdit textEdit34;
+        private DevExpress.XtraEditors.LabelControl labelControl43;
+        private DevExpress.XtraEditors.TextEdit textEdit33;
+        private DevExpress.XtraEditors.LabelControl labelControl40;
+        private DevExpress.XtraEditors.LabelControl labelControl41;
+        private DevExpress.XtraEditors.TextEdit textEdit30;
+        private DevExpress.XtraEditors.TextEdit textEdit31;
+        private DevExpress.XtraEditors.LabelControl labelControl42;
+        private DevExpress.XtraEditors.TextEdit textEdit32;
+        private System.Windows.Forms.DataGridView dataGridView5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl56;
         private DevExpress.XtraEditors.TextEdit textEdit39;
         private DevExpress.XtraEditors.LabelControl labelControl57;
@@ -2781,5 +2671,7 @@ namespace Ultra.Views.MaterialCard
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.CheckEdit checkEdit5;
     }
 }
