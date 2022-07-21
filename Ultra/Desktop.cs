@@ -115,7 +115,12 @@ namespace Ultra
 
         private void barButtonItemMaterialCard_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            new MaterialCardForm().Show();
+           
+        }
+
+        private void barButtonItemMaterialsAndCategories_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new CategoryAndMaterialForm().Show();
         }
     }
 }

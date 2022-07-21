@@ -97,7 +97,7 @@ namespace Ultra
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItemMaterialCard = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemMaterialsAndCategories = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItemStoreGuide = new DevExpress.XtraBars.BarButtonItem();
@@ -284,7 +284,7 @@ namespace Ultra
             this.barButtonItem17,
             this.barButtonItemMaterialCard,
             this.barButtonItem19,
-            this.barButtonItem20,
+            this.barButtonItemMaterialsAndCategories,
             this.barButtonItem21,
             this.barButtonItem22,
             this.barButtonItemStoreGuide,
@@ -1051,8 +1051,8 @@ namespace Ultra
             // 
             this.barButtonItemMaterialCard.Caption = "بطاقة مادة";
             this.barButtonItemMaterialCard.Id = 20;
-            this.barButtonItemMaterialCard.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.Image")));
-            this.barButtonItemMaterialCard.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.LargeImage")));
+            this.barButtonItemMaterialCard.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemMaterialCard.ImageOptions.Image")));
+            this.barButtonItemMaterialCard.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemMaterialCard.ImageOptions.LargeImage")));
             this.barButtonItemMaterialCard.Name = "barButtonItemMaterialCard";
             this.barButtonItemMaterialCard.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemMaterialCard_ItemClick);
             // 
@@ -1065,13 +1065,14 @@ namespace Ultra
             this.barButtonItem19.Name = "barButtonItem19";
             this.barButtonItem19.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem19_ItemClick);
             // 
-            // barButtonItem20
+            // barButtonItemMaterialsAndCategories
             // 
-            this.barButtonItem20.Caption = "دليل المواد";
-            this.barButtonItem20.Id = 22;
-            this.barButtonItem20.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem20.ImageOptions.Image")));
-            this.barButtonItem20.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem20.ImageOptions.LargeImage")));
-            this.barButtonItem20.Name = "barButtonItem20";
+            this.barButtonItemMaterialsAndCategories.Caption = "دليل المواد";
+            this.barButtonItemMaterialsAndCategories.Id = 22;
+            this.barButtonItemMaterialsAndCategories.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemMaterialsAndCategories.ImageOptions.Image")));
+            this.barButtonItemMaterialsAndCategories.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemMaterialsAndCategories.ImageOptions.LargeImage")));
+            this.barButtonItemMaterialsAndCategories.Name = "barButtonItemMaterialsAndCategories";
+            this.barButtonItemMaterialsAndCategories.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemMaterialsAndCategories_ItemClick);
             // 
             // barButtonItem21
             // 
@@ -1669,7 +1670,7 @@ namespace Ultra
             // 
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItemMaterialCard);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem19);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem20);
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItemMaterialsAndCategories);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "المواد";
             // 
@@ -2114,7 +2115,7 @@ namespace Ultra
         private DevExpress.XtraBars.BarButtonItem barButtonItemMaterialCard;
         private DevExpress.XtraBars.BarButtonItem barButtonItem19;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup22;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem20;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemMaterialsAndCategories;
         private DevExpress.XtraBars.BarButtonItem barButtonItem21;
         private DevExpress.XtraBars.BarButtonItem barButtonItem22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup23;

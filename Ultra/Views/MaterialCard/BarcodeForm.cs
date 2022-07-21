@@ -11,16 +11,11 @@ using System.Windows.Forms;
 
 namespace Ultra.Views.MaterialCard
 {
-    public partial class MaterialCardForm : DevExpress.XtraEditors.XtraForm
+    public partial class BarcodeForm : DevExpress.XtraEditors.XtraForm
     {
-        public MaterialCardForm()
+        public BarcodeForm()
         {
             InitializeComponent();
-        }
-
-        private void labelControl39_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -134,11 +134,29 @@
     <Compile Include="Views\File\OpenFileUserControl.Designer.cs">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\MaterialCard\MaterialCardForm.cs">
+    <Compile Include="Views\MaterialCard\BarcodeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\MaterialCard\MaterialCardForm.Designer.cs">
-      <DependentUpon>MaterialCardForm.cs</DependentUpon>
+    <Compile Include="Views\MaterialCard\BarcodeForm.Designer.cs">
+      <DependentUpon>BarcodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MaterialCard\CategoryAndMaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MaterialCard\CategoryAndMaterialForm.Designer.cs">
+      <DependentUpon>CategoryAndMaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MaterialCard\MaterialBoundsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MaterialCard\MaterialBoundsForm.Designer.cs">
+      <DependentUpon>MaterialBoundsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MaterialCard\MaterialCardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MaterialCard\MaterialCardUserControl.Designer.cs">
+      <DependentUpon>MaterialCardUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Store\StoreCardUserControl.cs">
       <SubType>UserControl</SubType>
@@ -199,8 +217,17 @@
     <EmbeddedResource Include="Views\File\OpenFileUserControl.resx">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\MaterialCard\MaterialCardForm.resx">
-      <DependentUpon>MaterialCardForm.cs</DependentUpon>
+    <EmbeddedResource Include="Views\MaterialCard\BarcodeForm.resx">
+      <DependentUpon>BarcodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MaterialCard\CategoryAndMaterialForm.resx">
+      <DependentUpon>CategoryAndMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MaterialCard\MaterialBoundsForm.resx">
+      <DependentUpon>MaterialBoundsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MaterialCard\MaterialCardUserControl.resx">
+      <DependentUpon>MaterialCardUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Store\StoreCardUserControl.resx">
       <DependentUpon>StoreCardUserControl.cs</DependentUpon>
