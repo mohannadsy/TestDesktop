@@ -30,8 +30,8 @@ namespace Ultra
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desktop));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
@@ -95,7 +95,7 @@ namespace Ultra
             this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu3 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemMaterialCard = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
@@ -282,7 +282,7 @@ namespace Ultra
             this.barButtonItem15,
             this.barButtonItem16,
             this.barButtonItem17,
-            this.barButtonItem18,
+            this.barButtonItemMaterialCard,
             this.barButtonItem19,
             this.barButtonItem20,
             this.barButtonItem21,
@@ -425,14 +425,14 @@ namespace Ultra
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fileName,
@@ -448,9 +448,9 @@ namespace Ultra
             // 
             // fileName
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            this.fileName.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            this.fileName.DefaultCellStyle = dataGridViewCellStyle2;
             this.fileName.HeaderText = "اسم الملف";
             this.fileName.Name = "fileName";
             this.fileName.ReadOnly = true;
@@ -898,8 +898,8 @@ namespace Ultra
             // 
             this.barButtonItemAccountGuide.Caption = "دليل الحسابات";
             this.barButtonItemAccountGuide.Id = 5;
-            this.barButtonItemAccountGuide.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.barButtonItemAccountGuide.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItemAccountGuide.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemAccountGuide.ImageOptions.Image")));
+            this.barButtonItemAccountGuide.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemAccountGuide.ImageOptions.LargeImage")));
             this.barButtonItemAccountGuide.ItemInMenuAppearance.Normal.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold);
             this.barButtonItemAccountGuide.ItemInMenuAppearance.Normal.Options.UseFont = true;
             this.barButtonItemAccountGuide.Name = "barButtonItemAccountGuide";
@@ -1047,13 +1047,14 @@ namespace Ultra
             this.barButtonItem17.Id = 18;
             this.barButtonItem17.Name = "barButtonItem17";
             // 
-            // barButtonItem18
+            // barButtonItemMaterialCard
             // 
-            this.barButtonItem18.Caption = "بطاقة مادة";
-            this.barButtonItem18.Id = 20;
-            this.barButtonItem18.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.Image")));
-            this.barButtonItem18.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.LargeImage")));
-            this.barButtonItem18.Name = "barButtonItem18";
+            this.barButtonItemMaterialCard.Caption = "بطاقة مادة";
+            this.barButtonItemMaterialCard.Id = 20;
+            this.barButtonItemMaterialCard.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.Image")));
+            this.barButtonItemMaterialCard.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.LargeImage")));
+            this.barButtonItemMaterialCard.Name = "barButtonItemMaterialCard";
+            this.barButtonItemMaterialCard.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemMaterialCard_ItemClick);
             // 
             // barButtonItem19
             // 
@@ -1448,8 +1449,8 @@ namespace Ultra
             // 
             this.barButtonItemBranchesAndUsers.Caption = "فروع ومستخدمين";
             this.barButtonItemBranchesAndUsers.Id = 68;
-            this.barButtonItemBranchesAndUsers.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemUsersAndBranches.ImageOptions.Image")));
-            this.barButtonItemBranchesAndUsers.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemUsersAndBranches.ImageOptions.LargeImage")));
+            this.barButtonItemBranchesAndUsers.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemBranchesAndUsers.ImageOptions.Image")));
+            this.barButtonItemBranchesAndUsers.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItemBranchesAndUsers.ImageOptions.LargeImage")));
             this.barButtonItemBranchesAndUsers.Name = "barButtonItemBranchesAndUsers";
             this.barButtonItemBranchesAndUsers.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemBranchesAndUsers_ItemClick);
             // 
@@ -1553,7 +1554,7 @@ namespace Ultra
             // 
             this.barButtonItemCostCenter.Caption = "دليل مراكز الكلفة";
             this.barButtonItemCostCenter.Id = 81;
-            this.barButtonItemCostCenter.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem77.ImageOptions.Image")));
+            this.barButtonItemCostCenter.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItemCostCenter.ImageOptions.Image")));
             this.barButtonItemCostCenter.Name = "barButtonItemCostCenter";
             this.barButtonItemCostCenter.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.barButtonItemCostCenter.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemCostCenter_ItemClick);
@@ -1666,7 +1667,7 @@ namespace Ultra
             // 
             // ribbonPageGroup4
             // 
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem18);
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItemMaterialCard);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem19);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem20);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
@@ -2110,7 +2111,7 @@ namespace Ultra
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup20;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup21;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemMaterialCard;
         private DevExpress.XtraBars.BarButtonItem barButtonItem19;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup22;
         private DevExpress.XtraBars.BarButtonItem barButtonItem20;

@@ -134,6 +134,12 @@
     <Compile Include="Views\File\OpenFileUserControl.Designer.cs">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\MaterialCard\MaterialCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MaterialCard\MaterialCardForm.Designer.cs">
+      <DependentUpon>MaterialCardForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Store\StoreCardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\File\OpenFileUserControl.resx">
       <DependentUpon>OpenFileUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MaterialCard\MaterialCardForm.resx">
+      <DependentUpon>MaterialCardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Store\StoreCardUserControl.resx">
       <DependentUpon>StoreCardUserControl.cs</DependentUpon>

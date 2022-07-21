@@ -12,6 +12,7 @@ using Ultra.Views.Account;
 using Ultra.Views.BranchAndUser;
 using Ultra.Views.CostCenter;
 using Ultra.Views.File;
+using Ultra.Views.MaterialCard;
 using Ultra.Views.Store;
 
 namespace Ultra
@@ -110,6 +111,11 @@ namespace Ultra
         private void barButtonItemAccountGuide_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             new AccountForm().Show();
+        }
+
+        private void barButtonItemMaterialCard_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new MaterialCardForm().Show();
         }
     }
 }
