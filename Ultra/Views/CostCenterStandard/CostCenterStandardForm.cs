@@ -21,5 +21,11 @@ namespace Ultra.Views.CostCenterStandard
         {
 
         }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            PanelMain.Controls.Clear();
+            PanelMain.Controls.Add(new CostCenterStandardUserControl());
+        }
     }
 }
