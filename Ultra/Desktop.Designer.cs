@@ -164,6 +164,7 @@ namespace Ultra
             this.barButtonItem78 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem79 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem80 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItemTestCostCenterDev = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -175,6 +176,7 @@ namespace Ultra
             this.ribbonPageGroup20 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup21 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup54 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup55 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup22 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -346,10 +348,11 @@ namespace Ultra
             this.barButtonItemCostCenter,
             this.barButtonItem78,
             this.barButtonItem79,
-            this.barButtonItem80});
+            this.barButtonItem80,
+            this.barButtonItemTestCostCenterDev});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 85;
+            this.ribbonControl1.MaxItemId = 86;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.skinDropDownButtonItem1);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -1583,6 +1586,13 @@ namespace Ultra
             this.barButtonItem80.Name = "barButtonItem80";
             this.barButtonItem80.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem80_ItemClick);
             // 
+            // barButtonItemTestCostCenterDev
+            // 
+            this.barButtonItemTestCostCenterDev.Caption = "testCostCenterDev";
+            this.barButtonItemTestCostCenterDev.Id = 85;
+            this.barButtonItemTestCostCenterDev.Name = "barButtonItemTestCostCenterDev";
+            this.barButtonItemTestCostCenterDev.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemTestCostCenterDev_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Appearance.Options.UseTextOptions = true;
@@ -1597,7 +1607,8 @@ namespace Ultra
             this.ribbonPageGroup19,
             this.ribbonPageGroup20,
             this.ribbonPageGroup21,
-            this.ribbonPageGroup54});
+            this.ribbonPageGroup54,
+            this.ribbonPageGroup55});
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "حسابات";
             // 
@@ -1652,6 +1663,12 @@ namespace Ultra
             this.ribbonPageGroup54.ItemLinks.Add(this.barButtonItem80);
             this.ribbonPageGroup54.Name = "ribbonPageGroup54";
             this.ribbonPageGroup54.Text = "ribbonPageGroup54";
+            // 
+            // ribbonPageGroup55
+            // 
+            this.ribbonPageGroup55.ItemLinks.Add(this.barButtonItemTestCostCenterDev);
+            this.ribbonPageGroup55.Name = "ribbonPageGroup55";
+            this.ribbonPageGroup55.Text = "ribbonPageGroup55";
             // 
             // ribbonPage3
             // 
@@ -2255,6 +2272,8 @@ namespace Ultra
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup53;
         private DevExpress.XtraBars.BarButtonItem barButtonItem80;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup54;
+        private DevExpress.XtraBars.BarButtonItem barButtonItemTestCostCenterDev;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup55;
     }
 }
 
