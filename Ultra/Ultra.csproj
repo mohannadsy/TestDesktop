@@ -110,6 +110,18 @@
     <Compile Include="Views\BranchAndUser\BranchCardUserControl.Designer.cs">
       <DependentUpon>BranchCardUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CostCenterStandard\CostCenterStandardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenterStandard\CostCenterStandardForm.Designer.cs">
+      <DependentUpon>CostCenterStandardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CostCenterStandard\CostCenterStandardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenterStandard\CostCenterStandardUserControl.Designer.cs">
+      <DependentUpon>CostCenterStandardUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\CostCenter\CostCenterCardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -210,6 +222,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\BranchAndUser\BranchCardUserControl.resx">
       <DependentUpon>BranchCardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenterStandard\CostCenterStandardForm.resx">
+      <DependentUpon>CostCenterStandardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenterStandard\CostCenterStandardUserControl.resx">
+      <DependentUpon>CostCenterStandardUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CostCenter\CostCenterCardUserControl.resx">
       <DependentUpon>CostCenterCardUserControl.cs</DependentUpon>

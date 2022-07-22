@@ -9,6 +9,7 @@ using Ultra.Views.BranchAndUser;
 using Ultra.Views.CostCenter;
 using Ultra.Views.Currency;
 using Ultra.Views.Store;
+using Ultra.Views.CostCenterStandard;
 
 namespace Ultra.Views
 {
@@ -16,12 +17,15 @@ namespace Ultra.Views
     {
         public static void execute()
         {
-            new BranchAndUserForm().Show();
-            new AccountForm().Show();
-            new CostCenterForm().Show();
-            new StoreForm().Show();
-            new CurrencyForm().Show();
-            new BondForm().Show();
+            //new BranchAndUserForm().Show();
+            //new AccountForm().Show();
+            //new CostCenterForm().Show();
+            //new StoreForm().Show();
+            //new CurrencyForm().Show();
+            //new BondForm().Show();
+
+            new CostCenterStandardForm().Show();
+
         }
     }
 }
