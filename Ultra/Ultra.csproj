@@ -282,6 +282,9 @@
     <EmbeddedResource Include="Views\CostCenter\CostCenterCardUserControl.resx">
       <DependentUpon>CostCenterCardUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCenterForm.ar.resx">
+      <DependentUpon>CostCenterForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\CostCenter\CostCenterForm.en.resx">
       <DependentUpon>CostCenterForm.cs</DependentUpon>
     </EmbeddedResource>

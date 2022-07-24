@@ -25,7 +25,7 @@ namespace Ultra.Views.CostCenter
         public CostCenterForm()
         {
             //Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(CultureInfo.GetCultures(CultureTypes.NeutralCultures)[0].Name);
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Properties.Settings.Default.language);
             InitializeComponent();
         }
 
