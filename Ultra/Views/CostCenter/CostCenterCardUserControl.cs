@@ -17,6 +17,5 @@ namespace Ultra.Views.CostCenter
         {
             InitializeComponent();
         }
-
     }
 }

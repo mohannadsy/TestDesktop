@@ -34,12 +34,6 @@ namespace Ultra.Views.CostCenter
 
         }
 
-        private void ButtonNewAccount_Click(object sender, EventArgs e)
-        {
-            switchLanguage();
-            Application.Restart();
-        }
-
         private void switchLanguage()
         {
             Properties.Settings.Default.language = Properties.Settings.Default.language == "en" ? "ar" : "en";
@@ -47,7 +41,14 @@ namespace Ultra.Views.CostCenter
         }
 
 
-        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            switchLanguage();
+            Application.Restart();
+        }
+
+        private void treeList1_FocusedNodeChanged_1(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
             PanelMain.Controls.Clear();
             PanelMain.Controls.Add(new CostCenterCardUserControl());
