@@ -52,6 +52,13 @@ namespace Ultra.Views.CostCenter
         {
             PanelMain.Controls.Clear();
             PanelMain.Controls.Add(new CostCenterCardUserControl());
+
+
+            //CostCenterCardForm costCenterForm = new CostCenterCardForm();
+            //costCenterForm.TopLevel = false;
+            //PanelMain.Controls.Add(costCenterForm);
+            //costCenterForm.BringToFront();
+            //costCenterForm.Show();
         }
     }
 }
