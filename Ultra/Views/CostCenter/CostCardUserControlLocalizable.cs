@@ -22,5 +22,10 @@ namespace Ultra.Views.CostCenter
         {
 
         }
+
+        private void xtraTabControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
