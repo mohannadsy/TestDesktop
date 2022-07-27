@@ -51,14 +51,24 @@ namespace Ultra.Views.CostCenter
         private void treeList1_FocusedNodeChanged_1(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
             PanelMain.Controls.Clear();
-            PanelMain.Controls.Add(new CostCenterCardUserControl());
-
+            PanelMain.Controls.Add(new CostCardUserControlLocalizable());
+            //zekra
+            //if (Properties.Settings.Default.language == "ar")
+            //    PanelMain.Controls.Clear();
+            //PanelMain.Controls.Add(new CostCardUserContolArabic());
+            //zekra
 
             //CostCenterCardForm costCenterForm = new CostCenterCardForm();
             //costCenterForm.TopLevel = false;
             //PanelMain.Controls.Add(costCenterForm);
             //costCenterForm.BringToFront();
             //costCenterForm.Show();
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            PanelMain.Controls.Clear();
+            PanelMain.Controls.Add(new CostCardUserControlLocalizable());
         }
     }
 }

@@ -154,6 +154,18 @@
     <Compile Include="Views\CostCenter2\CostCenter2Form.Designer.cs">
       <DependentUpon>CostCenter2Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CostCenter\CostCardUserContolArabic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCardUserContolArabic.Designer.cs">
+      <DependentUpon>CostCardUserContolArabic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCardUserControlLocalizable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CostCenter\CostCardUserControlLocalizable.Designer.cs">
+      <DependentUpon>CostCardUserControlLocalizable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\CostCenter\CostCenterCardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -278,6 +290,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CostCenter2\CostCenter2Form.resx">
       <DependentUpon>CostCenter2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCardUserContolArabic.resx">
+      <DependentUpon>CostCardUserContolArabic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCardUserControlLocalizable.ar.resx">
+      <DependentUpon>CostCardUserControlLocalizable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CostCenter\CostCardUserControlLocalizable.resx">
+      <DependentUpon>CostCardUserControlLocalizable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\CostCenter\CostCenterCardForm.ar.resx">
       <DependentUpon>CostCenterCardForm.cs</DependentUpon>

@@ -363,6 +363,7 @@ namespace Ultra.Views.CostCenter
             resources.ApplyResources(this.layoutControl1, "layoutControl1");
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(716, 267, 650, 400);
+            this.layoutControl1.OptionsView.RightToLeftMirroringApplied = true;
             this.layoutControl1.Root = this.Root;
             // 
             // textEdit11
@@ -411,10 +412,10 @@ namespace Ultra.Views.CostCenter
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem1.Control = this.textEdit11;
             resources.ApplyResources(this.layoutControlItem1, "layoutControlItem1");
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(328, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(325, 24);
-            this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(95, 15);
             // 
             // layoutControlItem3
@@ -423,10 +424,10 @@ namespace Ultra.Views.CostCenter
             this.layoutControlItem3.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem3.Control = this.textEdit31;
             resources.ApplyResources(this.layoutControlItem3, "layoutControlItem3");
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem3.Location = new System.Drawing.Point(328, 72);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(325, 357);
-            this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(95, 15);
             // 
             // layoutControlItem2
@@ -435,16 +436,16 @@ namespace Ultra.Views.CostCenter
             this.layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem2.Control = this.textEdit21;
             resources.ApplyResources(this.layoutControlItem2, "layoutControlItem2");
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem2.Location = new System.Drawing.Point(328, 24);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(325, 24);
-            this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem2.TextSize = new System.Drawing.Size(95, 15);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(325, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
             this.emptySpaceItem1.Size = new System.Drawing.Size(328, 429);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -455,10 +456,10 @@ namespace Ultra.Views.CostCenter
             this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem4.Control = this.textEdit41;
             resources.ApplyResources(this.layoutControlItem4, "layoutControlItem4");
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem4.Location = new System.Drawing.Point(328, 48);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(325, 24);
-            this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Right;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(95, 15);
             // 
             // PanelTop

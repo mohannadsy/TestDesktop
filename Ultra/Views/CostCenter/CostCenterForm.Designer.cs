@@ -55,21 +55,22 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelMain
             // 
+            this.PanelMain.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             resources.ApplyResources(this.PanelMain, "PanelMain");
             this.PanelMain.Name = "PanelMain";
             // 
             // SidePanel
             // 
-            resources.ApplyResources(this.SidePanel, "SidePanel");
             this.SidePanel.Controls.Add(this.treeList1);
             this.SidePanel.Controls.Add(this.panelControl2);
+            resources.ApplyResources(this.SidePanel, "SidePanel");
             this.SidePanel.Name = "SidePanel";
             // 
             // treeList1
             // 
-            resources.ApplyResources(this.treeList1, "treeList1");
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
+            resources.ApplyResources(this.treeList1, "treeList1");
             this.treeList1.Name = "treeList1";
             this.treeList1.BeginUnboundLoad();
             this.treeList1.AppendNode(new object[] {
@@ -87,23 +88,23 @@ namespace Ultra.Views.CostCenter
             // 
             // panelControl2
             // 
-            resources.ApplyResources(this.panelControl2, "panelControl2");
             this.panelControl2.Controls.Add(this.PanelSearch);
             this.panelControl2.Controls.Add(this.PanelHeader);
+            resources.ApplyResources(this.panelControl2, "panelControl2");
             this.panelControl2.Name = "panelControl2";
             // 
             // PanelSearch
             // 
-            resources.ApplyResources(this.PanelSearch, "PanelSearch");
             this.PanelSearch.Controls.Add(this.simpleButton1);
             this.PanelSearch.Controls.Add(this.SearchControlCostCenters);
+            resources.ApplyResources(this.PanelSearch, "PanelSearch");
             this.PanelSearch.Name = "PanelSearch";
             // 
             // simpleButton1
             // 
-            resources.ApplyResources(this.simpleButton1, "simpleButton1");
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            resources.ApplyResources(this.simpleButton1, "simpleButton1");
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
@@ -124,24 +125,24 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelHeader
             // 
-            resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Controls.Add(this.labelControl2);
             this.PanelHeader.Controls.Add(this.labelControl3);
+            resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Name = "PanelHeader";
             // 
             // labelControl2
             // 
-            resources.ApplyResources(this.labelControl2, "labelControl2");
             this.labelControl2.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl2.Appearance.Font")));
             this.labelControl2.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl2, "labelControl2");
             this.labelControl2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
             this.labelControl2.Name = "labelControl2";
             // 
             // labelControl3
             // 
-            resources.ApplyResources(this.labelControl3, "labelControl3");
             this.labelControl3.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl3.Appearance.Font")));
             this.labelControl3.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl3, "labelControl3");
             this.labelControl3.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.labelControl3.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
             this.labelControl3.Name = "labelControl3";

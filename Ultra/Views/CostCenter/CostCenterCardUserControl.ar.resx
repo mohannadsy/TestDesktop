@@ -459,7 +459,7 @@
 </value>
   </data>
   <data name="simpleButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 8</value>
+    <value>11, 8</value>
   </data>
   <data name="simpleButton4.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -561,7 +561,7 @@
 </value>
   </data>
   <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 8</value>
+    <value>287, 8</value>
   </data>
   <data name="simpleButton2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -666,17 +666,29 @@
   <data name="stackPanel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
-  <data name="labelControl10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 103</value>
+  <data name="textEdit11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 12</value>
   </data>
-  <data name="labelControl9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 72</value>
+  <data name="textEdit21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 36</value>
   </data>
-  <data name="labelControl7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 41</value>
+  <data name="textEdit31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 84</value>
   </data>
-  <data name="labelControl6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 10</value>
+  <data name="textEdit41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 60</value>
+  </data>
+  <data name="layoutControlItem1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem3.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem2.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem4.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
   </data>
   <data name="panelControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>

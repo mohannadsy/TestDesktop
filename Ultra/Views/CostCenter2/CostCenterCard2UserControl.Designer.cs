@@ -286,7 +286,7 @@ namespace Ultra.Views.CostCenter2
             // 
             // textEdit15
             // 
-            this.textEdit15.Location = new System.Drawing.Point(354, 90);
+            this.textEdit15.Location = new System.Drawing.Point(339, 90);
             this.textEdit15.Name = "textEdit15";
             this.textEdit15.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit15.Properties.Appearance.Options.UseFont = true;
@@ -299,7 +299,7 @@ namespace Ultra.Views.CostCenter2
             this.labelControl19.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl19.Location = new System.Drawing.Point(573, 85);
+            this.labelControl19.Location = new System.Drawing.Point(558, 85);
             this.labelControl19.Name = "labelControl19";
             this.labelControl19.Size = new System.Drawing.Size(96, 30);
             this.labelControl19.TabIndex = 2;
@@ -307,7 +307,7 @@ namespace Ultra.Views.CostCenter2
             // 
             // textEdit10
             // 
-            this.textEdit10.Location = new System.Drawing.Point(354, 126);
+            this.textEdit10.Location = new System.Drawing.Point(339, 126);
             this.textEdit10.Name = "textEdit10";
             this.textEdit10.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit10.Properties.Appearance.Options.UseFont = true;
@@ -320,7 +320,7 @@ namespace Ultra.Views.CostCenter2
             this.labelControl11.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl11.Appearance.Options.UseFont = true;
             this.labelControl11.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl11.Location = new System.Drawing.Point(573, 121);
+            this.labelControl11.Location = new System.Drawing.Point(558, 121);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(96, 30);
             this.labelControl11.TabIndex = 2;
@@ -399,7 +399,7 @@ namespace Ultra.Views.CostCenter2
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl7.Location = new System.Drawing.Point(573, 49);
+            this.labelControl7.Location = new System.Drawing.Point(558, 49);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(92, 30);
             this.labelControl7.TabIndex = 6;
@@ -407,7 +407,7 @@ namespace Ultra.Views.CostCenter2
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(354, 54);
+            this.textEdit6.Location = new System.Drawing.Point(339, 54);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit6.Properties.Appearance.Options.UseFont = true;
@@ -420,7 +420,7 @@ namespace Ultra.Views.CostCenter2
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl6.Location = new System.Drawing.Point(573, 13);
+            this.labelControl6.Location = new System.Drawing.Point(558, 13);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(92, 30);
             this.labelControl6.TabIndex = 9;
@@ -428,7 +428,7 @@ namespace Ultra.Views.CostCenter2
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(354, 18);
+            this.textEdit5.Location = new System.Drawing.Point(339, 18);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
@@ -973,13 +973,13 @@ namespace Ultra.Views.CostCenter2
             this.textEdit30.Size = new System.Drawing.Size(213, 25);
             this.textEdit30.TabIndex = 3;
             // 
-            // CostCenterCardUserControl
+            // CostCenterCard2UserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.PanelTop);
-            this.Name = "CostCenterCardUserControl";
+            this.Name = "CostCenterCard2UserControl";
             this.Size = new System.Drawing.Size(679, 673);
             this.PanelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();

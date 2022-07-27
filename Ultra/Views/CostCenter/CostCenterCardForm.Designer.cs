@@ -38,6 +38,16 @@ namespace Ultra.Views.CostCenter
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
@@ -62,16 +72,6 @@ namespace Ultra.Views.CostCenter
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.ToggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -79,6 +79,11 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
@@ -93,11 +98,6 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton1
@@ -168,6 +168,80 @@ namespace Ultra.Views.CostCenter
             this.xtraTabPage1.Controls.Add(this.labelControl6);
             this.xtraTabPage1.Name = "xtraTabPage1";
             resources.ApplyResources(this.xtraTabPage1, "xtraTabPage1");
+            // 
+            // memoEdit1
+            // 
+            resources.ApplyResources(this.memoEdit1, "memoEdit1");
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("memoEdit1.Properties.Appearance.Font")));
+            this.memoEdit1.Properties.Appearance.Options.UseFont = true;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl11.Appearance.Font")));
+            this.labelControl11.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl11, "labelControl11");
+            this.labelControl11.Name = "labelControl11";
+            // 
+            // textEdit7
+            // 
+            resources.ApplyResources(this.textEdit7, "textEdit7");
+            this.textEdit7.Name = "textEdit7";
+            this.textEdit7.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit7.Properties.Appearance.Font")));
+            this.textEdit7.Properties.Appearance.Options.UseFont = true;
+            this.textEdit7.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit7.Properties.AutoHeight")));
+            // 
+            // labelControl10
+            // 
+            this.labelControl10.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl10.Appearance.Font")));
+            this.labelControl10.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl10, "labelControl10");
+            this.labelControl10.Name = "labelControl10";
+            // 
+            // textEdit6
+            // 
+            resources.ApplyResources(this.textEdit6, "textEdit6");
+            this.textEdit6.Name = "textEdit6";
+            this.textEdit6.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit6.Properties.Appearance.Font")));
+            this.textEdit6.Properties.Appearance.Options.UseFont = true;
+            this.textEdit6.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit6.Properties.AutoHeight")));
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl9.Appearance.Font")));
+            this.labelControl9.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl9, "labelControl9");
+            this.labelControl9.Name = "labelControl9";
+            // 
+            // textEdit5
+            // 
+            resources.ApplyResources(this.textEdit5, "textEdit5");
+            this.textEdit5.Name = "textEdit5";
+            this.textEdit5.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit5.Properties.Appearance.Font")));
+            this.textEdit5.Properties.Appearance.Options.UseFont = true;
+            this.textEdit5.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit5.Properties.AutoHeight")));
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl7.Appearance.Font")));
+            this.labelControl7.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl7, "labelControl7");
+            this.labelControl7.Name = "labelControl7";
+            // 
+            // textEdit4
+            // 
+            resources.ApplyResources(this.textEdit4, "textEdit4");
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit4.Properties.Appearance.Font")));
+            this.textEdit4.Properties.Appearance.Options.UseFont = true;
+            this.textEdit4.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit4.Properties.AutoHeight")));
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl6.Appearance.Font")));
+            this.labelControl6.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl6, "labelControl6");
+            this.labelControl6.Name = "labelControl6";
             // 
             // xtraTabPage2
             // 
@@ -377,80 +451,6 @@ namespace Ultra.Views.CostCenter
             resources.ApplyResources(this.labelControl3, "labelControl3");
             this.labelControl3.Name = "labelControl3";
             // 
-            // labelControl11
-            // 
-            this.labelControl11.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl11.Appearance.Font")));
-            this.labelControl11.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl11, "labelControl11");
-            this.labelControl11.Name = "labelControl11";
-            // 
-            // memoEdit1
-            // 
-            resources.ApplyResources(this.memoEdit1, "memoEdit1");
-            this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("memoEdit1.Properties.Appearance.Font")));
-            this.memoEdit1.Properties.Appearance.Options.UseFont = true;
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl6.Appearance.Font")));
-            this.labelControl6.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl6, "labelControl6");
-            this.labelControl6.Name = "labelControl6";
-            // 
-            // textEdit4
-            // 
-            resources.ApplyResources(this.textEdit4, "textEdit4");
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit4.Properties.Appearance.Font")));
-            this.textEdit4.Properties.Appearance.Options.UseFont = true;
-            this.textEdit4.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit4.Properties.AutoHeight")));
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl7.Appearance.Font")));
-            this.labelControl7.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl7, "labelControl7");
-            this.labelControl7.Name = "labelControl7";
-            // 
-            // textEdit5
-            // 
-            resources.ApplyResources(this.textEdit5, "textEdit5");
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit5.Properties.Appearance.Font")));
-            this.textEdit5.Properties.Appearance.Options.UseFont = true;
-            this.textEdit5.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit5.Properties.AutoHeight")));
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl9.Appearance.Font")));
-            this.labelControl9.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl9, "labelControl9");
-            this.labelControl9.Name = "labelControl9";
-            // 
-            // textEdit6
-            // 
-            resources.ApplyResources(this.textEdit6, "textEdit6");
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit6.Properties.Appearance.Font")));
-            this.textEdit6.Properties.Appearance.Options.UseFont = true;
-            this.textEdit6.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit6.Properties.AutoHeight")));
-            // 
-            // labelControl10
-            // 
-            this.labelControl10.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl10.Appearance.Font")));
-            this.labelControl10.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl10, "labelControl10");
-            this.labelControl10.Name = "labelControl10";
-            // 
-            // textEdit7
-            // 
-            resources.ApplyResources(this.textEdit7, "textEdit7");
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("textEdit7.Properties.Appearance.Font")));
-            this.textEdit7.Properties.Appearance.Options.UseFont = true;
-            this.textEdit7.Properties.AutoHeight = ((bool)(resources.GetObject("textEdit7.Properties.AutoHeight")));
-            // 
             // CostCenterCardForm
             // 
             resources.ApplyResources(this, "$this");
@@ -469,6 +469,11 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
@@ -483,11 +488,6 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
