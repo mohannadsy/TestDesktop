@@ -234,6 +234,9 @@ namespace Ultra
             this.ribbonPageGroup46 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup47 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.backstageViewManager1 = new DevExpress.XtraBars.Ribbon.BackstageViewManager();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup56 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             this.backstageViewControl1.SuspendLayout();
@@ -349,10 +352,12 @@ namespace Ultra
             this.barButtonItem78,
             this.barButtonItem79,
             this.barButtonItem80,
-            this.barButtonItemTestCostCenterDev});
+            this.barButtonItemTestCostCenterDev,
+            this.barButtonItem4,
+            this.barButtonItem18});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 86;
+            this.ribbonControl1.MaxItemId = 88;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageHeaderItemLinks.Add(this.skinDropDownButtonItem1);
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -430,7 +435,7 @@ namespace Ultra
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -486,7 +491,7 @@ namespace Ultra
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(382, 27);
+            this.textBox1.Location = new System.Drawing.Point(383, 27);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(225, 23);
             this.textBox1.TabIndex = 21;
@@ -496,7 +501,7 @@ namespace Ultra
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(613, 35);
+            this.label1.Location = new System.Drawing.Point(614, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 15);
             this.label1.TabIndex = 20;
@@ -506,7 +511,7 @@ namespace Ultra
             // 
             this.dateEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(36, 69);
+            this.dateEdit1.Location = new System.Drawing.Point(37, 69);
             this.dateEdit1.MenuManager = this.ribbonControl1;
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -521,7 +526,7 @@ namespace Ultra
             // textEdit4
             // 
             this.textEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit4.Location = new System.Drawing.Point(36, 32);
+            this.textEdit4.Location = new System.Drawing.Point(37, 32);
             this.textEdit4.MenuManager = this.ribbonControl1;
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -543,7 +548,7 @@ namespace Ultra
             // textEdit2
             // 
             this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit2.Location = new System.Drawing.Point(382, 69);
+            this.textEdit2.Location = new System.Drawing.Point(383, 69);
             this.textEdit2.MenuManager = this.ribbonControl1;
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -556,7 +561,7 @@ namespace Ultra
             this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(528, 114);
+            this.labelControl5.Location = new System.Drawing.Point(529, 114);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(35, 15);
             this.labelControl5.TabIndex = 14;
@@ -567,7 +572,7 @@ namespace Ultra
             this.labelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(267, 72);
+            this.labelControl4.Location = new System.Drawing.Point(268, 72);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(65, 15);
             this.labelControl4.TabIndex = 13;
@@ -578,7 +583,7 @@ namespace Ultra
             this.labelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(267, 35);
+            this.labelControl3.Location = new System.Drawing.Point(268, 35);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(38, 15);
             this.labelControl3.TabIndex = 12;
@@ -589,7 +594,7 @@ namespace Ultra
             this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(613, 72);
+            this.labelControl2.Location = new System.Drawing.Point(614, 72);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(90, 15);
             this.labelControl2.TabIndex = 11;
@@ -1661,6 +1666,7 @@ namespace Ultra
             // ribbonPageGroup54
             // 
             this.ribbonPageGroup54.ItemLinks.Add(this.barButtonItem80);
+            this.ribbonPageGroup54.ItemLinks.Add(this.barButtonItem4);
             this.ribbonPageGroup54.Name = "ribbonPageGroup54";
             this.ribbonPageGroup54.Text = "ribbonPageGroup54";
             // 
@@ -1973,7 +1979,8 @@ namespace Ultra
             this.ribbonPageGroup44,
             this.ribbonPageGroup45,
             this.ribbonPageGroup46,
-            this.ribbonPageGroup47});
+            this.ribbonPageGroup47,
+            this.ribbonPageGroup56});
             this.ribbonPage9.Name = "ribbonPage9";
             this.ribbonPage9.Text = "إعدادات";
             // 
@@ -2021,6 +2028,26 @@ namespace Ultra
             // backstageViewManager1
             // 
             this.backstageViewManager1.BackstageView = this.backstageViewControl1;
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "Source";
+            this.barButtonItem4.Id = 86;
+            this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
+            // 
+            // ribbonPageGroup56
+            // 
+            this.ribbonPageGroup56.ItemLinks.Add(this.barButtonItem18);
+            this.ribbonPageGroup56.Name = "ribbonPageGroup56";
+            this.ribbonPageGroup56.Text = "ribbonPageGroup56";
+            // 
+            // barButtonItem18
+            // 
+            this.barButtonItem18.Caption = "تبديل اللغة";
+            this.barButtonItem18.Id = 87;
+            this.barButtonItem18.Name = "barButtonItem18";
+            this.barButtonItem18.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem18_ItemClick);
             // 
             // Desktop
             // 
@@ -2274,6 +2301,9 @@ namespace Ultra
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup54;
         private DevExpress.XtraBars.BarButtonItem barButtonItemTestCostCenterDev;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup55;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup56;
     }
 }
 

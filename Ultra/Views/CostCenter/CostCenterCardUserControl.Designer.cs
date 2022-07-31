@@ -41,7 +41,7 @@ namespace Ultra.Views.CostCenter
             this.buttonAddFile = new DevExpress.XtraEditors.SimpleButton();
             this.PanelHeader = new DevExpress.Utils.Layout.StackPanel();
             this.labelHeaderImage = new DevExpress.XtraEditors.LabelControl();
-            this.labelHeader = new DevExpress.XtraEditors.LabelControl();
+            this.labelHeaderTitle = new DevExpress.XtraEditors.LabelControl();
             this.labelHeaderImageIsActive = new DevExpress.XtraEditors.LabelControl();
             this.buttonDelete = new DevExpress.XtraEditors.SimpleButton();
             this.buttonNew = new DevExpress.XtraEditors.SimpleButton();
@@ -196,7 +196,7 @@ namespace Ultra.Views.CostCenter
             // PanelHeader
             // 
             this.PanelHeader.Controls.Add(this.labelHeaderImage);
-            this.PanelHeader.Controls.Add(this.labelHeader);
+            this.PanelHeader.Controls.Add(this.labelHeaderTitle);
             this.PanelHeader.Controls.Add(this.labelHeaderImageIsActive);
             resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Name = "PanelHeader";
@@ -209,14 +209,14 @@ namespace Ultra.Views.CostCenter
             this.labelHeaderImage.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelHeaderImage.ImageOptions.Image")));
             this.labelHeaderImage.Name = "labelHeaderImage";
             // 
-            // labelHeader
+            // labelHeaderTitle
             // 
-            this.labelHeader.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelHeader.Appearance.Font")));
-            this.labelHeader.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelHeader, "labelHeader");
-            this.labelHeader.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
-            this.labelHeader.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelHeader.Name = "labelHeader";
+            this.labelHeaderTitle.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelHeader.Appearance.Font")));
+            this.labelHeaderTitle.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelHeaderTitle, "labelHeaderTitle");
+            this.labelHeaderTitle.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.labelHeaderTitle.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelHeaderTitle.Name = "labelHeaderTitle";
             // 
             // labelHeaderImageIsActive
             // 
@@ -608,7 +608,7 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraTab.XtraTabPage tabAttachments;
         private DevExpress.Utils.Layout.StackPanel PanelHeader;
         private DevExpress.XtraEditors.LabelControl labelHeaderImage;
-        private DevExpress.XtraEditors.LabelControl labelHeader;
+        private DevExpress.XtraEditors.LabelControl labelHeaderTitle;
         private DevExpress.XtraEditors.SimpleButton buttonDelete;
         private DevExpress.XtraEditors.SimpleButton buttonNew;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxCardType;

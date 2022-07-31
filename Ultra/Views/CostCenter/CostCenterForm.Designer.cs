@@ -32,23 +32,23 @@ namespace Ultra.Views.CostCenter
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CostCenterForm));
             this.PanelMain = new DevExpress.XtraEditors.PanelControl();
             this.SidePanel = new DevExpress.XtraEditors.SidePanel();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.treeListCostCenters = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.PanelSearch = new DevExpress.Utils.Layout.StackPanel();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.SearchControlCostCenters = new DevExpress.XtraEditors.SearchControl();
+            this.buttonNew = new DevExpress.XtraEditors.SimpleButton();
+            this.searchCostCenter = new DevExpress.XtraEditors.SearchControl();
             this.PanelHeader = new DevExpress.Utils.Layout.StackPanel();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelHeaderImage = new DevExpress.XtraEditors.LabelControl();
+            this.labelHeaderTitle = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.PanelMain)).BeginInit();
             this.SidePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.treeListCostCenters)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSearch)).BeginInit();
             this.PanelSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SearchControlCostCenters.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchCostCenter.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelHeader)).BeginInit();
             this.PanelHeader.SuspendLayout();
             this.SuspendLayout();
@@ -61,24 +61,24 @@ namespace Ultra.Views.CostCenter
             // 
             // SidePanel
             // 
-            this.SidePanel.Controls.Add(this.treeList1);
+            this.SidePanel.Controls.Add(this.treeListCostCenters);
             this.SidePanel.Controls.Add(this.panelControl2);
             resources.ApplyResources(this.SidePanel, "SidePanel");
             this.SidePanel.Name = "SidePanel";
             // 
-            // treeList1
+            // treeListCostCenters
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.treeListCostCenters.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            resources.ApplyResources(this.treeList1, "treeList1");
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            resources.ApplyResources(this.treeListCostCenters, "treeListCostCenters");
+            this.treeListCostCenters.Name = "treeListCostCenters";
+            this.treeListCostCenters.BeginUnboundLoad();
+            this.treeListCostCenters.AppendNode(new object[] {
             "1 - Main Cost Center"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.treeListCostCenters.AppendNode(new object[] {
             "101 - Sub Cost Center"}, 0);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged_1);
+            this.treeListCostCenters.EndUnboundLoad();
+            this.treeListCostCenters.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeListCostCenters_FocusedNodeChanged);
             // 
             // treeListColumn1
             // 
@@ -95,57 +95,57 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelSearch
             // 
-            this.PanelSearch.Controls.Add(this.simpleButton1);
-            this.PanelSearch.Controls.Add(this.SearchControlCostCenters);
+            this.PanelSearch.Controls.Add(this.buttonNew);
+            this.PanelSearch.Controls.Add(this.searchCostCenter);
             resources.ApplyResources(this.PanelSearch, "PanelSearch");
             this.PanelSearch.Name = "PanelSearch";
             // 
-            // simpleButton1
+            // buttonNew
             // 
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            resources.ApplyResources(this.simpleButton1, "simpleButton1");
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.buttonNew.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.buttonNew.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            resources.ApplyResources(this.buttonNew, "buttonNew");
+            this.buttonNew.Name = "buttonNew";
+            this.buttonNew.Click += new System.EventHandler(this.buttonNew_Click);
             // 
-            // SearchControlCostCenters
+            // searchCostCenter
             // 
-            resources.ApplyResources(this.SearchControlCostCenters, "SearchControlCostCenters");
-            this.SearchControlCostCenters.Name = "SearchControlCostCenters";
-            this.SearchControlCostCenters.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("SearchControlCostCenters.Properties.Appearance.Font")));
-            this.SearchControlCostCenters.Properties.Appearance.Options.UseFont = true;
-            this.SearchControlCostCenters.Properties.Appearance.Options.UseTextOptions = true;
-            this.SearchControlCostCenters.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
-            this.SearchControlCostCenters.Properties.AutoHeight = ((bool)(resources.GetObject("SearchControlCostCenters.Properties.AutoHeight")));
-            this.SearchControlCostCenters.Properties.ContextImageOptions.Alignment = DevExpress.XtraEditors.ContextImageAlignment.Far;
-            this.SearchControlCostCenters.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("SearchControlCostCenters.Properties.ContextImageOptions.Image")));
-            this.SearchControlCostCenters.Properties.NullValuePrompt = resources.GetString("SearchControlCostCenters.Properties.NullValuePrompt");
-            this.SearchControlCostCenters.Properties.ShowClearButton = false;
-            this.SearchControlCostCenters.Properties.ShowSearchButton = false;
+            resources.ApplyResources(this.searchCostCenter, "searchCostCenter");
+            this.searchCostCenter.Name = "searchCostCenter";
+            this.searchCostCenter.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("SearchControlCostCenters.Properties.Appearance.Font")));
+            this.searchCostCenter.Properties.Appearance.Options.UseFont = true;
+            this.searchCostCenter.Properties.Appearance.Options.UseTextOptions = true;
+            this.searchCostCenter.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            this.searchCostCenter.Properties.AutoHeight = ((bool)(resources.GetObject("SearchControlCostCenters.Properties.AutoHeight")));
+            this.searchCostCenter.Properties.ContextImageOptions.Alignment = DevExpress.XtraEditors.ContextImageAlignment.Far;
+            this.searchCostCenter.Properties.ContextImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("SearchControlCostCenters.Properties.ContextImageOptions.Image")));
+            this.searchCostCenter.Properties.NullValuePrompt = resources.GetString("SearchControlCostCenters.Properties.NullValuePrompt");
+            this.searchCostCenter.Properties.ShowClearButton = false;
+            this.searchCostCenter.Properties.ShowSearchButton = false;
             // 
             // PanelHeader
             // 
-            this.PanelHeader.Controls.Add(this.labelControl2);
-            this.PanelHeader.Controls.Add(this.labelControl3);
+            this.PanelHeader.Controls.Add(this.labelHeaderImage);
+            this.PanelHeader.Controls.Add(this.labelHeaderTitle);
             resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Name = "PanelHeader";
             // 
-            // labelControl2
+            // labelHeaderImage
             // 
-            this.labelControl2.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl2.Appearance.Font")));
-            this.labelControl2.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl2, "labelControl2");
-            this.labelControl2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
-            this.labelControl2.Name = "labelControl2";
+            this.labelHeaderImage.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl2.Appearance.Font")));
+            this.labelHeaderImage.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelHeaderImage, "labelHeaderImage");
+            this.labelHeaderImage.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
+            this.labelHeaderImage.Name = "labelHeaderImage";
             // 
-            // labelControl3
+            // labelHeaderTitle
             // 
-            this.labelControl3.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl3.Appearance.Font")));
-            this.labelControl3.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.labelControl3, "labelControl3");
-            this.labelControl3.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
-            this.labelControl3.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.labelControl3.Name = "labelControl3";
+            this.labelHeaderTitle.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl3.Appearance.Font")));
+            this.labelHeaderTitle.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelHeaderTitle, "labelHeaderTitle");
+            this.labelHeaderTitle.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            this.labelHeaderTitle.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelHeaderTitle.Name = "labelHeaderTitle";
             // 
             // CostCenterForm
             // 
@@ -155,15 +155,14 @@ namespace Ultra.Views.CostCenter
             this.Controls.Add(this.SidePanel);
             this.MaximizeBox = false;
             this.Name = "CostCenterForm";
-            this.Load += new System.EventHandler(this.CostCenterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PanelMain)).EndInit();
             this.SidePanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.treeListCostCenters)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PanelSearch)).EndInit();
             this.PanelSearch.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SearchControlCostCenters.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchCostCenter.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelHeader)).EndInit();
             this.PanelHeader.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -174,14 +173,14 @@ namespace Ultra.Views.CostCenter
 
         private DevExpress.XtraEditors.PanelControl PanelMain;
         private DevExpress.XtraEditors.SidePanel SidePanel;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraTreeList.TreeList treeListCostCenters;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.Utils.Layout.StackPanel PanelSearch;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SearchControl SearchControlCostCenters;
+        private DevExpress.XtraEditors.SimpleButton buttonNew;
+        private DevExpress.XtraEditors.SearchControl searchCostCenter;
         private DevExpress.Utils.Layout.StackPanel PanelHeader;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl labelHeaderImage;
+        private DevExpress.XtraEditors.LabelControl labelHeaderTitle;
     }
 }

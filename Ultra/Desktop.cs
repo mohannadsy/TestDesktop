@@ -16,14 +16,32 @@ using Ultra.Views.File;
 using Ultra.Views.MaterialCard;
 using Ultra.Views.Store;
 
+
+using System.Globalization;
+using System.Resources;
+using System.Threading;
+
+
 namespace Ultra
 {
     public partial class Desktop : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+        ResourceManager res_man;    // declare Resource manager to access to specific cultureinfo
+        CultureInfo cul;            // declare culture info
+
         public Desktop()
         {
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Properties.Settings.Default.language);
             InitializeComponent();
         }
+
+        private void switchLanguage()
+        {
+            Properties.Settings.Default.language = Properties.Settings.Default.language == "en-US" ? "ar" : "en-US";
+            Properties.Settings.Default.Save();
+        }
+
+
 
         private void backstageViewTabItem1_SelectedChanged(object sender, DevExpress.XtraBars.Ribbon.BackstageViewItemEventArgs e)
         {
@@ -127,6 +145,17 @@ namespace Ultra
         private void barButtonItemTestCostCenterDev_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             new CostCenterDev().Show();
+        }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switchLanguage();
+            Application.Restart();
         }
     }
 }

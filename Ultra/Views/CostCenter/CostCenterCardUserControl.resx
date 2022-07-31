@@ -117,121 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;buttonRemoveImage.Name" xml:space="preserve">
-    <value>buttonRemoveImage</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveImage.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveImage.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveImage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveFile.Name" xml:space="preserve">
-    <value>buttonRemoveFile</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveFile.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveFile.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenImage.Name" xml:space="preserve">
-    <value>buttonOpenImage</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenImage.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenImage.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenImage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenFile.Name" xml:space="preserve">
-    <value>buttonOpenFile</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenFile.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonOpenFile.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;textEditAddImage.Name" xml:space="preserve">
-    <value>textEditAddImage</value>
-  </data>
-  <data name="&gt;&gt;textEditAddImage.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEditAddImage.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;textEditAddImage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonAddImage.Name" xml:space="preserve">
-    <value>buttonAddImage</value>
-  </data>
-  <data name="&gt;&gt;buttonAddImage.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonAddImage.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonAddImage.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;textEditAddFile.Name" xml:space="preserve">
-    <value>textEditAddFile</value>
-  </data>
-  <data name="&gt;&gt;textEditAddFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEditAddFile.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;textEditAddFile.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonAddFile.Name" xml:space="preserve">
-    <value>buttonAddFile</value>
-  </data>
-  <data name="&gt;&gt;buttonAddFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonAddFile.Parent" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;buttonAddFile.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tabAttachments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>673, 449</value>
-  </data>
-  <data name="tabAttachments.Text" xml:space="preserve">
-    <value>Attachments</value>
-  </data>
-  <data name="&gt;&gt;tabAttachments.Name" xml:space="preserve">
-    <value>tabAttachments</value>
-  </data>
-  <data name="&gt;&gt;tabAttachments.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;tabAttachments.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabAttachments.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="buttonRemoveImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
@@ -686,6 +572,24 @@
   <data name="&gt;&gt;buttonAddFile.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="tabAttachments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 449</value>
+  </data>
+  <data name="tabAttachments.Text" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="&gt;&gt;tabAttachments.Name" xml:space="preserve">
+    <value>tabAttachments</value>
+  </data>
+  <data name="&gt;&gt;tabAttachments.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabAttachments.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabAttachments.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="labelHeaderImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 18pt, style=Bold</value>
   </data>
@@ -760,31 +664,31 @@
   <data name="labelHeader.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 18pt, style=Bold</value>
   </data>
-  <data name="labelHeader.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+  <data name="labelHeaderTitle.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
     <value>None</value>
   </data>
-  <data name="labelHeader.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelHeaderTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 3</value>
   </data>
-  <data name="labelHeader.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="labelHeaderTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 56</value>
   </data>
-  <data name="labelHeader.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelHeaderTitle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="labelHeader.Text" xml:space="preserve">
+  <data name="labelHeaderTitle.Text" xml:space="preserve">
     <value>Cost Center Card</value>
   </data>
-  <data name="&gt;&gt;labelHeader.Name" xml:space="preserve">
-    <value>labelHeader</value>
+  <data name="&gt;&gt;labelHeaderTitle.Name" xml:space="preserve">
+    <value>labelHeaderTitle</value>
   </data>
-  <data name="&gt;&gt;labelHeader.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderTitle.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;labelHeader.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderTitle.Parent" xml:space="preserve">
     <value>PanelHeader</value>
   </data>
-  <data name="&gt;&gt;labelHeader.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderTitle.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="labelHeaderImageIsActive.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
@@ -792,16 +696,16 @@
   </data>
   <data name="labelHeaderImageIsActive.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAMdEVYdFRpdGxlAEFib3V0O1VEZxsAAAHFSURBVFhHxda9SkNBEIbh3ERUECxEUMErESwtxM5K
-        hICVIFZGvAbBwlIQhAiiWNkoeAla2FgKBv8QFH+O74STcHZm2GSDORZPsZOZ+ZYTTVLJsuxfucUyucUy
-        ucUymcJc/SxmDGs4wR2e8YhbHKGGYXizLTrPFLwhSPA+vpB18YFdDMHs0nmm4Awt4hVeWMwDZhHs03mm
-        oAbW4S3vlTyxJXR26jxTKDTLoLc0lVyi8yR0ninkjRN4g7ewH/J2VGHyTEGa0IC3SGv3e69pOzB5pkDT
-        JH7yoW5SLiD/HVWdFxwETZuFob+2rPOCg6DpUg3FpDwBcajzgoOgST7dvGFP6gWudV5wEM5QTOoFmjov
-        OAhnKGYgFxjkW3Cj84KDoOlKDcWkXqCh84KDoGlbDcWkXqCm84KDoGlGDcWkXOATIzovOAiaxGk+1E3K
-        BfZg8kxBmjAN+ej0FvXjCaMweaYgTTn5eeUtSyXfK/No7dV5ptBuzG3BW9orCV9FZ6fOM4Vic24F7/AC
-        Yl6wgGCfzjMFPZCbwjF6+Zr+xgHkh6zZpfNMwRsqkD/OOi7QRDv0HufYwDi82RadZwplc4tlcotlcovl
-        ySq/BghXOy4DehcAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAx0RVh0VGl0
+        bGUAQWJvdXQ7VURnGwAAAcVJREFUWEfF1r1KQ0EQhuHcRFQQLERQwSsRLC3EzkqEgJUgVka8BsHCUhCE
+        CKJY2Sh4CVrYWAoG/xAUf47vhJNwdmbYZIM5Fk+xk5n5lhNNUsmy7F+5xTK5xTK5xTKZwlz9LGYMazjB
+        HZ7xiFscoYZheLMtOs8UvCFI8D6+kHXxgV0MwezSeabgDC3iFV5YzANmEezTeaagBtbhLe+VPLEldHbq
+        PFMoNMugtzSVXKLzJHSeKeSNE3iDt7Af8nZUYfJMQZrQgLdIa/d7r2k7MHmmQNMkfvKhblIuIP8dVZ0X
+        HARNm4Whv7as84KDoOlSDcWkPAFxqPOCg6BJPt28YU/qBa51XnAQzlBM6gWaOi84CGcoZiAXGORbcKPz
+        goOg6UoNxaReoKHzgoOgaVsNxaReoKbzgoOgaUYNxaRc4BMjOi84CJrEaT7UTcoF9mDyTEGaMA356PQW
+        9eMJozB5piBNOfl55S1LJd8r82jt1Xmm0G7MbcFb2isJX0Vnp84zhWJzbgXv8AJiXrCAYJ/OMwU9kJvC
+        MXr5mv7GAeSHrNml80zBGyqQP846LtBEO/Qe59jAOLzZFp1nCmVzi2Vyi2Vyi+XJKr8GCFc7LgN6FwAA
+        AABJRU5ErkJggg==
 </value>
   </data>
   <data name="labelHeaderImageIsActive.Location" type="System.Drawing.Point, System.Drawing">
@@ -1279,81 +1183,6 @@
   <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
-    <value>panelControl2</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
-    <value>stackPanel1</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="stackPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="stackPanel1.LayoutDirection" type="DevExpress.Utils.Layout.StackPanelLayoutDirection, DevExpress.Utils.v20.1">
-    <value>RightToLeft</value>
-  </data>
-  <data name="stackPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 620</value>
-  </data>
-  <data name="stackPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="stackPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>679, 53</value>
-  </data>
-  <data name="stackPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;stackPanel1.Name" xml:space="preserve">
-    <value>stackPanel1</value>
-  </data>
-  <data name="&gt;&gt;stackPanel1.Type" xml:space="preserve">
-    <value>DevExpress.Utils.Layout.StackPanel, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;stackPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;stackPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonCostCenterMovement.Name" xml:space="preserve">
-    <value>buttonCostCenterMovement</value>
-  </data>
-  <data name="&gt;&gt;buttonCostCenterMovement.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;buttonCostCenterMovement.Parent" xml:space="preserve">
-    <value>panelControl2</value>
-  </data>
-  <data name="&gt;&gt;buttonCostCenterMovement.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 8</value>
-  </data>
-  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 37</value>
-  </data>
-  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
-    <value>panelControl2</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
-    <value>stackPanel1</value>
-  </data>
-  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="buttonCostCenterMovement.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -1422,6 +1251,57 @@
     <value>panelControl2</value>
   </data>
   <data name="&gt;&gt;buttonCostCenterMovement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 8</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 37</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
+    <value>stackPanel1</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="stackPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="stackPanel1.LayoutDirection" type="DevExpress.Utils.Layout.StackPanelLayoutDirection, DevExpress.Utils.v20.1">
+    <value>RightToLeft</value>
+  </data>
+  <data name="stackPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 620</value>
+  </data>
+  <data name="stackPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="stackPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 53</value>
+  </data>
+  <data name="stackPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;stackPanel1.Name" xml:space="preserve">
+    <value>stackPanel1</value>
+  </data>
+  <data name="&gt;&gt;stackPanel1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Layout.StackPanel, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;stackPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;stackPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="textEditName.Location" type="System.Drawing.Point, System.Drawing">
@@ -1508,42 +1388,6 @@
   <data name="&gt;&gt;textEditCode.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
-    <value>panelControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 195</value>
-  </data>
-  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>679, 478</value>
-  </data>
-  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
-    <value>panelControl1</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -1556,192 +1400,6 @@
   <assembly alias="DevExpress.Data.v20.1" name="DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="tabControl.RightToLeftLayout" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v20.1">
     <value>False</value>
-  </data>
-  <data name="&gt;&gt;memoEditNotes.Name" xml:space="preserve">
-    <value>memoEditNotes</value>
-  </data>
-  <data name="&gt;&gt;memoEditNotes.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;memoEditNotes.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;memoEditNotes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textEditBalance.Name" xml:space="preserve">
-    <value>textEditBalance</value>
-  </data>
-  <data name="&gt;&gt;textEditBalance.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEditBalance.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;textEditBalance.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelControl28.Name" xml:space="preserve">
-    <value>labelControl28</value>
-  </data>
-  <data name="&gt;&gt;labelControl28.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;labelControl28.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;labelControl28.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;comboBoxMainCostCenter.Name" xml:space="preserve">
-    <value>comboBoxMainCostCenter</value>
-  </data>
-  <data name="&gt;&gt;comboBoxMainCostCenter.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;comboBoxMainCostCenter.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;comboBoxMainCostCenter.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labelControl10.Name" xml:space="preserve">
-    <value>labelControl10</value>
-  </data>
-  <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;labelControl10.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;labelControl10.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textEditDebit.Name" xml:space="preserve">
-    <value>textEditDebit</value>
-  </data>
-  <data name="&gt;&gt;textEditDebit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEditDebit.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;textEditDebit.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;labelControl9.Name" xml:space="preserve">
-    <value>labelControl9</value>
-  </data>
-  <data name="&gt;&gt;labelControl9.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;labelControl9.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;labelControl9.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textEditCredit.Name" xml:space="preserve">
-    <value>textEditCredit</value>
-  </data>
-  <data name="&gt;&gt;textEditCredit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEditCredit.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;textEditCredit.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;labelControl7.Name" xml:space="preserve">
-    <value>labelControl7</value>
-  </data>
-  <data name="&gt;&gt;labelControl7.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;labelControl7.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;labelControl7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;labelControl6.Name" xml:space="preserve">
-    <value>labelControl6</value>
-  </data>
-  <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="tabBasicInformation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>673, 449</value>
-  </data>
-  <data name="tabBasicInformation.Text" xml:space="preserve">
-    <value>Basic Information</value>
-  </data>
-  <data name="&gt;&gt;tabBasicInformation.Name" xml:space="preserve">
-    <value>tabBasicInformation</value>
-  </data>
-  <data name="&gt;&gt;tabBasicInformation.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;tabBasicInformation.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabBasicInformation.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>675, 474</value>
-  </data>
-  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
-    <value>gridControl1</value>
-  </data>
-  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
-    <value>tabAssemply</value>
-  </data>
-  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabAssemply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>673, 449</value>
-  </data>
-  <data name="tabAssemply.Text" xml:space="preserve">
-    <value>Assemply</value>
-  </data>
-  <data name="&gt;&gt;tabAssemply.Name" xml:space="preserve">
-    <value>tabAssemply</value>
-  </data>
-  <data name="&gt;&gt;tabAssemply.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;tabAssemply.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabAssemply.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
-    <value>panelControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="memoEditNotes.Location" type="System.Drawing.Point, System.Drawing">
     <value>457, 287</value>
@@ -2031,6 +1689,30 @@
   <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="tabBasicInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 449</value>
+  </data>
+  <data name="tabBasicInformation.Text" xml:space="preserve">
+    <value>Basic Information</value>
+  </data>
+  <data name="&gt;&gt;tabBasicInformation.Name" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;tabBasicInformation.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabBasicInformation.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabBasicInformation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 474</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="gridControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -2078,6 +1760,60 @@
   </data>
   <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="tabAssemply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 449</value>
+  </data>
+  <data name="tabAssemply.Text" xml:space="preserve">
+    <value>Assemply</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Name" xml:space="preserve">
+    <value>tabAssemply</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 195</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>679, 478</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="checkIsActive.EditValue" type="System.Boolean, mscorlib">
     <value>True</value>
