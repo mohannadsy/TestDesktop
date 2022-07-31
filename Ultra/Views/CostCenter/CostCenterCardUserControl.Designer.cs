@@ -42,6 +42,7 @@ namespace Ultra.Views.CostCenter
             this.PanelHeader = new DevExpress.Utils.Layout.StackPanel();
             this.labelHeaderImage = new DevExpress.XtraEditors.LabelControl();
             this.labelHeader = new DevExpress.XtraEditors.LabelControl();
+            this.labelHeaderImageIsActive = new DevExpress.XtraEditors.LabelControl();
             this.buttonDelete = new DevExpress.XtraEditors.SimpleButton();
             this.buttonNew = new DevExpress.XtraEditors.SimpleButton();
             this.comboBoxCardType = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -196,6 +197,7 @@ namespace Ultra.Views.CostCenter
             // 
             this.PanelHeader.Controls.Add(this.labelHeaderImage);
             this.PanelHeader.Controls.Add(this.labelHeader);
+            this.PanelHeader.Controls.Add(this.labelHeaderImageIsActive);
             resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Name = "PanelHeader";
             // 
@@ -215,6 +217,12 @@ namespace Ultra.Views.CostCenter
             this.labelHeader.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.labelHeader.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
             this.labelHeader.Name = "labelHeader";
+            // 
+            // labelHeaderImageIsActive
+            // 
+            resources.ApplyResources(this.labelHeaderImageIsActive, "labelHeaderImageIsActive");
+            this.labelHeaderImageIsActive.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelHeaderImageIsActive.ImageOptions.Image")));
+            this.labelHeaderImageIsActive.Name = "labelHeaderImageIsActive";
             // 
             // buttonDelete
             // 
@@ -649,5 +657,6 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.CheckEdit checkIsActive;
+        private DevExpress.XtraEditors.LabelControl labelHeaderImageIsActive;
     }
 }

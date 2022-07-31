@@ -33,6 +33,10 @@ namespace Ultra.Views.CostCenter
         private void checkIsActive_CheckedChanged(object sender, EventArgs e)
         {
             checkIsActive.Text = checkIsActive.Text == "Active" ? "Not Active" : "Active";
+            if (checkIsActive.Text == "Active")
+                labelHeaderImageIsActive.Visible = false;
+            else
+                labelHeaderImageIsActive.Visible = true;
         }
     }
 }
