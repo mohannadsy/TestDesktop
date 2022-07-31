@@ -542,6 +542,7 @@ namespace Ultra.Views.CostCenter
             this.toggleIsActive.Properties.Appearance.Options.UseTextOptions = true;
             this.toggleIsActive.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.toggleIsActive.Properties.AutoHeight = ((bool)(resources.GetObject("toggleIsActive.Properties.AutoHeight")));
+            this.toggleIsActive.Properties.GlyphAlignment = ((DevExpress.Utils.HorzAlignment)(resources.GetObject("toggleIsActive.Properties.GlyphAlignment")));
             this.toggleIsActive.Properties.OffText = resources.GetString("toggleIsActive.Properties.OffText");
             this.toggleIsActive.Properties.OnText = resources.GetString("toggleIsActive.Properties.OnText");
             // 
