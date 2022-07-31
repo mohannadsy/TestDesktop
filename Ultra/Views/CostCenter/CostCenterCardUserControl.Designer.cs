@@ -75,14 +75,13 @@ namespace Ultra.Views.CostCenter
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PanelTop = new DevExpress.XtraEditors.PanelControl();
+            this.checkIsActive = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxSecurityDegree = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelSecurityColor = new DevExpress.XtraEditors.LabelControl();
-            this.toggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.tabAttachments.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddImage.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddFile.Properties)).BeginInit();
@@ -111,10 +110,9 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelTop)).BeginInit();
             this.PanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkIsActive.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tabAttachments
@@ -476,7 +474,7 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelTop
             // 
-            this.PanelTop.Controls.Add(this.checkEdit2);
+            this.PanelTop.Controls.Add(this.checkIsActive);
             this.PanelTop.Controls.Add(this.checkEdit1);
             this.PanelTop.Controls.Add(this.PanelHeader);
             this.PanelTop.Controls.Add(this.comboBoxSecurityDegree);
@@ -486,13 +484,21 @@ namespace Ultra.Views.CostCenter
             this.PanelTop.Controls.Add(this.labelControl1);
             this.PanelTop.Controls.Add(this.textEditLatinName);
             this.PanelTop.Controls.Add(this.labelControl5);
-            this.PanelTop.Controls.Add(this.toggleIsActive);
             this.PanelTop.Controls.Add(this.textEditName);
             this.PanelTop.Controls.Add(this.labelControl4);
             this.PanelTop.Controls.Add(this.textEditCode);
             this.PanelTop.Controls.Add(this.labelControl3);
             resources.ApplyResources(this.PanelTop, "PanelTop");
             this.PanelTop.Name = "PanelTop";
+            // 
+            // checkIsActive
+            // 
+            resources.ApplyResources(this.checkIsActive, "checkIsActive");
+            this.checkIsActive.Name = "checkIsActive";
+            this.checkIsActive.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkIsActive.Properties.Appearance.Font")));
+            this.checkIsActive.Properties.Appearance.Options.UseFont = true;
+            this.checkIsActive.Properties.Caption = resources.GetString("checkIsActive.Properties.Caption");
+            this.checkIsActive.CheckedChanged += new System.EventHandler(this.checkIsActive_CheckedChanged);
             // 
             // checkEdit1
             // 
@@ -535,20 +541,6 @@ namespace Ultra.Views.CostCenter
             resources.ApplyResources(this.labelSecurityColor, "labelSecurityColor");
             this.labelSecurityColor.Name = "labelSecurityColor";
             // 
-            // toggleIsActive
-            // 
-            this.toggleIsActive.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.toggleIsActive, "toggleIsActive");
-            this.toggleIsActive.Name = "toggleIsActive";
-            this.toggleIsActive.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("toggleIsActive.Properties.Appearance.Font")));
-            this.toggleIsActive.Properties.Appearance.Options.UseFont = true;
-            this.toggleIsActive.Properties.Appearance.Options.UseTextOptions = true;
-            this.toggleIsActive.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.toggleIsActive.Properties.AutoHeight = ((bool)(resources.GetObject("toggleIsActive.Properties.AutoHeight")));
-            this.toggleIsActive.Properties.GlyphAlignment = ((DevExpress.Utils.HorzAlignment)(resources.GetObject("toggleIsActive.Properties.GlyphAlignment")));
-            this.toggleIsActive.Properties.OffText = resources.GetString("toggleIsActive.Properties.OffText");
-            this.toggleIsActive.Properties.OnText = resources.GetString("toggleIsActive.Properties.OnText");
-            // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl3.Appearance.Font")));
@@ -559,15 +551,6 @@ namespace Ultra.Views.CostCenter
             // tileGroup2
             // 
             this.tileGroup2.Name = "tileGroup2";
-            // 
-            // checkEdit2
-            // 
-            resources.ApplyResources(this.checkEdit2, "checkEdit2");
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkEdit2.Properties.Appearance.Font")));
-            this.checkEdit2.Properties.Appearance.Options.UseFont = true;
-            this.checkEdit2.Properties.Caption = resources.GetString("checkEdit2.Properties.Caption");
-            this.checkEdit2.CheckedChanged += new System.EventHandler(this.checkEdit2_CheckedChanged);
             // 
             // CostCenterCardUserControl
             // 
@@ -605,10 +588,9 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelTop)).EndInit();
             this.PanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.checkIsActive.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -660,13 +642,12 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.LabelControl labelSecurityColor;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxMainCostCenter;
-        private DevExpress.XtraEditors.ToggleSwitch toggleIsActive;
         private DevExpress.XtraTab.XtraTabPage tabAssemply;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
+        private DevExpress.XtraEditors.CheckEdit checkIsActive;
     }
 }

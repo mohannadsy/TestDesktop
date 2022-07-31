@@ -1288,7 +1288,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;textEditName.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="labelControl4.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1318,7 +1318,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="textEditCode.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 67</value>
@@ -1345,7 +1345,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;textEditCode.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1774,34 +1774,34 @@
   <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="checkEdit2.EditValue" type="System.Boolean, mscorlib">
+  <data name="checkIsActive.EditValue" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkEdit2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 160</value>
+  <data name="checkIsActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 69</value>
   </data>
-  <data name="checkEdit2.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
+  <data name="checkIsActive.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 11pt, style=Bold</value>
   </data>
-  <data name="checkEdit2.Properties.Caption" xml:space="preserve">
+  <data name="checkIsActive.Properties.Caption" xml:space="preserve">
     <value>Active</value>
   </data>
-  <data name="checkEdit2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 20</value>
+  <data name="checkIsActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
   </data>
-  <data name="checkEdit2.TabIndex" type="System.Int32, mscorlib">
+  <data name="checkIsActive.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;checkEdit2.Name" xml:space="preserve">
-    <value>checkEdit2</value>
+  <data name="&gt;&gt;checkIsActive.Name" xml:space="preserve">
+    <value>checkIsActive</value>
   </data>
-  <data name="&gt;&gt;checkEdit2.Type" xml:space="preserve">
+  <data name="&gt;&gt;checkIsActive.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;checkEdit2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;checkIsActive.Parent" xml:space="preserve">
     <value>PanelTop</value>
   </data>
-  <data name="&gt;&gt;checkEdit2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;checkIsActive.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="checkEdit1.Location" type="System.Drawing.Point, System.Drawing">
@@ -1930,48 +1930,6 @@
   <data name="&gt;&gt;labelSecurityColor.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="toggleIsActive.EditValue" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="toggleIsActive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 69</value>
-  </data>
-  <data name="toggleIsActive.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 10.5pt, style=Bold</value>
-  </data>
-  <data name="toggleIsActive.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toggleIsActive.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v20.1">
-    <value>Default</value>
-  </data>
-  <data name="toggleIsActive.Properties.OffText" xml:space="preserve">
-    <value>Not Active</value>
-  </data>
-  <data name="toggleIsActive.Properties.OnText" xml:space="preserve">
-    <value>Active</value>
-  </data>
-  <data name="toggleIsActive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="toggleIsActive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 23</value>
-  </data>
-  <data name="toggleIsActive.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;toggleIsActive.Name" xml:space="preserve">
-    <value>toggleIsActive</value>
-  </data>
-  <data name="&gt;&gt;toggleIsActive.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;toggleIsActive.Parent" xml:space="preserve">
-    <value>PanelTop</value>
-  </data>
-  <data name="&gt;&gt;toggleIsActive.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="labelControl3.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -2000,7 +1958,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="PanelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>

@@ -30,9 +30,9 @@ namespace Ultra.Views.CostCenter
                 labelSecurityColor.BackColor = Color.Red;
         }
 
-        private void checkEdit2_CheckedChanged(object sender, EventArgs e)
+        private void checkIsActive_CheckedChanged(object sender, EventArgs e)
         {
-            checkEdit2.Text = checkEdit2.Text == "Active" ? "Not Active" : "Active";
+            checkIsActive.Text = checkIsActive.Text == "Active" ? "Not Active" : "Active";
         }
     }
 }
