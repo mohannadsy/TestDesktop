@@ -51,7 +51,7 @@ namespace Ultra.Views.CostCenter
         private void treeList1_FocusedNodeChanged_1(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
             PanelMain.Controls.Clear();
-            PanelMain.Controls.Add(new CostCardUserControlLocalizable());
+            PanelMain.Controls.Add(new CostCenterCardUserControl());
             //zekra
             //if (Properties.Settings.Default.language == "ar")
             //    PanelMain.Controls.Clear();

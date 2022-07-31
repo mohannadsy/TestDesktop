@@ -96,7 +96,6 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelTop
             // 
-            resources.ApplyResources(this.PanelTop, "PanelTop");
             this.PanelTop.Controls.Add(this.PanelHeader);
             this.PanelTop.Controls.Add(this.comboBoxEdit1);
             this.PanelTop.Controls.Add(this.labelControl1);
@@ -107,28 +106,29 @@ namespace Ultra.Views.CostCenter
             this.PanelTop.Controls.Add(this.labelControl4);
             this.PanelTop.Controls.Add(this.textEdit1);
             this.PanelTop.Controls.Add(this.labelControl3);
+            resources.ApplyResources(this.PanelTop, "PanelTop");
             this.PanelTop.Name = "PanelTop";
             // 
             // PanelHeader
             // 
-            resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Controls.Add(this.labelControl2);
             this.PanelHeader.Controls.Add(this.labelControl8);
+            resources.ApplyResources(this.PanelHeader, "PanelHeader");
             this.PanelHeader.Name = "PanelHeader";
             // 
             // labelControl2
             // 
-            resources.ApplyResources(this.labelControl2, "labelControl2");
             this.labelControl2.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl2.Appearance.Font")));
             this.labelControl2.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl2, "labelControl2");
             this.labelControl2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl2.ImageOptions.Image")));
             this.labelControl2.Name = "labelControl2";
             // 
             // labelControl8
             // 
-            resources.ApplyResources(this.labelControl8, "labelControl8");
             this.labelControl8.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl8.Appearance.Font")));
             this.labelControl8.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.labelControl8, "labelControl8");
             this.labelControl8.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
             this.labelControl8.ImageOptions.Alignment = System.Drawing.ContentAlignment.MiddleRight;
             this.labelControl8.Name = "labelControl8";
@@ -161,11 +161,11 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl5
             // 
-            resources.ApplyResources(this.labelControl5, "labelControl5");
             this.labelControl5.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl5.Appearance.Font")));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseTextOptions = true;
             this.labelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            resources.ApplyResources(this.labelControl5, "labelControl5");
             this.labelControl5.Name = "labelControl5";
             // 
             // ToggleIsActive
@@ -178,7 +178,6 @@ namespace Ultra.Views.CostCenter
             this.ToggleIsActive.Properties.Appearance.Options.UseTextOptions = true;
             this.ToggleIsActive.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.ToggleIsActive.Properties.AutoHeight = ((bool)(resources.GetObject("ToggleIsActive.Properties.AutoHeight")));
-            this.ToggleIsActive.Properties.GlyphVerticalAlignment = ((DevExpress.Utils.VertAlignment)(resources.GetObject("ToggleIsActive.Properties.GlyphVerticalAlignment")));
             this.ToggleIsActive.Properties.OffText = resources.GetString("ToggleIsActive.Properties.OffText");
             this.ToggleIsActive.Properties.OnText = resources.GetString("ToggleIsActive.Properties.OnText");
             // 
@@ -192,11 +191,11 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl4
             // 
-            resources.ApplyResources(this.labelControl4, "labelControl4");
             this.labelControl4.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl4.Appearance.Font")));
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseTextOptions = true;
             this.labelControl4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            resources.ApplyResources(this.labelControl4, "labelControl4");
             this.labelControl4.Name = "labelControl4";
             // 
             // textEdit1
@@ -209,73 +208,73 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl3
             // 
-            resources.ApplyResources(this.labelControl3, "labelControl3");
             this.labelControl3.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl3.Appearance.Font")));
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Appearance.Options.UseTextOptions = true;
             this.labelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            resources.ApplyResources(this.labelControl3, "labelControl3");
             this.labelControl3.Name = "labelControl3";
             // 
             // stackPanel1
             // 
-            resources.ApplyResources(this.stackPanel1, "stackPanel1");
             this.stackPanel1.Controls.Add(this.simpleButton3);
             this.stackPanel1.Controls.Add(this.simpleButton2);
             this.stackPanel1.Controls.Add(this.simpleButton4);
             this.stackPanel1.Controls.Add(this.simpleButton1);
             this.stackPanel1.Controls.Add(this.panelControl2);
+            resources.ApplyResources(this.stackPanel1, "stackPanel1");
             this.stackPanel1.Name = "stackPanel1";
             // 
             // simpleButton3
             // 
-            resources.ApplyResources(this.simpleButton3, "simpleButton3");
             this.simpleButton3.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton3.Appearance.Font")));
             this.simpleButton3.Appearance.Options.UseFont = true;
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
             this.simpleButton3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            resources.ApplyResources(this.simpleButton3, "simpleButton3");
             this.simpleButton3.Name = "simpleButton3";
             // 
             // simpleButton2
             // 
-            resources.ApplyResources(this.simpleButton2, "simpleButton2");
             this.simpleButton2.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton2.Appearance.Font")));
             this.simpleButton2.Appearance.Options.UseFont = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
             this.simpleButton2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            resources.ApplyResources(this.simpleButton2, "simpleButton2");
             this.simpleButton2.Name = "simpleButton2";
             // 
             // simpleButton4
             // 
-            resources.ApplyResources(this.simpleButton4, "simpleButton4");
             this.simpleButton4.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton4.Appearance.Font")));
             this.simpleButton4.Appearance.Options.UseFont = true;
             this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
             this.simpleButton4.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            resources.ApplyResources(this.simpleButton4, "simpleButton4");
             this.simpleButton4.Name = "simpleButton4";
             // 
             // simpleButton1
             // 
-            resources.ApplyResources(this.simpleButton1, "simpleButton1");
             this.simpleButton1.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton1.Appearance.Font")));
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            resources.ApplyResources(this.simpleButton1, "simpleButton1");
             this.simpleButton1.Name = "simpleButton1";
             // 
             // panelControl2
             // 
-            resources.ApplyResources(this.panelControl2, "panelControl2");
             this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl2.Controls.Add(this.simpleButton6);
+            resources.ApplyResources(this.panelControl2, "panelControl2");
             this.panelControl2.Name = "panelControl2";
             // 
             // simpleButton6
             // 
-            resources.ApplyResources(this.simpleButton6, "simpleButton6");
             this.simpleButton6.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton6.Appearance.Font")));
             this.simpleButton6.Appearance.Options.UseFont = true;
             this.simpleButton6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.ImageOptions.Image")));
             this.simpleButton6.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter;
+            resources.ApplyResources(this.simpleButton6, "simpleButton6");
             this.simpleButton6.Name = "simpleButton6";
             // 
             // xtraTabControl1
@@ -290,7 +289,6 @@ namespace Ultra.Views.CostCenter
             // 
             // xtraTabPage1
             // 
-            resources.ApplyResources(this.xtraTabPage1, "xtraTabPage1");
             this.xtraTabPage1.Controls.Add(this.textEdit7);
             this.xtraTabPage1.Controls.Add(this.labelControl10);
             this.xtraTabPage1.Controls.Add(this.textEdit6);
@@ -300,6 +298,7 @@ namespace Ultra.Views.CostCenter
             this.xtraTabPage1.Controls.Add(this.textEdit4);
             this.xtraTabPage1.Controls.Add(this.labelControl6);
             this.xtraTabPage1.Name = "xtraTabPage1";
+            resources.ApplyResources(this.xtraTabPage1, "xtraTabPage1");
             // 
             // textEdit7
             // 
@@ -311,11 +310,11 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl10
             // 
-            resources.ApplyResources(this.labelControl10, "labelControl10");
             this.labelControl10.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl10.Appearance.Font")));
             this.labelControl10.Appearance.Options.UseFont = true;
             this.labelControl10.Appearance.Options.UseTextOptions = true;
             this.labelControl10.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            resources.ApplyResources(this.labelControl10, "labelControl10");
             this.labelControl10.Name = "labelControl10";
             // 
             // textEdit6
@@ -328,11 +327,11 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl9
             // 
-            resources.ApplyResources(this.labelControl9, "labelControl9");
             this.labelControl9.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl9.Appearance.Font")));
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.Appearance.Options.UseTextOptions = true;
             this.labelControl9.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            resources.ApplyResources(this.labelControl9, "labelControl9");
             this.labelControl9.Name = "labelControl9";
             // 
             // textEdit5
@@ -345,11 +344,11 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl7
             // 
-            resources.ApplyResources(this.labelControl7, "labelControl7");
             this.labelControl7.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl7.Appearance.Font")));
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.Appearance.Options.UseTextOptions = true;
             this.labelControl7.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            resources.ApplyResources(this.labelControl7, "labelControl7");
             this.labelControl7.Name = "labelControl7";
             // 
             // textEdit4
@@ -362,16 +361,15 @@ namespace Ultra.Views.CostCenter
             // 
             // labelControl6
             // 
-            resources.ApplyResources(this.labelControl6, "labelControl6");
             this.labelControl6.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("labelControl6.Appearance.Font")));
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.Appearance.Options.UseTextOptions = true;
             this.labelControl6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            resources.ApplyResources(this.labelControl6, "labelControl6");
             this.labelControl6.Name = "labelControl6";
             // 
             // xtraTabPage2
             // 
-            resources.ApplyResources(this.xtraTabPage2, "xtraTabPage2");
             this.xtraTabPage2.Controls.Add(this.simpleButton11);
             this.xtraTabPage2.Controls.Add(this.simpleButton10);
             this.xtraTabPage2.Controls.Add(this.simpleButton9);
@@ -381,37 +379,38 @@ namespace Ultra.Views.CostCenter
             this.xtraTabPage2.Controls.Add(this.textEdit8);
             this.xtraTabPage2.Controls.Add(this.simpleButton7);
             this.xtraTabPage2.Name = "xtraTabPage2";
+            resources.ApplyResources(this.xtraTabPage2, "xtraTabPage2");
             // 
             // simpleButton11
             // 
-            resources.ApplyResources(this.simpleButton11, "simpleButton11");
             this.simpleButton11.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton11.Appearance.Font")));
             this.simpleButton11.Appearance.Options.UseFont = true;
             this.simpleButton11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton11.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton11, "simpleButton11");
             this.simpleButton11.Name = "simpleButton11";
             // 
             // simpleButton10
             // 
-            resources.ApplyResources(this.simpleButton10, "simpleButton10");
             this.simpleButton10.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton10.Appearance.Font")));
             this.simpleButton10.Appearance.Options.UseFont = true;
             this.simpleButton10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton10.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton10, "simpleButton10");
             this.simpleButton10.Name = "simpleButton10";
             // 
             // simpleButton9
             // 
-            resources.ApplyResources(this.simpleButton9, "simpleButton9");
             this.simpleButton9.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton9.Appearance.Font")));
             this.simpleButton9.Appearance.Options.UseFont = true;
             this.simpleButton9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton9.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton9, "simpleButton9");
             this.simpleButton9.Name = "simpleButton9";
             // 
             // simpleButton8
             // 
-            resources.ApplyResources(this.simpleButton8, "simpleButton8");
             this.simpleButton8.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton8.Appearance.Font")));
             this.simpleButton8.Appearance.Options.UseFont = true;
             this.simpleButton8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton8.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton8, "simpleButton8");
             this.simpleButton8.Name = "simpleButton8";
             // 
             // textEdit9
@@ -424,10 +423,10 @@ namespace Ultra.Views.CostCenter
             // 
             // simpleButton5
             // 
-            resources.ApplyResources(this.simpleButton5, "simpleButton5");
             this.simpleButton5.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton5.Appearance.Font")));
             this.simpleButton5.Appearance.Options.UseFont = true;
             this.simpleButton5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton5.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton5, "simpleButton5");
             this.simpleButton5.Name = "simpleButton5";
             // 
             // textEdit8
@@ -440,10 +439,10 @@ namespace Ultra.Views.CostCenter
             // 
             // simpleButton7
             // 
-            resources.ApplyResources(this.simpleButton7, "simpleButton7");
             this.simpleButton7.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton7.Appearance.Font")));
             this.simpleButton7.Appearance.Options.UseFont = true;
             this.simpleButton7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton7.ImageOptions.Image")));
+            resources.ApplyResources(this.simpleButton7, "simpleButton7");
             this.simpleButton7.Name = "simpleButton7";
             // 
             // CostCardUserControlLocalizable
@@ -458,7 +457,6 @@ namespace Ultra.Views.CostCenter
             this.PanelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PanelHeader)).EndInit();
             this.PanelHeader.ResumeLayout(false);
-            this.PanelHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ToggleIsActive.Properties)).EndInit();

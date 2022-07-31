@@ -17,5 +17,17 @@ namespace Ultra.Views.CostCenter
         {
             InitializeComponent();
         }
+
+        private void comboBoxSecurityDegree_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBoxSecurityDegree.SelectedIndex == 0)
+                labelSecurityColor.BackColor = Color.Green;
+            if (comboBoxSecurityDegree.SelectedIndex == 1)
+                labelSecurityColor.BackColor = Color.Gold;
+            if (comboBoxSecurityDegree.SelectedIndex == 2)
+                labelSecurityColor.BackColor = Color.Orange;
+            if (comboBoxSecurityDegree.SelectedIndex == 3)
+                labelSecurityColor.BackColor = Color.Red;
+        }
     }
 }

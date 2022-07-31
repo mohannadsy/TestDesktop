@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="simpleButton11.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonRemoveImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton11.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonRemoveImage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACV0RVh0VGl0
         bGUAUmVtb3ZlUGl2b3RGaWVsZDtEZWxldGU7UmVtb3ZlO3aMxpEAAAQdSURBVFhHxZZvTJVlGMa1Te2L
@@ -145,35 +145,35 @@
         XyTVxS1wr2hN3j3KmP8AEPJiSeQUIA4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="simpleButton11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonRemoveImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>487, 47</value>
   </data>
-  <data name="simpleButton11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonRemoveImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="simpleButton11.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonRemoveImage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton11.Text" xml:space="preserve">
+  <data name="buttonRemoveImage.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
-  <data name="&gt;&gt;simpleButton11.Name" xml:space="preserve">
-    <value>simpleButton11</value>
+  <data name="&gt;&gt;buttonRemoveImage.Name" xml:space="preserve">
+    <value>buttonRemoveImage</value>
   </data>
-  <data name="&gt;&gt;simpleButton11.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonRemoveImage.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton11.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonRemoveImage.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonRemoveImage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="simpleButton10.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonRemoveFile.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton10.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonRemoveFile.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACV0RVh0VGl0
         bGUAUmVtb3ZlUGl2b3RGaWVsZDtEZWxldGU7UmVtb3ZlO3aMxpEAAAQdSURBVFhHxZZvTJVlGMa1Te2L
@@ -197,34 +197,34 @@
         XyTVxS1wr2hN3j3KmP8AEPJiSeQUIA4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="simpleButton10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonRemoveFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>487, 5</value>
   </data>
-  <data name="simpleButton10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonRemoveFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton10.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonRemoveFile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton10.Text" xml:space="preserve">
+  <data name="buttonRemoveFile.Text" xml:space="preserve">
     <value>Remove</value>
   </data>
-  <data name="&gt;&gt;simpleButton10.Name" xml:space="preserve">
-    <value>simpleButton10</value>
+  <data name="&gt;&gt;buttonRemoveFile.Name" xml:space="preserve">
+    <value>buttonRemoveFile</value>
   </data>
-  <data name="&gt;&gt;simpleButton10.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonRemoveFile.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton10.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonRemoveFile.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonRemoveFile.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="simpleButton9.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonOpenImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton9.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonOpenImage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACF0RVh0VGl0
         bGUAQXBwbHk7T0s7Q2hlY2s7QmFycztSaWJib247ZGPIaAAACrBJREFUWEeVVwtQlccZXdu82jyaNmNr
@@ -276,34 +276,34 @@
         g8c8x+84Rh3/P5oQ/wKtHXLtkLLsUQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="simpleButton9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonOpenImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>579, 47</value>
   </data>
-  <data name="simpleButton9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonOpenImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton9.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonOpenImage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton9.Text" xml:space="preserve">
+  <data name="buttonOpenImage.Text" xml:space="preserve">
     <value>Open</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Name" xml:space="preserve">
-    <value>simpleButton9</value>
+  <data name="&gt;&gt;buttonOpenImage.Name" xml:space="preserve">
+    <value>buttonOpenImage</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenImage.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonOpenImage.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenImage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="simpleButton8.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonOpenFile.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton8.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonOpenFile.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACF0RVh0VGl0
         bGUAQXBwbHk7T0s7Q2hlY2s7QmFycztSaWJib247ZGPIaAAACrBJREFUWEeVVwtQlccZXdu82jyaNmNr
@@ -355,61 +355,61 @@
         g8c8x+84Rh3/P5oQ/wKtHXLtkLLsUQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="simpleButton8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonOpenFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>579, 5</value>
   </data>
-  <data name="simpleButton8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonOpenFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton8.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonOpenFile.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton8.Text" xml:space="preserve">
+  <data name="buttonOpenFile.Text" xml:space="preserve">
     <value>Open</value>
   </data>
-  <data name="&gt;&gt;simpleButton8.Name" xml:space="preserve">
-    <value>simpleButton8</value>
+  <data name="&gt;&gt;buttonOpenFile.Name" xml:space="preserve">
+    <value>buttonOpenFile</value>
   </data>
-  <data name="&gt;&gt;simpleButton8.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenFile.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton8.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonOpenFile.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenFile.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="textEdit9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textEditAddImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 48</value>
   </data>
-  <data name="textEdit9.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textEditAddImage.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt</value>
   </data>
-  <data name="textEdit9.Properties.AutoHeight" type="System.Boolean, mscorlib">
+  <data name="textEditAddImage.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textEdit9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textEditAddImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>327, 36</value>
   </data>
-  <data name="textEdit9.TabIndex" type="System.Int32, mscorlib">
+  <data name="textEditAddImage.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;textEdit9.Name" xml:space="preserve">
-    <value>textEdit9</value>
+  <data name="&gt;&gt;textEditAddImage.Name" xml:space="preserve">
+    <value>textEditAddImage</value>
   </data>
-  <data name="&gt;&gt;textEdit9.Type" xml:space="preserve">
+  <data name="&gt;&gt;textEditAddImage.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;textEdit9.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;textEditAddImage.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;textEdit9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textEditAddImage.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="simpleButton5.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonAddImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
-  <data name="simpleButton5.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonAddImage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABh0RVh0VGl0
         bGUASW5zZXJ0SW1hZ2U7SW1hZ2U7GYFN/gAACOpJREFUWEfFl3lUVdUegG2ee0O1zJeNvh6Y5ZDSs9Wk
@@ -453,61 +453,61 @@
         ZVcs305uvdVImd8L2aZ88/rNx8i73f+AP/rtmFH/BjTQ33AIFVBiAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="simpleButton5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonAddImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 48</value>
   </data>
-  <data name="simpleButton5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonAddImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 36</value>
   </data>
-  <data name="simpleButton5.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonAddImage.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="simpleButton5.Text" xml:space="preserve">
+  <data name="buttonAddImage.Text" xml:space="preserve">
     <value>Add Image</value>
   </data>
-  <data name="&gt;&gt;simpleButton5.Name" xml:space="preserve">
-    <value>simpleButton5</value>
+  <data name="&gt;&gt;buttonAddImage.Name" xml:space="preserve">
+    <value>buttonAddImage</value>
   </data>
-  <data name="&gt;&gt;simpleButton5.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonAddImage.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton5.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonAddImage.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonAddImage.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="textEdit8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textEditAddFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 6</value>
   </data>
-  <data name="textEdit8.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textEditAddFile.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt</value>
   </data>
-  <data name="textEdit8.Properties.AutoHeight" type="System.Boolean, mscorlib">
+  <data name="textEditAddFile.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textEdit8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textEditAddFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>327, 36</value>
   </data>
-  <data name="textEdit8.TabIndex" type="System.Int32, mscorlib">
+  <data name="textEditAddFile.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;textEdit8.Name" xml:space="preserve">
-    <value>textEdit8</value>
+  <data name="&gt;&gt;textEditAddFile.Name" xml:space="preserve">
+    <value>textEditAddFile</value>
   </data>
-  <data name="&gt;&gt;textEdit8.Type" xml:space="preserve">
+  <data name="&gt;&gt;textEditAddFile.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;textEdit8.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;textEditAddFile.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;textEdit8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textEditAddFile.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="simpleButton7.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonAddFile.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
-  <data name="simpleButton7.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonAddFile.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACN0RVh0VGl0
         bGUAQWRkO0ZpbGU7QWRkRmlsZTtCYXJzO1JpYmJvbjsV3KoKAAAILklEQVRYR4WXaVBUVxqGmySzZJbM
@@ -548,56 +548,56 @@
         w2f21o2Y0ZuXrJ5Ej+IR5Xsk0rlMrYj8kXBKrOFXOt3/AbGCGaaY1ZGOAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="simpleButton7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonAddFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 6</value>
   </data>
-  <data name="simpleButton7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonAddFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>145, 36</value>
   </data>
-  <data name="simpleButton7.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonAddFile.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="simpleButton7.Text" xml:space="preserve">
+  <data name="buttonAddFile.Text" xml:space="preserve">
     <value>Add File</value>
   </data>
-  <data name="&gt;&gt;simpleButton7.Name" xml:space="preserve">
-    <value>simpleButton7</value>
+  <data name="&gt;&gt;buttonAddFile.Name" xml:space="preserve">
+    <value>buttonAddFile</value>
   </data>
-  <data name="&gt;&gt;simpleButton7.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonAddFile.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton7.Parent" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;buttonAddFile.Parent" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;simpleButton7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonAddFile.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tabAttachments.Size" type="System.Drawing.Size, System.Drawing">
     <value>673, 449</value>
   </data>
-  <data name="xtraTabPage2.Text" xml:space="preserve">
+  <data name="tabAttachments.Text" xml:space="preserve">
     <value>Attachments</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage2.Name" xml:space="preserve">
-    <value>xtraTabPage2</value>
+  <data name="&gt;&gt;tabAttachments.Name" xml:space="preserve">
+    <value>tabAttachments</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage2.Type" xml:space="preserve">
+  <data name="&gt;&gt;tabAttachments.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage2.Parent" xml:space="preserve">
-    <value>xtraTabControl1</value>
+  <data name="&gt;&gt;tabAttachments.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabAttachments.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="labelControl2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelHeaderImage.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 18pt, style=Bold</value>
   </data>
   <assembly alias="DevExpress.XtraEditors.v20.1" name="DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="labelControl2.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+  <data name="labelHeaderImage.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
     <value>None</value>
   </data>
-  <data name="labelControl2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="labelHeaderImage.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAACK1JREFUaEPt
         WGlQVNkVtipVmfyZxEmmGONSSfwxmaTGGlxG1LGcstwKN4zLzLgMgoAbIgiyNktDLyCg0k0jKDRNNzTQ
@@ -640,55 +640,55 @@
         jzsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelHeaderImage.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="labelHeaderImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 56</value>
   </data>
-  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelHeaderImage.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
-    <value>labelControl2</value>
+  <data name="&gt;&gt;labelHeaderImage.Name" xml:space="preserve">
+    <value>labelHeaderImage</value>
   </data>
-  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderImage.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderImage.Parent" xml:space="preserve">
     <value>PanelHeader</value>
   </data>
-  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelHeaderImage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="labelControl8.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelHeader.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 18pt, style=Bold</value>
   </data>
-  <data name="labelControl8.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+  <data name="labelHeader.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
     <value>None</value>
   </data>
-  <data name="labelControl8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelHeader.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 3</value>
   </data>
-  <data name="labelControl8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="labelHeader.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 56</value>
   </data>
-  <data name="labelControl8.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelHeader.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="labelControl8.Text" xml:space="preserve">
+  <data name="labelHeader.Text" xml:space="preserve">
     <value>Cost Center Card</value>
   </data>
-  <data name="&gt;&gt;labelControl8.Name" xml:space="preserve">
-    <value>labelControl8</value>
+  <data name="&gt;&gt;labelHeader.Name" xml:space="preserve">
+    <value>labelHeader</value>
   </data>
-  <data name="&gt;&gt;labelControl8.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelHeader.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;labelControl8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelHeader.Parent" xml:space="preserve">
     <value>PanelHeader</value>
   </data>
-  <data name="&gt;&gt;labelControl8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelHeader.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
@@ -716,10 +716,10 @@
   <data name="&gt;&gt;PanelHeader.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="simpleButton3.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonDelete.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton3.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonDelete.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACN0RVh0VGl0
         bGUAQ2FuY2VsO1N0b3A7RXhpdDtCYXJzO1JpYmJvbjtMlpayAAALFUlEQVRYR5WXB1RVxxaGx/dSfEGM
@@ -773,34 +773,34 @@
         X9ttAMYAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="simpleButton3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>582, 8</value>
   </data>
-  <data name="simpleButton3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton3.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton3.Text" xml:space="preserve">
+  <data name="buttonDelete.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
-  <data name="&gt;&gt;simpleButton3.Name" xml:space="preserve">
-    <value>simpleButton3</value>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
   </data>
-  <data name="&gt;&gt;simpleButton3.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
     <value>stackPanel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="simpleButton4.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonNew.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton4.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonNew.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABt0RVh0VGl0
         bGUAQWRkO1BsdXM7QmFycztSaWJib247lQYzLwAACiRJREFUWEeVVnlU1NcV/tlma7M0bU/aJuc0f6Se
@@ -850,66 +850,75 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="simpleButton4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonNew.Location" type="System.Drawing.Point, System.Drawing">
     <value>398, 8</value>
   </data>
-  <data name="simpleButton4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonNew.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton4.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonNew.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton4.Text" xml:space="preserve">
+  <data name="buttonNew.Text" xml:space="preserve">
     <value>New</value>
   </data>
-  <data name="&gt;&gt;simpleButton4.Name" xml:space="preserve">
-    <value>simpleButton4</value>
+  <data name="&gt;&gt;buttonNew.Name" xml:space="preserve">
+    <value>buttonNew</value>
   </data>
-  <data name="&gt;&gt;simpleButton4.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonNew.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonNew.Parent" xml:space="preserve">
     <value>stackPanel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonNew.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="comboBoxEdit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>461, 98</value>
+  <data name="comboBoxCardType.EditValue" xml:space="preserve">
+    <value>Normal</value>
   </data>
-  <data name="comboBoxEdit1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="comboBoxCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 98</value>
+  </data>
+  <data name="comboBoxCardType.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
   </data>
   <assembly alias="DevExpress.Utils.v20.1" name="DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="comboBoxEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v20.1">
+  <data name="comboBoxCardType.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v20.1">
     <value>Combo</value>
   </data>
-  <data name="comboBoxEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 26</value>
+  <data name="comboBoxCardType.Properties.Items" xml:space="preserve">
+    <value>Normal</value>
   </data>
-  <data name="comboBoxEdit1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="comboBoxCardType.Properties.Items1" xml:space="preserve">
+    <value>Assemply</value>
   </data>
-  <data name="&gt;&gt;comboBoxEdit1.Name" xml:space="preserve">
-    <value>comboBoxEdit1</value>
+  <data name="comboBoxCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
   </data>
-  <data name="&gt;&gt;comboBoxEdit1.Type" xml:space="preserve">
+  <data name="comboBoxCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCardType.Name" xml:space="preserve">
+    <value>comboBoxCardType</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCardType.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;comboBoxEdit1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;comboBoxCardType.Parent" xml:space="preserve">
     <value>PanelTop</value>
   </data>
-  <data name="&gt;&gt;comboBoxEdit1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;comboBoxCardType.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 12pt, style=Bold</value>
+    <value>Calibri, 10.5pt, style=Bold</value>
   </data>
   <data name="labelControl1.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
     <value>None</value>
   </data>
   <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>359, 93</value>
+    <value>448, 95</value>
   </data>
   <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -930,34 +939,34 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
-  <data name="textEdit3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textEditLatinName.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 129</value>
   </data>
-  <data name="textEdit3.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textEditLatinName.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
   </data>
-  <data name="textEdit3.Properties.AutoHeight" type="System.Boolean, mscorlib">
+  <data name="textEditLatinName.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textEdit3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textEditLatinName.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 25</value>
   </data>
-  <data name="textEdit3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="textEditLatinName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;textEdit3.Name" xml:space="preserve">
-    <value>textEdit3</value>
+  <data name="&gt;&gt;textEditLatinName.Name" xml:space="preserve">
+    <value>textEditLatinName</value>
   </data>
-  <data name="&gt;&gt;textEdit3.Type" xml:space="preserve">
+  <data name="&gt;&gt;textEditLatinName.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;textEdit3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textEditLatinName.Parent" xml:space="preserve">
     <value>PanelTop</value>
   </data>
-  <data name="&gt;&gt;textEdit3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;textEditLatinName.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="labelControl5.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -966,7 +975,7 @@
     <value>None</value>
   </data>
   <data name="labelControl5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 124</value>
+    <value>5, 126</value>
   </data>
   <data name="labelControl5.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -987,51 +996,12 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
-  <data name="ToggleIsActive.EditValue" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ToggleIsActive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 68</value>
-  </data>
-  <data name="ToggleIsActive.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
-  <data name="ToggleIsActive.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ToggleIsActive.Properties.OffText" xml:space="preserve">
-    <value>Not Active</value>
-  </data>
-  <data name="ToggleIsActive.Properties.OnText" xml:space="preserve">
-    <value>Active</value>
-  </data>
-  <data name="ToggleIsActive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="ToggleIsActive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 23</value>
-  </data>
-  <data name="ToggleIsActive.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;ToggleIsActive.Name" xml:space="preserve">
-    <value>ToggleIsActive</value>
-  </data>
-  <data name="&gt;&gt;ToggleIsActive.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;ToggleIsActive.Parent" xml:space="preserve">
-    <value>PanelTop</value>
-  </data>
-  <data name="&gt;&gt;ToggleIsActive.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="simpleButton1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 12pt, style=Bold</value>
-  </data>
-  <data name="simpleButton1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonSave.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUAU2F2ZTv56PkJAAAJQElEQVRYR8WWd1TUVxbH3ZItycYkpm39d/+Ku1FRikjvvQ0ww9AZGJgBBhh6
@@ -1077,34 +1047,34 @@
         rkJggg==
 </value>
   </data>
-  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
     <value>306, 8</value>
   </data>
-  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton1.Text" xml:space="preserve">
+  <data name="buttonSave.Text" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
-    <value>simpleButton1</value>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
     <value>stackPanel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="simpleButton2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonUpdate.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
   </data>
-  <data name="simpleButton2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonUpdate.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACB0RVh0VGl0
         bGUARWRpdDtCYXJzO1JpYmJvbjtTdGFuZGFyZDswE8PbAAAIxUlEQVRYR5WXCVRU1xnHH9GYBDUuBFNj
@@ -1148,34 +1118,34 @@
         /wBqkiSvivDUAgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>490, 8</value>
   </data>
-  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 36</value>
   </data>
-  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton2.Text" xml:space="preserve">
+  <data name="buttonUpdate.Text" xml:space="preserve">
     <value>Update</value>
   </data>
-  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
-    <value>simpleButton2</value>
+  <data name="&gt;&gt;buttonUpdate.Name" xml:space="preserve">
+    <value>buttonUpdate</value>
   </data>
-  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>stackPanel1</value>
   </data>
-  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="simpleButton6.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="buttonCostCenterMovement.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
-  <data name="simpleButton6.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="buttonCostCenterMovement.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAANdEVYdFRpdGxlAFJlcG9ydDsMcqUZAAAIlklEQVRY
@@ -1218,28 +1188,28 @@
         jgnRE//X/REDnkzwwww3zU+FfwF54L95HSFyN25dPPY/yWUJNrs17CkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="simpleButton6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="buttonCostCenterMovement.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 1</value>
   </data>
-  <data name="simpleButton6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonCostCenterMovement.Size" type="System.Drawing.Size, System.Drawing">
     <value>215, 36</value>
   </data>
-  <data name="simpleButton6.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonCostCenterMovement.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="simpleButton6.Text" xml:space="preserve">
+  <data name="buttonCostCenterMovement.Text" xml:space="preserve">
     <value>Cost Center Movement</value>
   </data>
-  <data name="&gt;&gt;simpleButton6.Name" xml:space="preserve">
-    <value>simpleButton6</value>
+  <data name="&gt;&gt;buttonCostCenterMovement.Name" xml:space="preserve">
+    <value>buttonCostCenterMovement</value>
   </data>
-  <data name="&gt;&gt;simpleButton6.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonCostCenterMovement.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;simpleButton6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonCostCenterMovement.Parent" xml:space="preserve">
     <value>panelControl2</value>
   </data>
-  <data name="&gt;&gt;simpleButton6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;buttonCostCenterMovement.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
@@ -1293,32 +1263,32 @@
   <data name="&gt;&gt;stackPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="textEdit2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textEditName.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 98</value>
   </data>
-  <data name="textEdit2.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="textEditName.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
   </data>
-  <data name="textEdit2.Properties.AutoHeight" type="System.Boolean, mscorlib">
+  <data name="textEditName.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="textEdit2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textEditName.Size" type="System.Drawing.Size, System.Drawing">
     <value>213, 25</value>
   </data>
-  <data name="textEdit2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="textEditName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;textEdit2.Name" xml:space="preserve">
-    <value>textEdit2</value>
+  <data name="&gt;&gt;textEditName.Name" xml:space="preserve">
+    <value>textEditName</value>
   </data>
-  <data name="&gt;&gt;textEdit2.Type" xml:space="preserve">
+  <data name="&gt;&gt;textEditName.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;textEdit2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textEditName.Parent" xml:space="preserve">
     <value>PanelTop</value>
   </data>
-  <data name="&gt;&gt;textEdit2.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;textEditName.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="labelControl4.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1327,7 +1297,7 @@
     <value>None</value>
   </data>
   <data name="labelControl4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 93</value>
+    <value>5, 95</value>
   </data>
   <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -1348,237 +1318,436 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>107, 67</value>
-  </data>
-  <data name="textEdit1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 12pt</value>
-  </data>
-  <data name="textEdit1.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 25</value>
-  </data>
-  <data name="textEdit1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;textEdit1.Name" xml:space="preserve">
-    <value>textEdit1</value>
+  <data name="textEditCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 67</value>
   </data>
-  <data name="&gt;&gt;textEdit1.Type" xml:space="preserve">
+  <data name="textEditCode.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="textEditCode.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textEditCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 25</value>
+  </data>
+  <data name="textEditCode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textEditCode.Name" xml:space="preserve">
+    <value>textEditCode</value>
+  </data>
+  <data name="&gt;&gt;textEditCode.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;textEdit1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textEditCode.Parent" xml:space="preserve">
     <value>PanelTop</value>
   </data>
-  <data name="&gt;&gt;textEdit1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="xtraTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="xtraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="textEdit11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 12</value>
-  </data>
-  <data name="textEdit11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 20</value>
-  </data>
-  <data name="textEdit11.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;textEdit11.Name" xml:space="preserve">
-    <value>textEdit11</value>
-  </data>
-  <data name="&gt;&gt;textEdit11.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEdit11.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;textEdit11.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textEdit21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 36</value>
-  </data>
-  <data name="textEdit21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 20</value>
-  </data>
-  <data name="textEdit21.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;textEdit21.Name" xml:space="preserve">
-    <value>textEdit21</value>
-  </data>
-  <data name="&gt;&gt;textEdit21.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEdit21.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;textEdit21.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textEdit31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 84</value>
-  </data>
-  <data name="textEdit31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 20</value>
-  </data>
-  <data name="textEdit31.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textEdit31.Name" xml:space="preserve">
-    <value>textEdit31</value>
-  </data>
-  <data name="&gt;&gt;textEdit31.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEdit31.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;textEdit31.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="textEdit41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 60</value>
-  </data>
-  <data name="textEdit41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 20</value>
-  </data>
-  <data name="textEdit41.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;textEdit41.Name" xml:space="preserve">
-    <value>textEdit41</value>
-  </data>
-  <data name="&gt;&gt;textEdit41.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;textEdit41.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;textEdit41.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Root.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
-  </data>
-  <data name="layoutControlItem1.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
-  </data>
-  <data name="layoutControlItem1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="layoutControlItem1.Text" xml:space="preserve">
-    <value>Main Cost Center</value>
-  </data>
-  <data name="layoutControlItem3.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
-  </data>
-  <data name="layoutControlItem3.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="layoutControlItem3.Text" xml:space="preserve">
-    <value>Balance</value>
-  </data>
-  <data name="layoutControlItem2.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
-  </data>
-  <data name="layoutControlItem2.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem2</value>
-  </data>
-  <data name="layoutControlItem2.Text" xml:space="preserve">
-    <value>Debit</value>
-  </data>
-  <data name="layoutControlItem4.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt, style=Bold</value>
-  </data>
-  <data name="layoutControlItem4.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="layoutControlItem4.Text" xml:space="preserve">
-    <value>Credit</value>
-  </data>
-  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>673, 449</value>
-  </data>
-  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;textEditCode.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="layoutControl1.Text" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="tabControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
-    <value>xtraTabPage1</value>
+  <assembly alias="DevExpress.Data.v20.1" name="DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="tabControl.RightToLeftLayout" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v20.1">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+  <data name="memoEditNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 287</value>
+  </data>
+  <data name="memoEditNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 96</value>
+  </data>
+  <data name="memoEditNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;memoEditNotes.Name" xml:space="preserve">
+    <value>memoEditNotes</value>
+  </data>
+  <data name="&gt;&gt;memoEditNotes.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;memoEditNotes.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;memoEditNotes.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textEditBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 99</value>
+  </data>
+  <data name="textEditBalance.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textEditBalance.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textEditBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 25</value>
+  </data>
+  <data name="textEditBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textEditBalance.Name" xml:space="preserve">
+    <value>textEditBalance</value>
+  </data>
+  <data name="&gt;&gt;textEditBalance.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditBalance.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;textEditBalance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl28.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelControl28.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 289</value>
+  </data>
+  <data name="labelControl28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl28.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl28.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;labelControl28.Name" xml:space="preserve">
+    <value>labelControl28</value>
+  </data>
+  <data name="&gt;&gt;labelControl28.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl28.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;labelControl28.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 6</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v20.1">
+    <value>Combo</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Properties.Items" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Properties.Items1" xml:space="preserve">
+    <value>Assemply</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Properties.Items2" xml:space="preserve">
+    <value>Distributive</value>
+  </data>
+  <data name="comboBoxMainCostCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 26</value>
+  </data>
+  <data name="comboBoxMainCostCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMainCostCenter.Name" xml:space="preserve">
+    <value>comboBoxMainCostCenter</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMainCostCenter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMainCostCenter.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMainCostCenter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelControl10.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelControl10.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 95</value>
+  </data>
+  <data name="labelControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl10.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Name" xml:space="preserve">
+    <value>labelControl10</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textEditDebit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 68</value>
+  </data>
+  <data name="textEditDebit.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textEditDebit.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textEditDebit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 25</value>
+  </data>
+  <data name="textEditDebit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textEditDebit.Name" xml:space="preserve">
+    <value>textEditDebit</value>
+  </data>
+  <data name="&gt;&gt;textEditDebit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditDebit.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;textEditDebit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelControl9.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelControl9.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="labelControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl9.Text" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Name" xml:space="preserve">
+    <value>labelControl9</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textEditCredit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="textEditCredit.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textEditCredit.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textEditCredit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 25</value>
+  </data>
+  <data name="textEditCredit.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textEditCredit.Name" xml:space="preserve">
+    <value>textEditCredit</value>
+  </data>
+  <data name="&gt;&gt;textEditCredit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditCredit.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;textEditCredit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelControl7.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelControl7.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 33</value>
+  </data>
+  <data name="labelControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl7.Text" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Name" xml:space="preserve">
+    <value>labelControl7</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelControl6.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelControl6.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="labelControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl6.Text" xml:space="preserve">
+    <value>Main Cost Center</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Name" xml:space="preserve">
+    <value>labelControl6</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
+    <value>tabBasicInformation</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabBasicInformation.Size" type="System.Drawing.Size, System.Drawing">
     <value>673, 449</value>
   </data>
-  <data name="xtraTabPage1.Text" xml:space="preserve">
+  <data name="tabBasicInformation.Text" xml:space="preserve">
     <value>Basic Information</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage1.Name" xml:space="preserve">
-    <value>xtraTabPage1</value>
+  <data name="&gt;&gt;tabBasicInformation.Name" xml:space="preserve">
+    <value>tabBasicInformation</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage1.Type" xml:space="preserve">
+  <data name="&gt;&gt;tabBasicInformation.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage1.Parent" xml:space="preserve">
-    <value>xtraTabControl1</value>
+  <data name="&gt;&gt;tabBasicInformation.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
-  <data name="&gt;&gt;xtraTabPage1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabBasicInformation.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
     <value>675, 474</value>
   </data>
-  <data name="xtraTabControl1.TabIndex" type="System.Int32, mscorlib">
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;xtraTabControl1.Name" xml:space="preserve">
-    <value>xtraTabControl1</value>
+  <data name="gridControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;xtraTabControl1.Type" xml:space="preserve">
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="gridColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="gridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>564</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 449</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
+    <value>tabAssemply</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAssemply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>673, 449</value>
+  </data>
+  <data name="tabAssemply.Text" xml:space="preserve">
+    <value>Assemply</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Name" xml:space="preserve">
+    <value>tabAssemply</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabAssemply.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTabControl1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
     <value>panelControl1</value>
   </data>
-  <data name="&gt;&gt;xtraTabControl1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -1605,6 +1774,144 @@
   <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="comboBoxSecurityDegree.EditValue" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 67</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v20.1">
+    <value>Combo</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Items" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Items1" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Items2" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Properties.Items3" xml:space="preserve">
+    <value>Very High</value>
+  </data>
+  <data name="comboBoxSecurityDegree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 26</value>
+  </data>
+  <data name="comboBoxSecurityDegree.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSecurityDegree.Name" xml:space="preserve">
+    <value>comboBoxSecurityDegree</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSecurityDegree.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSecurityDegree.Parent" xml:space="preserve">
+    <value>PanelTop</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSecurityDegree.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl11.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt, style=Bold</value>
+  </data>
+  <data name="labelControl11.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelControl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 65</value>
+  </data>
+  <data name="labelControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="labelControl11.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl11.Text" xml:space="preserve">
+    <value>Security Degree</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Name" xml:space="preserve">
+    <value>labelControl11</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Parent" xml:space="preserve">
+    <value>PanelTop</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelSecurityColor.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 12pt, style=Bold</value>
+  </data>
+  <data name="labelSecurityColor.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v20.1">
+    <value>None</value>
+  </data>
+  <data name="labelSecurityColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 69</value>
+  </data>
+  <data name="labelSecurityColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="labelSecurityColor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelSecurityColor.Name" xml:space="preserve">
+    <value>labelSecurityColor</value>
+  </data>
+  <data name="&gt;&gt;labelSecurityColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelSecurityColor.Parent" xml:space="preserve">
+    <value>PanelTop</value>
+  </data>
+  <data name="&gt;&gt;labelSecurityColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="toggleIsActive.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toggleIsActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 69</value>
+  </data>
+  <data name="toggleIsActive.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 10.5pt, style=Bold</value>
+  </data>
+  <data name="toggleIsActive.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toggleIsActive.Properties.OffText" xml:space="preserve">
+    <value>Not Active</value>
+  </data>
+  <data name="toggleIsActive.Properties.OnText" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="toggleIsActive.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="toggleIsActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="toggleIsActive.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;toggleIsActive.Name" xml:space="preserve">
+    <value>toggleIsActive</value>
+  </data>
+  <data name="&gt;&gt;toggleIsActive.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toggleIsActive.Parent" xml:space="preserve">
+    <value>PanelTop</value>
+  </data>
+  <data name="&gt;&gt;toggleIsActive.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="labelControl3.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
   </data>
@@ -1612,7 +1919,7 @@
     <value>None</value>
   </data>
   <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 62</value>
+    <value>5, 64</value>
   </data>
   <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -1633,7 +1940,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="PanelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -1671,41 +1978,29 @@
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>679, 673</value>
   </data>
-  <data name="&gt;&gt;Root.Name" xml:space="preserve">
-    <value>Root</value>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
   </data>
-  <data name="&gt;&gt;Root.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
-    <value>layoutControlItem1</value>
+  <data name="&gt;&gt;gridColumn1.Name" xml:space="preserve">
+    <value>gridColumn1</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;gridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
-    <value>layoutControlItem3</value>
+  <data name="&gt;&gt;gridColumn2.Name" xml:space="preserve">
+    <value>gridColumn2</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;gridColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
-    <value>layoutControlItem2</value>
+  <data name="&gt;&gt;tileGroup2.Name" xml:space="preserve">
+    <value>tileGroup2</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
-    <value>emptySpaceItem1</value>
-  </data>
-  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="&gt;&gt;tileGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CostCenterCardUserControl</value>
