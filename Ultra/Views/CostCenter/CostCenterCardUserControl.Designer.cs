@@ -75,13 +75,13 @@ namespace Ultra.Views.CostCenter
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PanelTop = new DevExpress.XtraEditors.PanelControl();
+            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxSecurityDegree = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelSecurityColor = new DevExpress.XtraEditors.LabelControl();
             this.toggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.tabAttachments.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddImage.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddFile.Properties)).BeginInit();
@@ -110,9 +110,9 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelTop)).BeginInit();
             this.PanelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tabAttachments
@@ -491,6 +491,14 @@ namespace Ultra.Views.CostCenter
             resources.ApplyResources(this.PanelTop, "PanelTop");
             this.PanelTop.Name = "PanelTop";
             // 
+            // checkEdit1
+            // 
+            resources.ApplyResources(this.checkEdit1, "checkEdit1");
+            this.checkEdit1.Name = "checkEdit1";
+            this.checkEdit1.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkEdit1.Properties.Appearance.Font")));
+            this.checkEdit1.Properties.Appearance.Options.UseFont = true;
+            this.checkEdit1.Properties.Caption = resources.GetString("checkEdit1.Properties.Caption");
+            // 
             // comboBoxSecurityDegree
             // 
             resources.ApplyResources(this.comboBoxSecurityDegree, "comboBoxSecurityDegree");
@@ -548,14 +556,6 @@ namespace Ultra.Views.CostCenter
             // 
             this.tileGroup2.Name = "tileGroup2";
             // 
-            // checkEdit1
-            // 
-            resources.ApplyResources(this.checkEdit1, "checkEdit1");
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkEdit1.Properties.Appearance.Font")));
-            this.checkEdit1.Properties.Appearance.Options.UseFont = true;
-            this.checkEdit1.Properties.Caption = resources.GetString("checkEdit1.Properties.Caption");
-            // 
             // CostCenterCardUserControl
             // 
             resources.ApplyResources(this, "$this");
@@ -592,9 +592,9 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelTop)).EndInit();
             this.PanelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
