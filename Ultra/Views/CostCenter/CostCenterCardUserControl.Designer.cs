@@ -82,6 +82,7 @@ namespace Ultra.Views.CostCenter
             this.toggleIsActive = new DevExpress.XtraEditors.ToggleSwitch();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
+            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.tabAttachments.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddImage.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEditAddFile.Properties)).BeginInit();
@@ -113,6 +114,7 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tabAttachments
@@ -474,6 +476,7 @@ namespace Ultra.Views.CostCenter
             // 
             // PanelTop
             // 
+            this.PanelTop.Controls.Add(this.checkEdit2);
             this.PanelTop.Controls.Add(this.checkEdit1);
             this.PanelTop.Controls.Add(this.PanelHeader);
             this.PanelTop.Controls.Add(this.comboBoxSecurityDegree);
@@ -557,6 +560,15 @@ namespace Ultra.Views.CostCenter
             // 
             this.tileGroup2.Name = "tileGroup2";
             // 
+            // checkEdit2
+            // 
+            resources.ApplyResources(this.checkEdit2, "checkEdit2");
+            this.checkEdit2.Name = "checkEdit2";
+            this.checkEdit2.Properties.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("checkEdit2.Properties.Appearance.Font")));
+            this.checkEdit2.Properties.Appearance.Options.UseFont = true;
+            this.checkEdit2.Properties.Caption = resources.GetString("checkEdit2.Properties.Caption");
+            this.checkEdit2.CheckedChanged += new System.EventHandler(this.checkEdit2_CheckedChanged);
+            // 
             // CostCenterCardUserControl
             // 
             resources.ApplyResources(this, "$this");
@@ -596,6 +608,7 @@ namespace Ultra.Views.CostCenter
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxSecurityDegree.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleIsActive.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -654,5 +667,6 @@ namespace Ultra.Views.CostCenter
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
+        private DevExpress.XtraEditors.CheckEdit checkEdit2;
     }
 }

@@ -29,5 +29,10 @@ namespace Ultra.Views.CostCenter
             if (comboBoxSecurityDegree.SelectedIndex == 3)
                 labelSecurityColor.BackColor = Color.Red;
         }
+
+        private void checkEdit2_CheckedChanged(object sender, EventArgs e)
+        {
+            checkEdit2.Text = checkEdit2.Text == "Active" ? "Not Active" : "Active";
+        }
     }
 }
