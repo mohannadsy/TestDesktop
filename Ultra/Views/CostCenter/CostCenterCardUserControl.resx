@@ -714,7 +714,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;PanelHeader.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="buttonDelete.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10pt, style=Bold</value>
@@ -878,7 +878,7 @@
     <value>Normal</value>
   </data>
   <data name="comboBoxCardType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 98</value>
+    <value>543, 98</value>
   </data>
   <data name="comboBoxCardType.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
@@ -894,7 +894,7 @@
     <value>Assemply</value>
   </data>
   <data name="comboBoxCardType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 26</value>
+    <value>131, 26</value>
   </data>
   <data name="comboBoxCardType.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -909,7 +909,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;comboBoxCardType.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10.5pt, style=Bold</value>
@@ -918,7 +918,7 @@
     <value>None</value>
   </data>
   <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 95</value>
+    <value>441, 96</value>
   </data>
   <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -939,7 +939,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="textEditLatinName.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 129</value>
@@ -966,7 +966,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;textEditLatinName.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="labelControl5.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -996,7 +996,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="buttonSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1288,7 +1288,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;textEditName.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="labelControl4.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1318,7 +1318,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="textEditCode.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 67</value>
@@ -1345,7 +1345,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;textEditCode.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1774,11 +1774,38 @@
   <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="checkEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 102</value>
+  </data>
+  <data name="checkEdit1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt, style=Bold</value>
+  </data>
+  <data name="checkEdit1.Properties.Caption" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="checkEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="checkEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;checkEdit1.Name" xml:space="preserve">
+    <value>checkEdit1</value>
+  </data>
+  <data name="&gt;&gt;checkEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkEdit1.Parent" xml:space="preserve">
+    <value>PanelTop</value>
+  </data>
+  <data name="&gt;&gt;checkEdit1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="comboBoxSecurityDegree.EditValue" xml:space="preserve">
     <value>Low</value>
   </data>
   <data name="comboBoxSecurityDegree.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 67</value>
+    <value>543, 67</value>
   </data>
   <data name="comboBoxSecurityDegree.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt</value>
@@ -1799,7 +1826,7 @@
     <value>Very High</value>
   </data>
   <data name="comboBoxSecurityDegree.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 26</value>
+    <value>112, 26</value>
   </data>
   <data name="comboBoxSecurityDegree.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1814,7 +1841,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;comboBoxSecurityDegree.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelControl11.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 10.5pt, style=Bold</value>
@@ -1823,7 +1850,7 @@
     <value>None</value>
   </data>
   <data name="labelControl11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 65</value>
+    <value>441, 65</value>
   </data>
   <data name="labelControl11.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 30</value>
@@ -1844,7 +1871,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl11.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelSecurityColor.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1871,7 +1898,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelSecurityColor.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="toggleIsActive.EditValue" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1910,7 +1937,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;toggleIsActive.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="labelControl3.Appearance.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 12pt, style=Bold</value>
@@ -1940,7 +1967,7 @@
     <value>PanelTop</value>
   </data>
   <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="PanelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
